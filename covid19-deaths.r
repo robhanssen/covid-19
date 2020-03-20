@@ -67,7 +67,7 @@ fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred4 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
 Note4 = exponention_fit_rate(fit)
 
-# curve fitting China first 15-33 days, linear fit
+# curve fitting China first 15-33 days, linear fit - did not write a separate function for this
 
 timeoffset = 15
 timeoff2 = 33
@@ -81,7 +81,7 @@ spreadpred5 = tibble(time)
 spreadpred5$count = prediction
 spreadpred5$location = "Prediction"
 
-# curve fitting China first 35-40 days, linear fit
+# curve fitting China first 35-40 days, linear fit - did not write a separate function for this
 
 timeoffset = 35
 timeoff2 = 100
@@ -117,8 +117,6 @@ Note10 = exponention_fit_rate(fit)
 
 # curve fitting US from day 34
 
-# curve fitting Italy from day 34
-
 location = "USA"
 time_start = 40
 time_stop = inifite
@@ -128,7 +126,6 @@ spreadpred8 <- exponention_fit_prediction(spread,fit, location, time_start,time_
 Note8 = exponention_fit_rate(fit)
 
 # curve fitting NL from day 50
-
 
 location = "NL"
 time_start = 50

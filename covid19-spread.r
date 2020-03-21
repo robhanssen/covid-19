@@ -39,7 +39,7 @@ covid$location[covid$region == "Italy"] = "Italy"
 covid$location[covid$region == "Korea, South"] = "South Korea"
 covid$location[covid$region == "US"] = "USA"
 covid$location[covid$region == "Netherlands"] = "NL"
-covid$location[covid$region == "Spain"] = "Spain"
+covid$location[covid$region == "Germany"] = "Germany"
 covid$location[is.na(covid$location)] = "Other"
 
 
@@ -224,7 +224,7 @@ write_csv(spread, datafilename)
 shiftedspread = spread
 
 shiftedspread$time[shiftedspread$location=="USA"] = shiftedspread$time[shiftedspread$location=="USA"] - 10
-shiftedspread$time[shiftedspread$location=="Spain"] = shiftedspread$time[shiftedspread$location=="Spain"] - 9
+shiftedspread$time[shiftedspread$location=="Germany"] = shiftedspread$time[shiftedspread$location=="Germany"] - 9
 shiftedspread$time[shiftedspread$location=="NL"] = shiftedspread$time[shiftedspread$location=="NL"] - 12
 shiftedspread$time[shiftedspread$location=="Iran"] = shiftedspread$time[shiftedspread$location=="Iran"] - 3
 shiftedspread$time[shiftedspread$location=="South Korea"] = shiftedspread$time[shiftedspread$location=="South Korea"] + 3

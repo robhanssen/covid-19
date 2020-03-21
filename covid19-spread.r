@@ -241,7 +241,7 @@ shiftedspread %>% filter(location !="Other") %>%
                                         scale_x_continuous(limit=c(0,50)) + labs(caption=capt) + 
                                         xlab("Days since 100 cases") + ylab("Infections") + ggtitle("comparison to Italy, time-shifted to match 100 cases") #+
 
-filename_base = paste("covid-spread-vs-at-100cases", lastupdated, ".", sep="")
+filename_base = paste("covid-spread-vs-at-100cases-", lastupdated, ".", sep="")
 
 datafilename = paste("data/", filename_base, "csv", sep="")
 graphfilename = paste("graphs/", filename_base, "pdf", sep="")

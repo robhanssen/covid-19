@@ -145,7 +145,7 @@ capt = paste("Source: JHU\nlast updated:", lastupdated)
 
 spread %>% filter(location != "xhina") %>% 
                 ggplot + aes(time, count, color=location) + geom_point()  + 
-                scale_x_continuous() + scale_y_log10() + 
+                scale_x_continuous() + scale_y_log10(limits=c(1,1e4)) + 
                 labs(caption=capt) + xlab("Days since Jan 22, 2020") + ylab("Mortality") + ggtitle("Spread of COVID19 deaths, with calculated days to double") +
                 # China data and fits                                
                     geom_line(data=spreadpred4, color="red", linetype="longdash") + annotate("text", x = 12, y = 100, color="red", label = paste("China\n",Note4)) +                                

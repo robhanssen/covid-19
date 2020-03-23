@@ -14,7 +14,7 @@ library(reshape2)
 
 source("fitfunctions.r")
 
-inifite = 10000
+infinite = 10000
 #
 # import via web API
 # Data from Johns Hopkids via github
@@ -51,7 +51,7 @@ spread$count[spread$count==0] = 1e-5
 
 location = "Other"
 time_start = 22
-time_stop = inifite
+time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
@@ -109,7 +109,7 @@ Note7 = exponention_fit_rate(fit)
 
 location = "Italy"
 time_start = 51
-time_stop = inifite
+time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred10 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
@@ -119,7 +119,7 @@ Note10 = exponention_fit_rate(fit)
 
 location = "USA"
 time_start = 40
-time_stop = inifite
+time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred8 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
@@ -129,7 +129,7 @@ Note8 = exponention_fit_rate(fit)
 
 location = "NL"
 time_start = 50
-time_stop = inifite
+time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred9 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)

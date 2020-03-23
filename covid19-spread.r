@@ -39,7 +39,7 @@ covid$location[covid$region == "Italy"] = "Italy"
 covid$location[covid$region == "Korea, South"] = "South Korea"
 covid$location[covid$region == "US"] = "USA"
 covid$location[covid$region == "Netherlands"] = "NL"
-covid$location[covid$region == "Germany"] = "Germany"
+#covid$location[covid$region == "Germany"] = "Germany"
 covid$location[is.na(covid$location)] = "Other"
 
 
@@ -103,11 +103,11 @@ spreadpred4 <- exponention_fit_prediction(spread,fit, location, time_start,time_
 Note4 = exponention_fit_rate(fit)
 #summary(fit)$r.squared
 
-# curve fitting Italy past 31 days
+# curve fitting Italy past 39-56 days
 
 location = "Italy"
 time_start = 39
-time_stop = infinite
+time_stop = 56
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred5 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
@@ -115,6 +115,21 @@ Note5 = exponention_fit_rate(fit)
 itdata <- fitline(fit,time_start, time_stop)
 #itdata <- fitline(fit, time_start,time_stop)
 #summary(fit)$r.squared
+
+# curve fitting Italy past 39-56 days
+
+location = "Italy"
+time_start = 56
+time_stop = infinite
+
+fit = exponential_fit(spread,location,time_start,time_stop)
+spreadpred_IT2 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
+Note_IT2 = exponention_fit_rate(fit)
+it2data <- fitline(fit,time_start, time_stop)
+#itdata <- fitline(fit, time_start,time_stop)
+#summary(fit)$r.squared
+
+
 
 # curve fitting SKorea past 33 days
 
@@ -195,6 +210,8 @@ spread %>% filter(location != "South Korea" & location !="Spain" & location != "
                                         # Italy data
                                         annotate("text",x=45,y=1500,label="Italy", color="dark green") + 
                                             geom_line(data=spreadpred5, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 45, y = 2200, label = Note5) +
+                                            geom_line(data=spreadpred_IT2, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 57, y = 30000, label = Note_IT2) +
+                                            geom_line(data=it2data, color="dark green") +
                                         # USA data
                                         annotate("text",x=42,y=400,label="USA", color="purple") + 
                                             geom_line(data=spreadpred7, color="purple", linetype="longdash") + annotate("text", color="purple", x = 42, y = 300, label = Note7) +

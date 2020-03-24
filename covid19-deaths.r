@@ -21,6 +21,7 @@ infinite = 10000
 # Github: https://github.com/CSSEGISandData/COVID-19
 #
 covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv"
+covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
 covid <- read_csv(covidfile)
 
 # process the time series into proper dataframe
@@ -118,12 +119,23 @@ Note10 = exponention_fit_rate(fit)
 # curve fitting US from day 34
 
 location = "USA"
-time_start = 40
-time_stop = infinite
+time_start = 42
+time_stop = 58
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred8 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
 Note8 = exponention_fit_rate(fit)
+
+# curve fitting US from day 34
+
+location = "USA"
+time_start = 57
+time_stop = infinite
+
+fit = exponential_fit(spread,location,time_start,time_stop)
+spreadpred_US2 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
+Note_US2 = exponention_fit_rate(fit)
+
 
 # curve fitting NL from day 50
 
@@ -152,7 +164,8 @@ spread %>% filter(location != "xhina") %>%
                     geom_line(data=spreadpred5, color="red", linetype="longdash") + annotate("text", x = 20, y = 2000, label = Note5) +
                     geom_line(data=spreadpred6, color="red", linetype="longdash") + annotate("text", x = 38, y = 2000, label = Note6) +
                 # USA data
-                    geom_line(data=spreadpred8, color="purple", linetype="longdash") + annotate("text", color="purple", x = 45, y = 5, label = paste("USA\n",Note8)) +
+                    geom_line(data=spreadpred8, color="purple", linetype="longdash") + annotate("text", color="purple", x = 45, y = 8, label = paste("USA\n",Note8)) +
+                    geom_line(data=spreadpred_US2, color="purple", linetype="longdash") + annotate("text", color="purple", x = 58, y = 400, label = Note_US2) +
                 # Other data
                     annotate("text",x=25,y=10,label="Other", color="blue")+
                     #geom_line(data=spreadpred, color="blue", linetype="longdash") + annotate("text", color="blue", x = 30, y = 50, label = Note) +

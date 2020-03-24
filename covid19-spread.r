@@ -19,7 +19,8 @@ infinite = 10000
 #
 # import via web API
 #
-covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
+#covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
+covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 covid <- read_csv(covidfile)
 
 # process the time series into proper dataframe
@@ -146,19 +147,28 @@ Note6 = exponention_fit_rate(fit)
 
 location = "USA"
 time_start = 41
-time_stop = infinite
+time_stop = 58
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred7 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
 #usdata <- fitline(fit, time_start, time_stop)
-
 Note7 = exponention_fit_rate(fit)
+
+# curve fitting USA past 58 days
+
+location = "USA"
+time_start = 57
+time_stop = infinite
+
+fit = exponential_fit(spread,location,time_start,time_stop)
+spreadpred_US2 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
+Note_US2 = exponention_fit_rate(fit)
 
 
 # effect of US reference line 3/15
 location = "USA"
-time_start = 41
-time_stop = 54
+time_start = 57
+time_stop = 62
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 usdop_pred <- fitline(fit, time_start, time_stop)
@@ -181,7 +191,7 @@ Note8 = exponention_fit_rate(fit)
 
 location = "NL"
 time_start = 44
-time_stop = infinite
+time_stop = 56
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred9 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
@@ -215,6 +225,7 @@ spread %>% filter(location != "South Korea" & location !="Spain" & location != "
                                         # USA data
                                         annotate("text",x=42,y=400,label="USA", color="purple") + 
                                             geom_line(data=spreadpred7, color="purple", linetype="longdash") + annotate("text", color="purple", x = 42, y = 300, label = Note7) +
+                                            geom_line(data=spreadpred_US2, color="purple", linetype="longdash") + annotate("text", color="purple", x = 60, y = 10000, label = Note_US2) +
                                             geom_line(data=usdop_pred) +
                                             geom_point(data=usdop, color="purple", size=3) +
                                         # NL data

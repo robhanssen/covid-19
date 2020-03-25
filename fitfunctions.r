@@ -12,7 +12,7 @@ exponential_fit <- function(df, location, time_start, time_stop)
     return(fit)
 }
 
-exponention_fit_prediction <- function(df, fit, location, time_start, time_stop)
+exponential_fit_prediction <- function(df, fit, location, time_start, time_stop)
 {
     time = df$time[df$location==location & df$time > time_start & df$time < time_stop]
     prediction <- 10^(predict(fit, list=time))
@@ -23,7 +23,7 @@ exponention_fit_prediction <- function(df, fit, location, time_start, time_stop)
     return(pred)
 }
 
-exponention_fit_rate <- function(fit)
+exponential_fit_rate <- function(fit)
 {
     B = fit$coefficients[2]
     rate = round(log10(2)/B,2)

@@ -176,7 +176,7 @@ time,location,count
 30,China,75077
 30,Italy,3
 30,NL,1e-5
-30,Other,1e3
+30,Other,1000
 30,South Korea,104
 30,USA,13
 31,China,75550
@@ -260,37 +260,37 @@ time,location,count
 44,China,80537
 44,Italy,3858
 44,NL,82
-44,Other,7100
+44,Other,7104
 44,South Korea,6088
 44,USA,217
 45,China,80690
 45,Italy,4636
 45,NL,128
-45,Other,9485
+45,Other,9492
 45,South Korea,6593
 45,USA,262
 46,China,80770
 46,Italy,5883
 46,NL,188
-46,Other,11547
+46,Other,11563
 46,South Korea,7041
 46,USA,402
 47,China,80823
 47,Italy,7375
 47,NL,265
-47,Other,13510
+47,Other,13526
 47,South Korea,7314
 47,USA,518
 48,China,80860
 48,Italy,9172
 48,NL,321
-48,Other,15157
+48,Other,15176
 48,South Korea,7478
 48,USA,583
 49,China,80887
 49,Italy,10149
 49,NL,382
-49,Other,18712
+49,Other,18730
 49,South Korea,7513
 49,USA,959
 50,China,80921
@@ -302,19 +302,19 @@ time,location,count
 51,China,80932
 51,Italy,12462
 51,NL,503
-51,Other,24924
+51,Other,24923
 51,South Korea,7869
 51,USA,1663
 52,China,80945
 52,Italy,17660
 52,NL,806
-52,Other,35640
+52,Other,35636
 52,South Korea,7979
 52,USA,2179
 53,China,80977
 53,Italy,21157
 53,NL,962
-53,Other,42195
+53,Other,42192
 53,South Korea,8086
 53,USA,2727
 54,China,81003
@@ -326,54 +326,54 @@ time,location,count
 55,China,81033
 55,Italy,27980
 55,NL,1416
-55,Other,58276
+55,Other,58277
 55,South Korea,8236
 55,USA,4632
 56,China,81058
 56,Italy,31506
 56,NL,1711
-56,Other,68134
+56,Other,68086
 56,South Korea,8320
 56,USA,6421
 57,China,81102
 57,Italy,35713
 57,NL,2058
-57,Other,79840
+57,Other,79752
 57,South Korea,8413
 57,USA,7783
 58,China,81156
 58,Italy,41035
 58,NL,2467
-58,Other,95806
+58,Other,95600
 58,South Korea,8565
 58,USA,13677
 59,China,81250
 59,Italy,47021
 59,NL,3003
-59,Other,113138
+59,Other,113009
 59,South Korea,8652
 59,USA,19100
 60,China,81305
 60,Italy,53578
 60,NL,3640
-60,Other,131708
+60,Other,131585
 60,South Korea,8799
 60,USA,25489
 61,China,81435
 61,Italy,59138
 61,NL,4217
-61,Other,150062
+61,Other,149926
 61,South Korea,8961
 61,USA,33276
 62,China,81498
 62,Italy,63927
 62,NL,4764
-62,Other,175550
+62,Other,175238
 62,South Korea,8961
 62,USA,43847
 63,China,81591
 63,Italy,69176
 63,NL,5580
-63,Other,198841
+63,Other,198921
 63,South Korea,9037
 63,USA,53740

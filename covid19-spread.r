@@ -67,8 +67,8 @@ time_start = 8
 time_stop = 30
 
 fit = exponential_fit(spread,location,time_start,time_stop)
-spreadpred <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
-Note = exponention_fit_rate(fit)
+spreadpred <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note = exponential_fit_rate(fit)
 #summary(fit)$r.squared
 
 # curve fitting pre 0-8 days
@@ -78,8 +78,8 @@ time_start = 0
 time_stop = 7
 
 fit = exponential_fit(spread,location,time_start,time_stop)
-spreadpred2 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
-Note2 = exponention_fit_rate(fit)
+spreadpred2 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note2 = exponential_fit_rate(fit)
 #summary(fit)$r.squared
 
 # curve fitting post 31-47 days
@@ -89,8 +89,8 @@ time_start = 35
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
-spreadpred3 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
-Note3 = exponention_fit_rate(fit)
+spreadpred3 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note3 = exponential_fit_rate(fit)
 #summary(fit)$r.squared
 
 # curve fitting China first 9 days
@@ -100,8 +100,8 @@ time_start = 0
 time_stop = 10
 
 fit = exponential_fit(spread,location,time_start,time_stop)
-spreadpred4 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
-Note4 = exponention_fit_rate(fit)
+spreadpred4 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note4 = exponential_fit_rate(fit)
 #summary(fit)$r.squared
 
 # curve fitting Italy past 39-56 days
@@ -111,8 +111,8 @@ time_start = 39
 time_stop = 56
 
 fit = exponential_fit(spread,location,time_start,time_stop)
-spreadpred5 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
-Note5 = exponention_fit_rate(fit)
+spreadpred5 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note5 = exponential_fit_rate(fit)
 itdata <- fitline(fit,time_start, time_stop)
 #itdata <- fitline(fit, time_start,time_stop)
 #summary(fit)$r.squared
@@ -124,8 +124,8 @@ time_start = 56
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
-spreadpred_IT2 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
-Note_IT2 = exponention_fit_rate(fit)
+spreadpred_IT2 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note_IT2 = exponential_fit_rate(fit)
 it2data <- fitline(fit,time_start, time_stop)
 #itdata <- fitline(fit, time_start,time_stop)
 #summary(fit)$r.squared
@@ -139,8 +139,8 @@ time_start = 32
 time_stop = 39
 
 fit = exponential_fit(spread,location,time_start,time_stop)
-spreadpred6 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
-Note6 = exponention_fit_rate(fit)
+spreadpred6 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note6 = exponential_fit_rate(fit)
 #summary(fit)$r.squared
 
 # curve fitting USA past 38 days
@@ -150,9 +150,9 @@ time_start = 41
 time_stop = 58
 
 fit = exponential_fit(spread,location,time_start,time_stop)
-spreadpred7 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
+spreadpred7 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 #usdata <- fitline(fit, time_start, time_stop)
-Note7 = exponention_fit_rate(fit)
+Note7 = exponential_fit_rate(fit)
 
 # curve fitting USA past 58 days
 
@@ -161,8 +161,8 @@ time_start = 57
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
-spreadpred_US2 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
-Note_US2 = exponention_fit_rate(fit)
+spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note_US2 = exponential_fit_rate(fit)
 
 
 # effect of US reference line 3/15
@@ -183,8 +183,8 @@ time_start = 38
 time_stop = 47
 
 fit = exponential_fit(spread,location,time_start,time_stop)
-spreadpred8 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
-Note8 = exponention_fit_rate(fit)
+spreadpred8 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note8 = exponential_fit_rate(fit)
 #summary(fit)$r.squared
 
 # curve fitting NL post47 days
@@ -194,8 +194,8 @@ time_start = 44
 time_stop = 56
 
 fit = exponential_fit(spread,location,time_start,time_stop)
-spreadpred9 <- exponention_fit_prediction(spread,fit, location, time_start,time_stop)
-Note9 = exponention_fit_rate(fit)
+spreadpred9 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note9 = exponential_fit_rate(fit)
 nldata = fitline(fit, time_start, time_stop)
 #summary(fit)$r.squared
 

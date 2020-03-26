@@ -120,7 +120,7 @@ itdata <- fitline(fit,time_start, time_stop)
 # curve fitting Italy past 39-56 days
 
 location = "Italy"
-time_start = 56
+time_start = 61
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
@@ -165,10 +165,10 @@ spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,ti
 Note_US2 = exponential_fit_rate(fit)
 
 
-# effect of US reference line 3/15
+# effect of US reference line
 location = "USA"
-time_start = 57
-time_stop = 62
+time_start = 61
+time_stop = 64
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 usdop_pred <- fitline(fit, time_start, time_stop)

@@ -177,4 +177,4 @@ spread %>% filter(location != "xhina") %>%
                                                      
 
 ggsave("graphs/covid-deaths.pdf", device="pdf")                                                 
-write_csv(spread, paste("data/deaths-", lastupdated,".csv", sep=""))
+write_csv(spread, "data/deaths.csv")

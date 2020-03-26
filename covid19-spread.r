@@ -238,10 +238,10 @@ spread %>% filter(location != "South Korea" & location !="Spain" & location != "
                                         #geom_line(data=usdata, linetype="longdash", color="purple") #+ geom_line(data=itdata) + geom_line(data=nldata)
 
 
-filename_base = paste("covid-spread-", lastupdated, ".", sep="")
+filename_base = "covid-spread"
 
-datafilename = paste("data/", filename_base, "csv", sep="")
-graphfilename = paste("graphs/", filename_base, "pdf", sep="")
+datafilename = paste("data/", filename_base, ".csv", sep="")
+graphfilename = paste("graphs/", filename_base, ".pdf", sep="")
 
 ggsave(graphfilename, device="pdf")
 write_csv(spread, datafilename)
@@ -269,9 +269,9 @@ shiftedspread %>% filter(location !="Other") %>%
                                         scale_x_continuous(limit=c(0,50)) + labs(caption=capt) + 
                                         xlab("Days since 100 cases") + ylab("Infections") + ggtitle("comparison to Italy, time-shifted to match 100 cases") #+
 
-filename_base = paste("covid-spread-vs-at-100cases-", lastupdated, ".", sep="")
+filename_base = "covid-spread-vs-at-100cases"
 
-datafilename = paste("data/", filename_base, "csv", sep="")
-graphfilename = paste("graphs/", filename_base, "pdf", sep="")
+datafilename = paste("data/", filename_base, ".csv", sep="")
+graphfilename = paste("graphs/", filename_base, ".pdf", sep="")
 
 ggsave(graphfilename, device="pdf")

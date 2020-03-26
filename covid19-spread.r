@@ -275,3 +275,4 @@ datafilename = paste("data/", filename_base, ".csv", sep="")
 graphfilename = paste("graphs/", filename_base, ".pdf", sep="")
 
 ggsave(graphfilename, device="pdf")
+write_csv(shiftedspread, datafilename)

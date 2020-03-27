@@ -135,7 +135,7 @@ time_stop = infinite
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note_US2 = exponential_fit_rate(fit)
-
+US2_data = fitline(fit, time_start, time_stop)
 
 # curve fitting NL from day 50
 
@@ -166,6 +166,7 @@ spread %>% filter(location != "xhina") %>%
                 # USA data
                     geom_line(data=spreadpred8, color="purple", linetype="longdash") + annotate("text", color="purple", x = 45, y = 8, label = paste("USA\n",Note8)) +
                     geom_line(data=spreadpred_US2, color="purple", linetype="longdash") + annotate("text", color="purple", x = 58, y = 400, label = Note_US2) +
+                    geom_line(data=US2_data, color="purple") +
                 # Other data
                     annotate("text",x=25,y=10,label="Other", color="blue")+
                     #geom_line(data=spreadpred, color="blue", linetype="longdash") + annotate("text", color="blue", x = 30, y = 50, label = Note) +

@@ -176,7 +176,7 @@ time,location,count
 34,China,75077
 -2,Italy,3
 -14,NL,1e-5
--2,Other,1000
+-2,Other,1e3
 1,South Korea,104
 -12,USA,13
 35,China,75550
@@ -380,6 +380,12 @@ time,location,count
 68,China,81661
 32,Italy,74386
 20,NL,6438
-32,Other,230193
+32,Other,230253
 35,South Korea,9137
 22,USA,65778
+69,China,81782
+33,Italy,80589
+21,NL,7468
+33,Other,266675
+36,South Korea,9241
+23,USA,83836

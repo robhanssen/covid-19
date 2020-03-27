@@ -21,7 +21,8 @@ infinite = 10000
 # import via web API
 #
 #covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
-covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+#covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
 covid <- read_csv(covidfile)
 
 # process the time series into proper dataframe
@@ -62,7 +63,7 @@ capt = paste("Source: JHU\nlast updated:", lastupdated)
 covid_growth %>% ggplot + aes(time, growth, color=location) + geom_line(linetype="longdash") + #geom_smooth(method="loess") +
 
                         scale_x_continuous() + labs(caption=capt) + 
-                        xlab("Days since Jan 22, 2020") + ylab("Growth of Infections") + ggtitle("Per diem growth of COVID-19 infections")
+                        xlab("Days since Jan 22, 2020") + ylab("Growth of casualties") + ggtitle("Per diem growth of COVID-19 casualties")
 
-ggsave("graphs/covid-growth.pdf", device="pdf")
-write_csv(covid_growth, "data/covid-growth.csv")
+ggsave("graphs/covid-casualty-growth.pdf", device="pdf")
+write_csv(covid_growth, "data/covid-casualty-growth.csv")

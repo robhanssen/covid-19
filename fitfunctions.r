@@ -35,7 +35,9 @@ fitline <- function(fit, time_start, time_stop)
 {
     A0 = fit$coefficients[1]
     B0 = fit$coefficients[2]
-    time = time_start:70
+
+    ts = time_start+14
+    time = time_start:ts
     count = 10^(A0+B0*time)
     df = tibble(time, count)
     df$location="zPrediction"

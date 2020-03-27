@@ -85,12 +85,13 @@ Note2 = exponential_fit_rate(fit)
 # curve fitting post 31-47 days
 
 location = "Other"
-time_start = 35
-time_stop = infinite
+time_start = 40
+time_stop = 56
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred3 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note3 = exponential_fit_rate(fit)
+otherdata <- fitline(fit,time_start, time_stop)
 #summary(fit)$r.squared
 
 # curve fitting China first 9 days
@@ -217,6 +218,7 @@ spread %>% filter(location != "South Korea" & location !="Spain" & location != "
                                             geom_line(data=spreadpred, color="aquamarine4", linetype="longdash") + annotate("text", color="aquamarine4", x = 20, y = 200, label = Note) +
                                             geom_line(data=spreadpred2, color="aquamarine4", linetype="longdash") + annotate("text", color="aquamarine4",x = 5, y = 20, label = Note2) + 
                                             geom_line(data=spreadpred3, color="aquamarine4", linetype="longdash") + annotate("text", color="aquamarine4",x = 45, y = 22000, label = Note3) +
+                                            geom_line(data=otherdata, color="aquamarine") +
                                         # Italy data
                                         annotate("text",x=45,y=1500,label="Italy", color="dark green") + 
                                             geom_line(data=spreadpred5, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 45, y = 2200, label = Note5) +

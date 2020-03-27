@@ -45,7 +45,7 @@ lastupdated,province,infections,casualties,date,state
 2020-03-23 23:19:34,Pennsylvania,698,6,2020-03-23,Other
 2020-03-23 23:19:34,Puerto Rico,31,2,2020-03-23,Other
 2020-03-23 23:19:34,Rhode Island,106,0,2020-03-23,Other
-2020-03-23 23:19:34,South Carolina,298,5,2020-03-23,Other
+2020-03-23 23:19:34,South Carolina,298,5,2020-03-23,SC
 2020-03-23 23:19:34,South Dakota,28,1,2020-03-23,Other
 2020-03-23 23:19:34,Tennessee,614,2,2020-03-23,Other
 2020-03-23 23:19:34,Texas,758,9,2020-03-23,Other
@@ -53,7 +53,7 @@ lastupdated,province,infections,casualties,date,state
 2020-03-23 23:19:34,Vermont,75,5,2020-03-23,Other
 2020-03-23 23:19:34,Virgin Islands,7,0,2020-03-23,Other
 2020-03-23 23:19:34,Virginia,254,6,2020-03-23,Other
-2020-03-23 23:19:34,Washington,2221,109,2020-03-23,Other
+2020-03-23 23:19:34,Washington,2221,109,2020-03-23,WA
 2020-03-23 23:19:34,West Virginia,16,0,2020-03-23,Other
 2020-03-23 23:19:34,Wisconsin,425,5,2020-03-23,Other
 2020-03-23 23:19:34,Wuhan Evacuee,4,0,2020-03-23,Other
@@ -105,7 +105,7 @@ lastupdated,province,infections,casualties,date,state
 2020-03-24 23:37:31,Puerto Rico,39,2,2020-03-24,Other
 2020-03-24 23:37:31,Recovered,0,0,2020-03-24,Other
 2020-03-24 23:37:31,Rhode Island,124,0,2020-03-24,Other
-2020-03-24 23:37:31,South Carolina,342,5,2020-03-24,Other
+2020-03-24 23:37:31,South Carolina,342,5,2020-03-24,SC
 2020-03-24 23:37:31,South Dakota,30,1,2020-03-24,Other
 2020-03-24 23:37:31,Tennessee,772,2,2020-03-24,Other
 2020-03-24 23:37:31,Texas,955,12,2020-03-24,Other
@@ -113,7 +113,7 @@ lastupdated,province,infections,casualties,date,state
 2020-03-24 23:37:31,Vermont,95,7,2020-03-24,Other
 2020-03-24 23:37:31,Virgin Islands,17,0,2020-03-24,Other
 2020-03-24 23:37:31,Virginia,293,9,2020-03-24,Other
-2020-03-24 23:37:31,Washington,2328,116,2020-03-24,Other
+2020-03-24 23:37:31,Washington,2328,116,2020-03-24,WA
 2020-03-24 23:37:31,West Virginia,22,0,2020-03-24,Other
 2020-03-24 23:37:31,Wisconsin,481,5,2020-03-24,Other
 2020-03-24 23:37:31,Wuhan Evacuee,4,0,2020-03-24,Other
@@ -165,7 +165,7 @@ lastupdated,province,infections,casualties,date,state
 2020-03-25 23:33:19,Puerto Rico,51,2,2020-03-25,Other
 2020-03-25 23:33:19,Recovered,0,0,2020-03-25,Other
 2020-03-25 23:33:19,Rhode Island,132,0,2020-03-25,Other
-2020-03-25 23:33:19,South Carolina,424,7,2020-03-25,Other
+2020-03-25 23:33:19,South Carolina,424,7,2020-03-25,SC
 2020-03-25 23:33:19,South Dakota,41,1,2020-03-25,Other
 2020-03-25 23:33:19,Tennessee,916,3,2020-03-25,Other
 2020-03-25 23:33:19,Texas,1229,15,2020-03-25,Other
@@ -173,7 +173,7 @@ lastupdated,province,infections,casualties,date,state
 2020-03-25 23:33:19,Vermont,125,8,2020-03-25,Other
 2020-03-25 23:33:19,Virgin Islands,17,0,2020-03-25,Other
 2020-03-25 23:33:19,Virginia,396,9,2020-03-25,Other
-2020-03-25 23:33:19,Washington,2591,133,2020-03-25,Other
+2020-03-25 23:33:19,Washington,2591,133,2020-03-25,WA
 2020-03-25 23:33:19,West Virginia,39,0,2020-03-25,Other
 2020-03-25 23:33:19,Wisconsin,621,7,2020-03-25,Other
 2020-03-25 23:33:19,Wyoming,44,0,2020-03-25,Other
@@ -224,7 +224,7 @@ lastupdated,province,infections,casualties,date,state
 2020-03-26 23:48:35,Puerto Rico,64,2,2020-03-26,Other
 2020-03-26 23:48:35,Recovered,0,0,2020-03-26,Other
 2020-03-26 23:48:35,Rhode Island,165,0,2020-03-26,Other
-2020-03-26 23:48:35,South Carolina,424,9,2020-03-26,Other
+2020-03-26 23:48:35,South Carolina,424,9,2020-03-26,SC
 2020-03-26 23:48:35,South Dakota,46,1,2020-03-26,Other
 2020-03-26 23:48:35,Tennessee,1097,3,2020-03-26,Other
 2020-03-26 23:48:35,Texas,1563,21,2020-03-26,Other
@@ -232,7 +232,7 @@ lastupdated,province,infections,casualties,date,state
 2020-03-26 23:48:35,Vermont,158,9,2020-03-26,Other
 2020-03-26 23:48:35,Virgin Islands,17,0,2020-03-26,Other
 2020-03-26 23:48:35,Virginia,466,10,2020-03-26,Other
-2020-03-26 23:48:35,Washington,3207,150,2020-03-26,Other
+2020-03-26 23:48:35,Washington,3207,150,2020-03-26,WA
 2020-03-26 23:48:35,West Virginia,52,0,2020-03-26,Other
 2020-03-26 23:48:35,Wisconsin,728,10,2020-03-26,Other
 2020-03-26 23:48:35,Wyoming,53,0,2020-03-26,Other

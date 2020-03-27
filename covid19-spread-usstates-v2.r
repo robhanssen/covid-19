@@ -35,17 +35,17 @@ colnames(tbl_fread) = c("FIPS", "Admin2", "province", "country", "lastupdated", 
 data_us <- tbl_fread %>% filter(country=="US") %>% group_by(lastupdated, province) %>% summarise(infections=sum(confirmed), casualties=sum(deaths))
 
 data_us$date = as.Date(data_us$lastupdated, format="%Y-%m-%d")
-#View(data_us)
 
 data_us$state = NA
 data_us$state[data_us$province=="New York"] = "NY"
 data_us$state[data_us$province=="California"] = "CA"
 data_us$state[data_us$province=="New Jersey"] = "NJ"
+data_us$state[data_us$province=="Washington"] = "WA"
+data_us$state[data_us$province=="South Carolina"] = "SC"
 data_us$state[is.na(data_us$state)] = "Other"
 
-
-data_us %>%  filter(state!="Other") %>% ggplot + aes(date, casualties, color=state) + geom_point() +
-                                         scale_y_log10(limit=c(1,1e4))
+data_us %>%  filter(state!="Other") %>% ggplot + aes(date, infections, color=state) + geom_point() #+
+                                         
 
 ggsave("graphs/us-states.pdf", device="pdf")
 write_csv(data_us, "data/us-states.csv")

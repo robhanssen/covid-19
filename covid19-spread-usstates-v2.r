@@ -15,6 +15,7 @@ library(readr)
 library(reshape2)
 library(data.table)
 library(tidyverse)
+library(data.table)
 #install.packages(c("data.table"))
 # constant infinite
 source("fitfunctions.r")

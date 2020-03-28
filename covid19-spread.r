@@ -168,8 +168,8 @@ Note_US2 = exponential_fit_rate(fit)
 
 # effect of US reference line
 location = "USA"
-time_start = 61
-time_stop = 64
+time_start = 64
+time_stop = 67
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 usdop_pred <- fitline(fit, time_start, time_stop)
@@ -199,6 +199,18 @@ spreadpred9 <- exponential_fit_prediction(spread,fit, location, time_start,time_
 Note9 = exponential_fit_rate(fit)
 nldata = fitline(fit, time_start, time_stop)
 #summary(fit)$r.squared
+
+
+location = "NL"
+time_start = 59
+time_stop = infinite
+
+fit = exponential_fit(spread,location,time_start,time_stop)
+spreadpred_NL3 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note_NL3 = exponential_fit_rate(fit)
+#nldata = fitline(fit, time_start, time_stop)
+
+
 
 #
 # clean up graphs and plot
@@ -233,7 +245,8 @@ spread %>% filter(location != "South Korea" & location !="Spain" & location != "
                                         # NL data
                                         annotate("text",x=40,y=5,label="NL", color="dark green") +
                                             geom_line(data=spreadpred8, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 42, y = 10, label = Note8) +
-                                            geom_line(data=spreadpred9, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 50, y = 200, label = Note9) #+
+                                            geom_line(data=spreadpred9, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 50, y = 200, label = Note9) +
+                                            geom_line(data=spreadpred_NL3, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 65, y = 4000, label = Note_NL3) 
                                         # South Korea data
                                         #annotate("text",x=25,y=50,label="South Korea", color="blue") +
                                         #    geom_line(data=spreadpred6, color="blue", linetype="longdash") + annotate("text", color="blue", x = 32, y = 800, label = Note6) #+

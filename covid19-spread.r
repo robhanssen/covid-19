@@ -218,7 +218,7 @@ Note_NL3 = exponential_fit_rate(fit)
 
 capt = paste("Source: JHU\nlast updated:", lastupdated)
 
-spread %>% filter(location != "South Korea" & location !="Spain" & location != "Iran") %>% 
+spread %>% filter(location != "Sou_th Korea" & location !="Spain" & location != "Iran") %>% 
                                     ggplot + aes(time, count, color=location) + geom_point()  + 
                                         scale_y_log10(limit=c(1,1e6)) + scale_x_continuous() + labs(caption=capt) + 
                                         xlab("Days since Jan 22, 2020") + ylab("Infections") + ggtitle("Spread of COVID-19 infections, with calculated days to double") +

@@ -38,7 +38,7 @@ covid$location[covid$region == "US"] = "USA"
 covid$location[covid$region == "Italy"] = "Italy"
 covid$location[covid$region == "Netherlands"] = "NL"
 covid$location[covid$region == "Germany"] = "Germany"
-#covid$location[covid$region == "Korea, South"] = "South Korea"
+covid$location[covid$region == "Korea, South"] = "South Korea"
 covid$location[is.na(covid$location)] = "Other"
 
 covid$deaths[is.na(covid$deaths)] = 0

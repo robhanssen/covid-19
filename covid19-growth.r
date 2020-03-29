@@ -38,7 +38,7 @@ covid$time = covid$date - min(covid$date) + 1
 
 covid$location[covid$region == "China"] = "China"
 covid$location[covid$region == "Italy"] = "Italy"
-#covid$location[covid$region == "Korea, South"] = "South Korea"
+covid$location[covid$region == "Korea, South"] = "South Korea"
 covid$location[covid$region == "US"] = "USA"
 covid$location[covid$region == "Netherlands"] = "NL"
 #covid$location[covid$region == "Germany"] = "Germany"
@@ -50,8 +50,8 @@ spread <- covid %>% group_by(time, location) %>% summarise(count=sum(infections)
 
 widespread <- dcast(spread, time ~ location )
 
-covid_growth_us = tibble(widespread$time[widespread$time>1], diff(widespread[,"USA"]), diff(widespread[, "NL"]), diff(widespread[,"Italy"]), diff(widespread[,"China"]), diff(widespread[,"Other"]))
-colnames(covid_growth_us) = c("time", "USA", "NL", "Italy", "China", "Other")
+covid_growth_us = tibble(widespread$time[widespread$time>1], diff(widespread[,"USA"]), diff(widespread[, "NL"]), diff(widespread[,"Italy"]), diff(widespread[,"China"]), diff(widespread[,"South Korea"]),diff(widespread[,"Other"]))
+colnames(covid_growth_us) = c("time", "USA", "NL", "Italy", "China", "South Korea", "Other")
 
 covid_growth <- melt(covid_growth_us, id=c("time")) %>% arrange(time, variable)
 colnames(covid_growth) = c("time", "location", "growth")

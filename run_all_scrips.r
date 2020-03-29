@@ -2,7 +2,9 @@
 
 source("covid19-spread.r")
 source("covid19-deaths.r")
+source("covid19-growth.r")
+source("covid19-casualtygrowth.r")
+source("covid19-spread-vs-growth.r")
+source("covid19-deaths-vs-growth.r")
 
-# due to new data structure, US states script is disabled
-#source("covid19-spread-usstates.r")
 

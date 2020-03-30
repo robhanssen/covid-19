@@ -121,7 +121,7 @@ itdata <- fitline(fit,time_start, time_stop)
 # curve fitting Italy past 39-56 days
 
 location = "Italy"
-time_start = 61
+time_start = 66
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
@@ -168,10 +168,11 @@ Note_US2 = exponential_fit_rate(fit)
 
 # effect of US reference line
 location = "USA"
-time_start = 64
-time_stop = 67
+time_start = 66
+time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
+Note_US3 = exponential_fit_rate(fit)
 usdop_pred <- fitline(fit, time_start, time_stop)
 
 
@@ -234,13 +235,13 @@ spread %>% filter(location != "Sou_th Korea" & location !="Spain" & location != 
                                         # Italy data
                                         annotate("text",x=45,y=1500,label="Italy", color="dark green") + 
                                             geom_line(data=spreadpred5, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 45, y = 2200, label = Note5) +
-                                            geom_line(data=spreadpred_IT2, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 57, y = 30000, label = Note_IT2) +
+                                            geom_line(data=spreadpred_IT2, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 75, y = 100000, label = Note_IT2) +
                                             geom_line(data=it2data, color="dark green") +
                                         # USA data
                                         annotate("text",x=42,y=400,label="USA", color="purple") + 
                                             geom_line(data=spreadpred7, color="purple", linetype="longdash") + annotate("text", color="purple", x = 42, y = 300, label = Note7) +
                                             geom_line(data=spreadpred_US2, color="purple", linetype="longdash") + annotate("text", color="purple", x = 60, y = 10000, label = Note_US2) +
-                                            geom_line(data=usdop_pred) +
+                                            geom_line(data=usdop_pred) + annotate("text", color="purple", x = 75, y = 300000, label = Note_US3) +
                                             geom_point(data=usdop, color="purple", size=3) +
                                         # NL data
                                         annotate("text",x=40,y=5,label="NL", color="dark green") +

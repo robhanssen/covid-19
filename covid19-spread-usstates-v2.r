@@ -45,7 +45,11 @@ data_us$state[data_us$province=="Washington"] = "WA"
 data_us$state[data_us$province=="South Carolina"] = "SC"
 data_us$state[is.na(data_us$state)] = "Other"
 
-data_us %>%  filter(state!="Other") %>% ggplot + aes(date, infections, color=state) + geom_point() #+
+data_us %>%  group_by(date, state) %>% 
+                summarise(infectionrate = sum(infections), casualtyrate = sum(casualties)) %>% 
+                filter(state!="O_ther") %>% 
+                ggplot + aes(date, infectionrate, color=state) + geom_point() + geom_line() +
+                        scale_y_log10()
                                          
 
 ggsave("graphs/us-states.pdf", device="pdf")

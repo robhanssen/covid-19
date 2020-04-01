@@ -65,4 +65,4 @@ spread %>% ggplot + aes(time, count, color=location) + geom_point() + geom_line(
 
 
 ggsave("graphs/covid-us-deaths.pdf", device="pdf")
-write_csv(covid_growth, "data/covid-us-deaths.csv")
+write_csv(spread, "data/covid-us-deaths.csv")

@@ -159,7 +159,7 @@ Note7 = exponential_fit_rate(fit)
 
 location = "USA"
 time_start = 57
-time_stop = infinite
+time_stop = 66
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
@@ -203,7 +203,7 @@ nldata = fitline(fit, time_start, time_stop)
 
 
 location = "NL"
-time_start = 59
+time_start = 65
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)

@@ -110,11 +110,21 @@ Note7 = exponential_fit_rate(fit)
 
 location = "Italy"
 time_start = 51
-time_stop = infinite
+time_stop = 60
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred10 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note10 = exponential_fit_rate(fit)
+
+# curve fitting Italy from day 60
+
+location = "Italy"
+time_start = 61
+time_stop = infinite
+
+fit = exponential_fit(spread,location,time_start,time_stop)
+spreadpred_IT1 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note_IT1 = exponential_fit_rate(fit)
 
 # curve fitting US from day 34
 
@@ -141,11 +151,23 @@ US2_data = fitline(fit, time_start, time_stop)
 
 location = "NL"
 time_start = 50
-time_stop = infinite
+time_stop = 60
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred9 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note9 = exponential_fit_rate(fit)
+
+# curve fitting NL from day 50
+
+location = "NL"
+time_start = 65
+time_stop = infinite
+
+fit = exponential_fit(spread,location,time_start,time_stop)
+spreadpred_NL1 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note_NL1 = exponential_fit_rate(fit)
+
+
 
 #
 # graph generation
@@ -173,9 +195,10 @@ spread %>% filter(location != "xhina") %>%
                 # Italy data
                     geom_line(data=spreadpred7, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 45, y = 80, label = paste("Italy\n", Note7)) +
                     geom_line(data=spreadpred10, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 55, y = 1000, label = Note10)+
+                    geom_line(data=spreadpred_IT1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 60, y = 10000, label = Note_IT1)+
                 # NL data
-                    geom_line(data=spreadpred9, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 55, y = 5, label = paste("NL\n",Note9))
-                                                     
+                    geom_line(data=spreadpred9, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 55, y = 5, label = paste("NL\n",Note9)) +
+                    geom_line(data=spreadpred_NL1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 70, y = 1500, label = paste("",Note_NL1))                                  
 
 ggsave("graphs/covid-deaths.pdf", device="pdf")                                                 
 write_csv(spread, "data/covid-deaths.csv")

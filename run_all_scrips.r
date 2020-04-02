@@ -6,5 +6,6 @@ source("covid19-growth.r")
 source("covid19-casualtygrowth.r")
 source("covid19-spread-vs-growth.r")
 source("covid19-deaths-vs-growth.r")
-
+source("covid19-deaths-usstates.r")
+source("covid19-spread-usstates.r")
 

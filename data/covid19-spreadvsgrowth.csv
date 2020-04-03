@@ -170,7 +170,7 @@ time,location,count,growth
 30,China,75077,458
 30,Italy,3,0
 30,NL,1e-5,0
-30,Other,1000,27
+30,Other,1e3,27
 30,South Korea,104,73
 30,USA,13,0
 31,China,75550,473
@@ -419,3 +419,9 @@ time,location,count,growth
 71,Other,502715,43924
 71,South Korea,9887,101
 71,USA,213372,25200
+72,China,82432,71
+72,Italy,115242,4668
+72,NL,14788,1092
+72,Other,547266,44551
+72,South Korea,9976,89
+72,USA,243453,30081

@@ -60,6 +60,8 @@ spread <- covid %>% group_by(time, location) %>% summarise(count=sum(infections)
 
 spread$count[spread$count==0] = 1e-5 
 
+maxtime = max(spread$time)
+
 # curve fitting first 8-30 days
 
 location = "Other"
@@ -94,6 +96,18 @@ Note3 = exponential_fit_rate(fit)
 otherdata <- fitline(fit,time_start, time_stop)
 #summary(fit)$r.squared
 
+# effect of Otherreference line
+location = "Other"
+time_start = maxtime - 5
+time_stop = infinite
+
+fit = exponential_fit(spread,location,time_start,time_stop)
+Note_Other = exponential_fit_rate(fit)
+other_pred <- fitline(fit, time_start, time_stop)
+
+
+
+
 # curve fitting China first 9 days
 
 location = "China"
@@ -121,7 +135,7 @@ itdata <- fitline(fit,time_start, time_stop)
 # curve fitting Italy past 39-56 days
 
 location = "Italy"
-time_start = 66
+time_start = maxtime - 5 
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
@@ -168,7 +182,7 @@ Note_US2 = exponential_fit_rate(fit)
 
 # effect of US reference line
 location = "USA"
-time_start = 66
+time_start = maxtime - 5
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
@@ -221,7 +235,7 @@ capt = paste("Source: JHU\nlast updated:", lastupdated)
 
 spread %>% filter(location != "Sou_th Korea" & location !="Spain" & location != "Iran") %>% 
                                     ggplot + aes(time, count, color=location) + geom_point()  + 
-                                        scale_y_log10(limit=c(1,1e6)) + scale_x_continuous() + labs(caption=capt) + 
+                                        scale_y_log10(limit=c(1,1e7)) + scale_x_continuous() + labs(caption=capt) + 
                                         xlab("Days since Jan 22, 2020") + ylab("Infections") + ggtitle("Spread of COVID-19 infections, with calculated days to double") +
                                         # China data
                                         annotate("text",x=20,y=20000,label="China", color="red") + 
@@ -231,7 +245,7 @@ spread %>% filter(location != "Sou_th Korea" & location !="Spain" & location != 
                                             geom_line(data=spreadpred, color="aquamarine4", linetype="longdash") + annotate("text", color="aquamarine4", x = 20, y = 200, label = Note) +
                                             geom_line(data=spreadpred2, color="aquamarine4", linetype="longdash") + annotate("text", color="aquamarine4",x = 5, y = 20, label = Note2) + 
                                             geom_line(data=spreadpred3, color="aquamarine4", linetype="longdash") + annotate("text", color="aquamarine4",x = 45, y = 22000, label = Note3) +
-                                            geom_line(data=otherdata, color="aquamarine") +
+                                            geom_line(data=other_pred, color="aquamarine") +
                                         # Italy data
                                         annotate("text",x=45,y=1500,label="Italy", color="dark green") + 
                                             geom_line(data=spreadpred5, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 45, y = 2200, label = Note5) +

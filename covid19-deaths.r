@@ -119,12 +119,13 @@ Note10 = exponential_fit_rate(fit)
 # curve fitting Italy from day 60
 
 location = "Italy"
-time_start = 61
+time_start = 71
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred_IT1 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note_IT1 = exponential_fit_rate(fit)
+IT1_data = fitline(fit, time_start, time_stop)
 
 # curve fitting US from day 34
 
@@ -140,12 +141,20 @@ Note8 = exponential_fit_rate(fit)
 
 location = "USA"
 time_start = 57
-time_stop = infinite
+time_stop = 70
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note_US2 = exponential_fit_rate(fit)
-US2_data = fitline(fit, time_start, time_stop)
+
+location = "USA"
+time_start = 70
+time_stop = infinite
+
+fit = exponential_fit(spread,location,time_start,time_stop)
+#spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+#Note_US3 = exponential_fit_rate(fit)
+US3_data = fitline(fit, time_start, time_stop)
 
 # curve fitting NL from day 50
 
@@ -179,7 +188,7 @@ capt = paste("Source: JHU\nlast updated:", lastupdated)
 
 spread %>% filter(location != "xhina") %>% 
                 ggplot + aes(time, count, color=location) + geom_point()  + 
-                scale_x_continuous() + scale_y_log10(limits=c(1,1e4)) + 
+                scale_x_continuous() + scale_y_log10(limits=c(1,1e5)) + 
                 labs(caption=capt) + xlab("Days since Jan 22, 2020") + ylab("Mortality") + ggtitle("Spread of COVID19 deaths, with calculated days to double") +
                 # China data and fits                                
                     geom_line(data=spreadpred4, color="red", linetype="longdash") + annotate("text", x = 12, y = 100, color="red", label = paste("China\n",Note4)) +                                
@@ -188,14 +197,16 @@ spread %>% filter(location != "xhina") %>%
                 # USA data
                     geom_line(data=spreadpred8, color="purple", linetype="longdash") + annotate("text", color="purple", x = 45, y = 8, label = paste("USA\n",Note8)) +
                     geom_line(data=spreadpred_US2, color="purple", linetype="longdash") + annotate("text", color="purple", x = 58, y = 400, label = Note_US2) +
-                    geom_line(data=US2_data, color="purple") +
+                    #geom_line(data=US2_data, color="purple") +
+                    geom_line(data=US3_data, color="purple") +
                 # Other data
                     annotate("text",x=25,y=10,label="Other", color="blue")+
                     #geom_line(data=spreadpred, color="blue", linetype="longdash") + annotate("text", color="blue", x = 30, y = 50, label = Note) +
                 # Italy data
                     geom_line(data=spreadpred7, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 45, y = 80, label = paste("Italy\n", Note7)) +
                     geom_line(data=spreadpred10, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 55, y = 1000, label = Note10)+
-                    geom_line(data=spreadpred_IT1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 60, y = 10000, label = Note_IT1)+
+                    geom_line(data=spreadpred_IT1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 66, y = 6000, label = Note_IT1)+
+                    geom_line(data=IT1_data, color="dark green") + 
                 # NL data
                     geom_line(data=spreadpred9, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 55, y = 5, label = paste("NL\n",Note9)) +
                     geom_line(data=spreadpred_NL1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 70, y = 1500, label = paste("",Note_NL1))                                  

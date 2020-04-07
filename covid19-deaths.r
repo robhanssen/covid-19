@@ -119,7 +119,7 @@ Note10 = exponential_fit_rate(fit)
 # curve fitting Italy from day 60
 
 location = "Italy"
-time_start = 71
+time_start = 73
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
@@ -148,7 +148,7 @@ spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,ti
 Note_US2 = exponential_fit_rate(fit)
 
 location = "USA"
-time_start = 70
+time_start = 73
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)

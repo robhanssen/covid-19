@@ -169,12 +169,13 @@ Note9 = exponential_fit_rate(fit)
 # curve fitting NL from day 50
 
 location = "NL"
-time_start = 65
+time_start = 73
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred_NL1 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note_NL1 = exponential_fit_rate(fit)
+NL1_data = fitline(fit, time_start, time_stop)
 
 
 
@@ -209,7 +210,8 @@ spread %>% filter(location != "xhina") %>%
                     geom_line(data=IT1_data, color="dark green") + 
                 # NL data
                     geom_line(data=spreadpred9, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 55, y = 5, label = paste("NL\n",Note9)) +
-                    geom_line(data=spreadpred_NL1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 70, y = 1500, label = paste("",Note_NL1))                                  
+                    geom_line(data=spreadpred_NL1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 70, y = 1500, label = paste("",Note_NL1)) +
+                    geom_line(data=NL1_data, color="dark green") 
 
 ggsave("graphs/covid-deaths.pdf", device="pdf")                                                 
 write_csv(spread, "data/covid-deaths.csv")

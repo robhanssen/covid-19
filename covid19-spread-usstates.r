@@ -42,7 +42,7 @@ covid$location[covid$state=="New York"] = "NY"
 covid$location[covid$state=="California"] = "CA"
 covid$location[covid$state=="New Jersey"] = "NJ"
 covid$location[covid$state=="Michigan"] = "MI"
-covid$location[covid$state=="Massachusetts"] = "MA"
+covid$location[covid$state=="Louisiana"] = "LA"
 covid$location[covid$state=="Florida"] = "FL"
 covid$location[is.na(covid$location)] = "Other"
 
@@ -60,7 +60,7 @@ spread %>% ggplot + aes(time, count, color=location) + geom_point() + geom_line(
                         annotate("text", x=60,y=20000, label="NY") +
                         annotate("text", x=62,y=10000, label="Other") +
                         annotate("text", x=67,y=18000, label="NJ") +
-                        annotate("text", x=64,y=1000, label="MA") +
+                        annotate("text", x=64,y=1000, label="LA") +
                         annotate("text", x=58,y=100, label="MI") +
                         annotate("text", x=58,y=1500, label="CA") 
 

@@ -400,7 +400,7 @@ time,location,count
 23,NL,9819
 35,Other,345460
 38,South Korea,9478
-25,USA,121478
+25,USA,121465
 72,China,82122
 36,Italy,97689
 24,NL,10930
@@ -412,7 +412,7 @@ time,location,count
 25,NL,11817
 37,Other,415143
 40,South Korea,9661
-27,USA,161837
+27,USA,161831
 74,China,82279
 38,Italy,105792
 26,NL,12667
@@ -430,7 +430,7 @@ time,location,count
 28,NL,14788
 40,Other,547266
 43,South Korea,9976
-30,USA,243616
+30,USA,243762
 77,China,82511
 41,Italy,119827
 29,NL,15821
@@ -442,7 +442,7 @@ time,location,count
 30,NL,16727
 42,Other,654497
 45,South Korea,10156
-32,USA,308850
+32,USA,308853
 79,China,82602
 43,Italy,128948
 31,NL,17953
@@ -467,3 +467,9 @@ time,location,count
 46,Other,828755
 49,South Korea,10384
 36,USA,429052
+83,China,82883
+47,Italy,143626
+35,NL,21903
+47,Other,875078
+50,South Korea,10423
+37,USA,461437

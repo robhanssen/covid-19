@@ -120,7 +120,7 @@ Note10 = exponential_fit_rate(fit)
 # curve fitting Italy from day 60
 
 location = "Italy"
-time_start = 73
+time_start = 79
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
@@ -149,12 +149,12 @@ spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,ti
 Note_US2 = exponential_fit_rate(fit)
 
 location = "USA"
-time_start = 73
+time_start = 79
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 #spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
-#Note_US3 = exponential_fit_rate(fit)
+Note_US3 = exponential_fit_rate(fit)
 US3_data = fitline(fit, time_start, time_stop)
 
 # curve fitting NL from day 50
@@ -170,7 +170,7 @@ Note9 = exponential_fit_rate(fit)
 # curve fitting NL from day 50
 
 location = "NL"
-time_start = 73
+time_start = 80
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
@@ -200,7 +200,7 @@ spread %>% filter(location != "xhina") %>%
                     geom_line(data=spreadpred8, color="purple", linetype="longdash") + annotate("text", color="purple", x = 45, y = 8, label = paste("USA\n",Note8)) +
                     geom_line(data=spreadpred_US2, color="purple", linetype="longdash") + annotate("text", color="purple", x = 58, y = 400, label = Note_US2) +
                     #geom_line(data=US2_data, color="purple") +
-                    geom_line(data=US3_data, color="purple") +
+                    geom_line(data=US3_data, color="purple") + annotate("text", color="purple", x = 80, y = 10000, label = Note_US3) +
                 # Other data
                     annotate("text",x=25,y=10,label="Other", color="blue")+
                     #geom_line(data=spreadpred, color="blue", linetype="longdash") + annotate("text", color="blue", x = 30, y = 50, label = Note) +

@@ -37,10 +37,10 @@ covid$time = covid$date - min(covid$date) + 1
 
 covid$location[covid$region == "China"] = "China"
 covid$location[covid$region == "Italy"] = "Italy"
-covid$location[covid$region == "Korea, South"] = "South Korea"
+#covid$location[covid$region == "Korea, South"] = "South Korea"
 covid$location[covid$region == "US"] = "USA"
 covid$location[covid$region == "Netherlands"] = "NL"
-#covid$location[covid$region == "Germany"] = "Germany"
+covid$location[covid$region == "Sweden"] = "Sweden"
 covid$location[is.na(covid$location)] = "Other"
 
 
@@ -153,9 +153,9 @@ location = "South Korea"
 time_start = 32
 time_stop = 39
 
-fit = exponential_fit(spread,location,time_start,time_stop)
-spreadpred6 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
-Note6 = exponential_fit_rate(fit)
+#fit = exponential_fit(spread,location,time_start,time_stop)
+#spreadpred6 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+#ote6 = exponential_fit_rate(fit)
 #summary(fit)$r.squared
 
 # curve fitting USA past 38 days

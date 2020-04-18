@@ -646,7 +646,7 @@ time,location,count
 81,NL,2653
 81,Other,29383
 81,Spain,16606
-81,USA,20463
+81,USA,20462
 82,China,3343
 82,France,14412
 82,Germany,3022
@@ -654,7 +654,7 @@ time,location,count
 82,NL,2747
 82,Other,31439
 82,Spain,17209
-82,USA,22020
+82,USA,22019
 83,China,3345
 83,France,14986
 83,Germany,3194
@@ -662,7 +662,7 @@ time,location,count
 83,NL,2833
 83,Other,33374
 83,Spain,17756
-83,USA,23529
+83,USA,23528
 84,China,3345
 84,France,15748
 84,Germany,3294
@@ -670,7 +670,7 @@ time,location,count
 84,NL,2955
 84,Other,35687
 84,Spain,18056
-84,USA,25832
+84,USA,25831
 85,China,3346
 85,France,17188
 85,Germany,3804
@@ -678,7 +678,7 @@ time,location,count
 85,NL,3145
 85,Other,38015
 85,Spain,18708
-85,USA,28326
+85,USA,28325
 86,China,3346
 86,France,17941
 86,Germany,4052
@@ -686,4 +686,12 @@ time,location,count
 86,NL,3327
 86,Other,40733
 86,Spain,19315
-86,USA,32917
+86,USA,32916
+87,China,4636
+87,France,18703
+87,Germany,4352
+87,Italy,22745
+87,NL,3471
+87,Other,43139
+87,Spain,20002
+87,USA,36773

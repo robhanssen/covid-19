@@ -473,7 +473,7 @@ time,location,growth
 80,China,1
 80,South Korea,4
 80,Other,4270
-81,USA,1877
+81,USA,1876
 81,NL,133
 81,Italy,619
 81,China,3
@@ -509,3 +509,9 @@ time,location,growth
 86,China,0
 86,South Korea,4
 86,Other,4322
+87,USA,3857
+87,NL,144
+87,Italy,575
+87,China,1290
+87,South Korea,1
+87,Other,4154

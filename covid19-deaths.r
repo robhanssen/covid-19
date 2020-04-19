@@ -37,9 +37,9 @@ covid$location[covid$region == "China"] = "China"
 covid$location[covid$region == "US"] = "USA"
 covid$location[covid$region == "Italy"] = "Italy"
 covid$location[covid$region == "Netherlands"] = "NL"
-covid$location[covid$region == "Germany"] = "Germany"
-covid$location[covid$region == "Spain"] = "Spain"
-covid$location[covid$region == "France"] = "France"
+#covid$location[covid$region == "Germany"] = "Germany"
+#covid$location[covid$region == "Spain"] = "Spain"
+#covid$location[covid$region == "France"] = "France"
 covid$location[is.na(covid$location)] = "Other"
 
 covid$deaths[is.na(covid$deaths)] = 0
@@ -48,6 +48,8 @@ covid$deaths[is.na(covid$deaths)] = 0
 spread <- covid %>% group_by(time, location) %>% summarise(count=sum(deaths))
 
 spread$count[spread$count==0] = 1e-5
+
+maxtime = max(spread$time)
 
 # curve fitting starting at 22 days, Other
 
@@ -120,7 +122,7 @@ Note10 = exponential_fit_rate(fit)
 # curve fitting Italy from day 60
 
 location = "Italy"
-time_start = 79
+time_start = maxtime - 5 
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
@@ -149,7 +151,7 @@ spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,ti
 Note_US2 = exponential_fit_rate(fit)
 
 location = "USA"
-time_start = 79
+time_start = maxtime - 5
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
@@ -170,7 +172,7 @@ Note9 = exponential_fit_rate(fit)
 # curve fitting NL from day 50
 
 location = "NL"
-time_start = 80
+time_start = maxtime -5 
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)

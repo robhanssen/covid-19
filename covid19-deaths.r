@@ -88,7 +88,7 @@ spreadpred5$location = "Prediction"
 # curve fitting China first 35-40 days, linear fit - did not write a separate function for this
 
 timeoffset = 35
-timeoff2 = 100
+timeoff2 = 50
 fit = lm(spread$count[spread$location=="China" & spread$time > timeoffset & spread$time < timeoff2] ~ spread$time[spread$location=="China" & spread$time > timeoffset & spread$time < timeoff2])
 A = fit$coefficients[1]
 B = fit$coefficients[2]

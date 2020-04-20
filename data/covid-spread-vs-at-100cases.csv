@@ -514,7 +514,7 @@ time,location,count
 42,NL,29383
 54,Other,1190578
 54,Sweden,12540
-44,USA,667801
+44,USA,667592
 91,China,83760
 55,Italy,172434
 43,NL,30619
@@ -527,3 +527,9 @@ time,location,count
 56,Other,1280261
 56,Sweden,13822
 46,USA,732197
+93,China,83805
+57,Italy,178972
+45,NL,32838
+57,Other,1332292
+57,Sweden,14385
+47,USA,759086

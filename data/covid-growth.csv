@@ -503,13 +503,13 @@ time,location,growth
 85,China,50
 85,South Korea,27
 85,Other,47703
-86,USA,31451
+86,USA,31242
 86,NL,1067
 86,Italy,3786
 86,China,47
 86,South Korea,22
 86,Other,60219
-87,USA,31905
+87,USA,32114
 87,NL,1236
 87,Italy,3493
 87,China,357
@@ -521,3 +521,9 @@ time,location,growth
 88,China,27
 88,South Korea,18
 88,Other,40394
+89,USA,26889
+89,NL,1072
+89,Italy,3047
+89,China,18
+89,South Korea,8
+89,Other,52586

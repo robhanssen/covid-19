@@ -295,7 +295,7 @@ shiftedspread$time = shiftedspread$time - 32
 
 shiftedspread %>% filter(location !="Other") %>% 
                                     ggplot + aes(time, count, color=location) + geom_line()  + 
-                                        scale_y_log10(limit=c(1e2,1e6)) + 
+                                        scale_y_log10(limit=c(1e2,1e7)) + 
                                         scale_x_continuous() + labs(caption=capt) + 
                                         xlab("Days since 100 cases") + ylab("Infections") + ggtitle("comparison to Italy, time-shifted to match 100 cases") #+
 

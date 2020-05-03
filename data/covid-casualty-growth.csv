@@ -496,13 +496,13 @@ time,location,growth
 84,Italy,602
 84,China,0
 84,South Korea,5
-84,Other,3774
+84,Other,3757
 85,USA,2472
 85,NL,190
 85,Italy,578
 85,China,1
 85,South Korea,3
-85,Other,4977
+85,Other,4975
 86,USA,2093
 86,NL,182
 86,Italy,525
@@ -514,7 +514,7 @@ time,location,growth
 87,Italy,575
 87,China,1290
 87,South Korea,1
-87,Other,4265
+87,Other,4264
 88,USA,2342
 88,NL,142
 88,Italy,482
@@ -526,70 +526,82 @@ time,location,growth
 89,Italy,433
 89,China,0
 89,South Korea,2
-89,Other,2852
+89,Other,2848
 90,USA,1714
 90,NL,67
 90,Italy,454
 90,China,0
 90,South Korea,2
-90,Other,3086
+90,Other,3088
 91,USA,2427
 91,NL,165
 91,Italy,534
 91,China,0
 91,South Korea,1
-91,Other,4010
+91,Other,4012
 92,USA,2326
 92,NL,139
 92,Italy,437
 92,China,0
 92,South Korea,1
-92,Other,3770
+92,Other,3774
 93,USA,2312
 93,NL,124
 93,Italy,464
 93,China,0
 93,South Korea,2
-93,Other,3845
+93,Other,3851
 94,USA,1769
 94,NL,112
 94,Italy,420
 94,China,0
 94,South Korea,0
-94,Other,4026
+94,Other,4031
 95,USA,2262
 95,NL,120
 95,Italy,415
 95,China,0
 95,South Korea,2
-95,Other,3381
+95,Other,3389
 96,USA,1126
 96,NL,67
 96,Italy,260
 96,China,1
 96,South Korea,1
-96,Other,2252
+96,Other,2258
 97,USA,1378
 97,NL,43
 97,Italy,333
 97,China,0
 97,South Korea,1
-97,Other,2822
+97,Other,2829
 98,USA,2096
 98,NL,48
 98,Italy,382
 98,China,0
 98,South Korea,2
-98,Other,3781
+98,Other,3787
 99,USA,2612
 99,NL,145
 99,Italy,323
 99,China,0
 99,South Korea,1
-99,Other,3780
+99,Other,3785
 100,USA,2029
 100,NL,84
 100,Italy,285
 100,China,0
 100,South Korea,1
-100,Other,3351
+100,Other,3293
+101,USA,1947
+101,NL,98
+101,Italy,269
+101,China,0
+101,South Korea,2
+101,Other,2946
+102,USA,1426
+102,NL,94
+102,Italy,474
+102,China,0
+102,South Korea,0
+102,Other,3195

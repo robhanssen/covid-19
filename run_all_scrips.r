@@ -8,4 +8,5 @@ source("covid19-spread-vs-growth.r")
 source("covid19-deaths-vs-growth.r")
 source("covid19-deaths-usstates.r")
 source("covid19-spread-usstates.r")
+source("covid19-spread-SouthCarolina.r")
 

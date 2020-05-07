@@ -48,7 +48,7 @@ covid$location[covid$state=="South Carolina"] = "SC"
 covid$location[is.na(covid$location)] = "Other"
 
 # total spread of infections by countries
-spread <- covid %>% group_by(time, location) %>% summarise(count=sum(infections))
+spread <- covid %>% group_by(date,time, location) %>% summarise(count=sum(infections))
 
 max_x = ceiling(max(spread$time)/10)*10
 capt = paste("Source: JHU\nlast updated:", lastupdated)

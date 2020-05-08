@@ -484,73 +484,73 @@ time,location,growth
 82,Italy,4092
 82,China,120
 82,South Korea,32
-82,Other,64803
+82,Other,64784
 83,USA,25306
 83,NL,964
 83,Italy,3153
 83,China,79
 83,South Korea,25
-83,Other,40501
+83,Other,40485
 84,USA,27051
 84,NL,870
 84,Italy,2972
 84,China,93
 84,South Korea,27
-84,Other,39376
+84,Other,39387
 85,USA,28680
 85,NL,736
 85,Italy,2667
 85,China,50
 85,South Korea,27
-85,Other,47765
+85,Other,47706
 86,USA,31242
 86,NL,1067
 86,Italy,3786
 86,China,47
 86,South Korea,22
-86,Other,60202
+86,Other,60205
 87,USA,32114
 87,NL,1236
 87,Italy,3493
 87,China,357
 87,South Korea,22
-87,Other,50629
+87,Other,50614
 88,USA,32491
 88,NL,1147
 88,Italy,3491
 88,China,27
 88,South Korea,18
-88,Other,40442
+88,Other,40432
 89,USA,26612
 89,NL,1072
 89,Italy,3047
 89,China,18
 89,South Korea,8
-89,Other,52798
+89,Other,52785
 90,USA,25517
 90,NL,750
 90,Italy,2256
 90,China,12
 90,South Korea,13
-90,Other,42405
+90,Other,42403
 91,USA,27539
 91,NL,729
 91,Italy,2729
 91,China,36
 91,South Korea,9
-91,Other,46286
+91,Other,46269
 92,USA,28486
 92,NL,715
 92,Italy,3370
 92,China,15
 92,South Korea,11
-92,Other,42969
+92,Other,42967
 93,USA,28819
 93,NL,889
 93,Italy,2646
 93,China,16
 93,South Korea,14
-93,Other,51422
+93,Other,51417
 94,USA,36188
 94,NL,808
 94,Italy,3021
@@ -562,7 +562,7 @@ time,location,growth
 95,Italy,2357
 95,China,10
 95,South Korea,10
-95,Other,49437
+95,Other,49581
 96,USA,27631
 96,NL,656
 96,Italy,2324
@@ -580,37 +580,37 @@ time,location,growth
 98,Italy,2091
 98,China,22
 98,South Korea,9
-98,Other,46789
+98,Other,46828
 99,USA,27327
 99,NL,386
 99,Italy,2086
 99,China,4
 99,South Korea,4
-99,Other,45290
+99,Other,45251
 100,USA,29515
 100,NL,514
 100,Italy,1872
 100,China,12
 100,South Korea,9
-100,Other,52644
+100,Other,52701
 101,USA,34037
 101,NL,477
 101,Italy,1965
 101,China,3
 101,South Korea,6
-101,Other,50436
+101,Other,50379
 102,USA,29078
 102,NL,445
 102,Italy,1900
 102,China,0
 102,South Korea,13
-102,Other,52130
+102,Other,52371
 103,USA,25501
 103,NL,335
 103,Italy,1389
 103,China,5
 103,South Korea,8
-103,Other,52148
+103,Other,51907
 104,USA,22335
 104,NL,199
 104,Italy,1221
@@ -629,3 +629,9 @@ time,location,growth
 106,China,2
 106,South Korea,4
 106,Other,66716
+107,USA,28420
+107,NL,455
+107,Italy,1401
+107,China,5
+107,South Korea,12
+107,Other,60084

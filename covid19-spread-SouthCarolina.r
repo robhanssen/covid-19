@@ -36,10 +36,22 @@ covid$time = covid$date - min(covid$date) + 1
 #max_states = covid %>% filter(time==max(covid$time)) %>% group_by(state) %>% summarise(count = sum(infections)) %>% arrange(-count)
 #View(max_states)
 
-covid_SC <- covid %>% filter(state=="South Carolina") %>% filter(county == "Greenville" | county == "Spartanburg")
+covid_SC <- covid %>% filter(state=="South Carolina") %>% filter(county == "Greenville" |
+                                                                 county == "Spartanburg" | 
+                                                                 county=="Anderson" | 
+                                                                 county =="Cherokee" |
+                                                                 county =="Union" |
+                                                                 county =="Oconee" |
+                                                                 county =="Laurens"|
+                                                                 county =="Pickens" |
+                                                                 county =="Greenwood"|
+                                                                 county =="Abbeville")
 
 # total spread of infections by countries
 spread <- covid_SC %>% group_by(date, county, time) %>% summarise(count=sum(infections))
+
+spread_total <- covid_SC %>% group_by(date, time) %>% summarise(count=sum(infections))
+spread_total$county = "Upstate"
 
 max_x = ceiling(max(spread$time)/10)*10
 capt = paste("Source: JHU\nlast updated:", lastupdated)
@@ -48,8 +60,10 @@ spread %>% ggplot + aes(time, count, color=county) + geom_point() + geom_line() 
                         scale_x_continuous(limits=c(50,max_x)) + #scale_y_log10() + 
                         labs(caption=capt) + 
                         xlab("Days since Jan 22, 2020") + ylab("Number of cases per county") + ggtitle("Spread of COVID19 in SC by county") + 
-                        annotate("text", x=75,y=400, label="Greenville") +
-                        annotate("text", x=85,y=100, label="Spartanburg") 
+                        annotate("text", x=90,y=1000, label="SC Upstate total") +
+                        annotate("text", x=90,y=600, label="Greenville") +
+                        annotate("text", x=85,y=240, label="Spartanburg") +
+                        geom_line(data=spread_total)
 
 
 ggsave("graphs/covid-sc-spread.pdf", device="pdf")

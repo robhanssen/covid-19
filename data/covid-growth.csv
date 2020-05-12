@@ -598,13 +598,13 @@ time,location,growth
 101,Italy,1965
 101,China,3
 101,South Korea,6
-101,Other,50379
+101,Other,52160
 102,USA,29078
 102,NL,445
 102,Italy,1900
 102,China,0
 102,South Korea,13
-102,Other,52371
+102,Other,50590
 103,USA,25501
 103,NL,335
 103,Italy,1389
@@ -653,3 +653,9 @@ time,location,growth
 110,China,20
 110,South Korea,35
 110,Other,56878
+111,USA,18621
+111,NL,161
+111,Italy,744
+111,China,1
+111,South Korea,27
+111,Other,56249

@@ -37,10 +37,10 @@ covid$time = covid$date - min(covid$date) + 1
 
 covid$location[covid$region == "China"] = "China"
 covid$location[covid$region == "Italy"] = "Italy"
-#covid$location[covid$region == "Korea, South"] = "South Korea"
+covid$location[covid$region == "Brazil"] = "Brazil"
 covid$location[covid$region == "US"] = "USA"
 covid$location[covid$region == "Netherlands"] = "NL"
-covid$location[covid$region == "Sweden"] = "Sweden"
+covid$location[covid$region == "Russia"] = "Russia"
 covid$location[is.na(covid$location)] = "Other"
 
 

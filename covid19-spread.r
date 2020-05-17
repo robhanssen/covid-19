@@ -289,6 +289,8 @@ shiftedspread$time[shiftedspread$location=="South Korea"] = shiftedspread$time[s
 shiftedspread$time[shiftedspread$location=="UK"] = shiftedspread$time[shiftedspread$location=="UK"] - 12
 shiftedspread$time[shiftedspread$location=="Other"] = shiftedspread$time[shiftedspread$location=="Other"] 
 shiftedspread$time[shiftedspread$location=="China"] = shiftedspread$time[shiftedspread$location=="China"] + 36
+shiftedspread$time[shiftedspread$location=="Russia"] = shiftedspread$time[shiftedspread$location=="Russia"] -25
+shiftedspread$time[shiftedspread$location=="Brazil"] = shiftedspread$time[shiftedspread$location=="Brazil"] -20
 
 # all shift -32 days
 shiftedspread$time = shiftedspread$time - 32

@@ -180,6 +180,16 @@ spreadpred_NL1 <- exponential_fit_prediction(spread,fit, location, time_start,ti
 Note_NL1 = exponential_fit_rate(fit)
 NL1_data = fitline(fit, time_start, time_stop)
 
+# curve fitting Brazil from extrapolate from t-5 days
+
+location = "Brazil"
+time_start = maxtime -5 
+time_stop = infinite
+
+fit = exponential_fit(spread,location,time_start,time_stop)
+spreadpred_NL1 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
+Note_BR1 = exponential_fit_rate(fit)
+BR1_data = fitline(fit, time_start, time_stop)
 
 
 #
@@ -202,15 +212,17 @@ spread %>% filter(location != "xhina") %>%
                     geom_line(data=spreadpred8, color="purple", linetype="longdash") + annotate("text", color="purple", x = 45, y = 8, label = paste("USA\n",Note8)) +
                     geom_line(data=spreadpred_US2, color="purple", linetype="longdash") + annotate("text", color="purple", x = 58, y = 400, label = Note_US2) +
                     #geom_line(data=US2_data, color="purple") +
-                    geom_line(data=US3_data, color="purple") + annotate("text", color="purple", x = 80, y = 10000, label = Note_US3) +
+                    geom_line(data=US3_data, color="purple") + annotate("text", color="purple", x = 110, y = 100000, label = Note_US3) +
                 # Other data
                     annotate("text",x=25,y=10,label="Other", color="blue")+
                     #geom_line(data=spreadpred, color="blue", linetype="longdash") + annotate("text", color="blue", x = 30, y = 50, label = Note) +
                 # Italy data
                     geom_line(data=spreadpred7, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 45, y = 80, label = paste("Italy\n", Note7)) +
                     geom_line(data=spreadpred10, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 55, y = 1000, label = Note10)+
-                    geom_line(data=spreadpred_IT1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 66, y = 6000, label = Note_IT1)+
-                    geom_line(data=IT1_data, color="dark green") + 
+                    geom_line(data=spreadpred_IT1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 110, y = 40000, label = Note_IT1)+
+                    geom_line(data=IT1_data, color="dark green") +
+                # Brazil data
+                    geom_line(data=BR1_data, color="orange") + annotate("text", color="orange", x = 120, y = 10000, label = Note_BR1) + 
                 # NL data
                     geom_line(data=spreadpred9, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 55, y = 5, label = paste("NL\n",Note9)) +
                     geom_line(data=spreadpred_NL1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 70, y = 1500, label = paste("",Note_NL1)) +

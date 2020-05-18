@@ -42,7 +42,7 @@ covid$location[covid$state=="New York"] = "NY"
 covid$location[covid$state=="California"] = "CA"
 covid$location[covid$state=="New Jersey"] = "NJ"
 covid$location[covid$state=="Michigan"] = "MI"
-covid$location[covid$state=="Louisiana"] = "LA"
+covid$location[covid$state=="Texas"] = "TX"
 covid$location[covid$state=="Florida"] = "FL"
 covid$location[is.na(covid$location)] = "Other"
 

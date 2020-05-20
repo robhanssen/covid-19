@@ -5,6 +5,8 @@ time,location,growth
 2,China,95
 2,South Korea,0
 2,Brazil,0
+2,India,0
+2,Peru,0
 2,Other,4
 3,USA,1
 3,Russia,0
@@ -12,6 +14,8 @@ time,location,growth
 3,China,277
 3,South Korea,1
 3,Brazil,0
+3,India,0
+3,Peru,0
 3,Other,8
 4,USA,0
 4,Russia,0
@@ -19,6 +23,8 @@ time,location,growth
 4,China,486
 4,South Korea,0
 4,Brazil,0
+4,India,0
+4,Peru,0
 4,Other,7
 5,USA,3
 5,Russia,0
@@ -26,6 +32,8 @@ time,location,growth
 5,China,669
 5,South Korea,1
 5,Brazil,0
+5,India,0
+5,Peru,0
 5,Other,11
 6,USA,0
 6,Russia,0
@@ -33,6 +41,8 @@ time,location,growth
 6,China,802
 6,South Korea,1
 6,Brazil,0
+6,India,0
+6,Peru,0
 6,Other,6
 7,USA,0
 7,Russia,0
@@ -40,6 +50,8 @@ time,location,growth
 7,China,2632
 7,South Korea,0
 7,Brazil,0
+7,India,0
+7,Peru,0
 7,Other,19
 8,USA,0
 8,Russia,0
@@ -47,6 +59,8 @@ time,location,growth
 8,China,578
 8,South Korea,0
 8,Brazil,0
+8,India,0
+8,Peru,0
 8,Other,10
 9,USA,0
 9,Russia,0
@@ -54,13 +68,17 @@ time,location,growth
 9,China,2054
 9,South Korea,0
 9,Brazil,0
-9,Other,14
+9,India,1
+9,Peru,0
+9,Other,13
 10,USA,2
 10,Russia,2
 10,Italy,2
 10,China,1661
 10,South Korea,7
 10,Brazil,0
+10,India,0
+10,Peru,0
 10,Other,19
 11,USA,1
 11,Russia,0
@@ -68,6 +86,8 @@ time,location,growth
 11,China,2089
 11,South Korea,1
 11,Brazil,0
+11,India,0
+11,Peru,0
 11,Other,20
 12,USA,0
 12,Russia,0
@@ -75,20 +95,26 @@ time,location,growth
 12,China,4739
 12,South Korea,3
 12,Brazil,0
-12,Other,7
+12,India,1
+12,Peru,0
+12,Other,6
 13,USA,3
 13,Russia,0
 13,Italy,0
 13,China,3086
 13,South Korea,0
 13,Brazil,0
-13,Other,5
+13,India,1
+13,Peru,0
+13,Other,4
 14,USA,0
 14,Russia,0
 14,Italy,0
 14,China,3991
 14,South Korea,1
 14,Brazil,0
+14,India,0
+14,Peru,0
 14,Other,19
 15,USA,0
 15,Russia,0
@@ -96,6 +122,8 @@ time,location,growth
 15,China,3733
 15,South Korea,3
 15,Brazil,0
+15,India,0
+15,Peru,0
 15,Other,7
 16,USA,0
 16,Russia,0
@@ -103,6 +131,8 @@ time,location,growth
 16,China,3147
 16,South Korea,4
 16,Brazil,0
+16,India,0
+16,Peru,0
 16,Other,8
 17,USA,0
 17,Russia,0
@@ -110,6 +140,8 @@ time,location,growth
 17,China,3523
 17,South Korea,1
 17,Brazil,0
+17,India,0
+17,Peru,0
 17,Other,72
 18,USA,0
 18,Russia,0
@@ -117,6 +149,8 @@ time,location,growth
 18,China,2704
 18,South Korea,0
 18,Brazil,0
+18,India,0
+18,Peru,0
 18,Other,25
 19,USA,0
 19,Russia,0
@@ -124,6 +158,8 @@ time,location,growth
 19,China,3015
 19,South Korea,1
 19,Brazil,0
+19,India,0
+19,Peru,0
 19,Other,14
 20,USA,0
 20,Russia,0
@@ -131,6 +167,8 @@ time,location,growth
 20,China,2525
 20,South Korea,2
 20,Brazil,0
+20,India,0
+20,Peru,0
 20,Other,85
 21,USA,1
 21,Russia,0
@@ -138,6 +176,8 @@ time,location,growth
 21,China,2032
 21,South Korea,1
 21,Brazil,0
+21,India,0
+21,Peru,0
 21,Other,6
 22,USA,0
 22,Russia,0
@@ -145,6 +185,8 @@ time,location,growth
 22,China,373
 22,South Korea,0
 22,Brazil,0
+22,India,0
+22,Peru,0
 22,Other,46
 23,USA,1
 23,Russia,0
@@ -152,6 +194,8 @@ time,location,growth
 23,China,15136
 23,South Korea,0
 23,Brazil,0
+23,India,0
+23,Peru,0
 23,Other,10
 24,USA,0
 24,Russia,0
@@ -159,6 +203,8 @@ time,location,growth
 24,China,6463
 24,South Korea,0
 24,Brazil,0
+24,India,0
+24,Peru,0
 24,Other,54
 25,USA,0
 25,Russia,0
@@ -166,6 +212,8 @@ time,location,growth
 25,China,2055
 25,South Korea,0
 25,Brazil,0
+25,India,0
+25,Peru,0
 25,Other,90
 26,USA,0
 26,Russia,0
@@ -173,6 +221,8 @@ time,location,growth
 26,China,2100
 26,South Korea,1
 26,Brazil,0
+26,India,0
+26,Peru,0
 26,Other,93
 27,USA,0
 27,Russia,0
@@ -180,6 +230,8 @@ time,location,growth
 27,China,1921
 27,South Korea,1
 27,Brazil,0
+27,India,0
+27,Peru,0
 27,Other,112
 28,USA,0
 28,Russia,0
@@ -187,6 +239,8 @@ time,location,growth
 28,China,1777
 28,South Korea,1
 28,Brazil,0
+28,India,0
+28,Peru,0
 28,Other,100
 29,USA,0
 29,Russia,0
@@ -194,6 +248,8 @@ time,location,growth
 29,China,408
 29,South Korea,0
 29,Brazil,0
+29,India,0
+29,Peru,0
 29,Other,95
 30,USA,0
 30,Russia,0
@@ -201,6 +257,8 @@ time,location,growth
 30,China,458
 30,South Korea,73
 30,Brazil,0
+30,India,0
+30,Peru,0
 30,Other,27
 31,USA,2
 31,Russia,0
@@ -208,6 +266,8 @@ time,location,growth
 31,China,473
 31,South Korea,100
 31,Brazil,0
+31,India,0
+31,Peru,0
 31,Other,30
 32,USA,0
 32,Russia,0
@@ -215,6 +275,8 @@ time,location,growth
 32,China,1451
 32,South Korea,229
 32,Brazil,0
+32,India,0
+32,Peru,0
 32,Other,31
 33,USA,0
 33,Russia,0
@@ -222,6 +284,8 @@ time,location,growth
 33,China,21
 33,South Korea,169
 33,Brazil,0
+33,India,0
+33,Peru,0
 33,Other,103
 34,USA,36
 34,Russia,0
@@ -229,6 +293,8 @@ time,location,growth
 34,China,219
 34,South Korea,231
 34,Brazil,0
+34,India,0
+34,Peru,0
 34,Other,43
 35,USA,0
 35,Russia,0
@@ -236,6 +302,8 @@ time,location,growth
 35,China,513
 35,South Korea,144
 35,Brazil,0
+35,India,0
+35,Peru,0
 35,Other,95
 36,USA,6
 36,Russia,0
@@ -243,6 +311,8 @@ time,location,growth
 36,China,412
 36,South Korea,284
 36,Brazil,1
+36,India,0
+36,Peru,0
 36,Other,148
 37,USA,1
 37,Russia,0
@@ -250,6 +320,8 @@ time,location,growth
 37,China,434
 37,South Korea,505
 37,Brazil,0
+37,India,0
+37,Peru,0
 37,Other,216
 38,USA,2
 38,Russia,0
@@ -257,6 +329,8 @@ time,location,growth
 38,China,328
 38,South Korea,571
 38,Brazil,0
+38,India,0
+38,Peru,0
 38,Other,232
 39,USA,8
 39,Russia,0
@@ -264,6 +338,8 @@ time,location,growth
 39,China,428
 39,South Korea,813
 39,Brazil,1
+39,India,0
+39,Peru,0
 39,Other,409
 40,USA,6
 40,Russia,0
@@ -271,6 +347,8 @@ time,location,growth
 40,China,576
 40,South Korea,586
 40,Brazil,0
+40,India,0
+40,Peru,0
 40,Other,624
 41,USA,24
 41,Russia,1
@@ -278,13 +356,17 @@ time,location,growth
 41,China,204
 41,South Korea,599
 41,Brazil,0
-41,Other,767
+41,India,2
+41,Peru,0
+41,Other,765
 42,USA,20
 42,Russia,0
 42,Italy,466
 42,China,125
 42,South Korea,851
 42,Brazil,0
+42,India,0
+42,Peru,0
 42,Other,1072
 43,USA,31
 43,Russia,0
@@ -292,536 +374,690 @@ time,location,growth
 43,China,125
 43,South Korea,435
 43,Brazil,2
-43,Other,1100
+43,India,23
+43,Peru,0
+43,Other,1077
 44,USA,68
 44,Russia,1
 44,Italy,769
 44,China,151
 44,South Korea,467
 44,Brazil,0
-44,Other,1310
+44,India,2
+44,Peru,0
+44,Other,1308
 45,USA,45
 45,Russia,9
 45,Italy,778
 45,China,153
 45,South Korea,505
 45,Brazil,9
-45,Other,2416
+45,India,1
+45,Peru,1
+45,Other,2414
 46,USA,140
 46,Russia,0
 46,Italy,1247
 46,China,80
 46,South Korea,448
 46,Brazil,0
-46,Other,2131
+46,India,3
+46,Peru,0
+46,Other,2128
 47,USA,116
 47,Russia,4
 47,Italy,1492
 47,China,53
 47,South Korea,273
 47,Brazil,7
-47,Other,2029
+47,India,5
+47,Peru,5
+47,Other,2019
 48,USA,65
 48,Russia,0
 48,Italy,1797
 48,China,37
 48,South Korea,164
 48,Brazil,5
-48,Other,1701
+48,India,4
+48,Peru,1
+48,Other,1696
 49,USA,376
 49,Russia,3
 49,Italy,977
 49,China,27
 49,South Korea,35
 49,Brazil,6
-49,Other,3606
+49,India,13
+49,Peru,4
+49,Other,3589
 50,USA,322
 50,Russia,0
 50,Italy,2313
 50,China,34
 50,South Korea,242
 50,Brazil,7
-50,Other,4337
+50,India,6
+50,Peru,0
+50,Other,4331
 51,USA,382
 51,Russia,8
 51,Italy,0
 51,China,11
 51,South Korea,114
 51,Brazil,14
-51,Other,1948
+51,India,11
+51,Peru,4
+51,Other,1933
 52,USA,516
 52,Russia,17
 52,Italy,5198
 52,China,13
 52,South Korea,110
 52,Brazil,99
-52,Other,10918
+52,India,9
+52,Peru,13
+52,Other,10896
 53,USA,548
 53,Russia,14
 53,Italy,3497
 53,China,32
 53,South Korea,107
 53,Brazil,0
-53,Other,6697
+53,India,20
+53,Peru,10
+53,Other,6667
 54,USA,772
 54,Russia,4
 54,Italy,3590
 54,China,26
 54,South Korea,76
 54,Brazil,11
-54,Other,6873
+54,India,11
+54,Peru,5
+54,Other,6857
 55,USA,1133
 55,Russia,27
 55,Italy,3233
 55,China,30
 55,South Korea,74
 55,Brazil,38
-55,Other,9619
+55,India,6
+55,Peru,43
+55,Other,9570
 56,USA,1789
 56,Russia,24
 56,Italy,3526
 56,China,25
 56,South Korea,84
 56,Brazil,121
-56,Other,9941
+56,India,23
+56,Peru,31
+56,Other,9887
 57,USA,1362
 57,Russia,33
 57,Italy,4207
 57,China,44
 57,South Korea,93
 57,Brazil,51
-57,Other,11951
+57,India,14
+57,Peru,28
+57,Other,11909
 58,USA,5964
 58,Russia,52
 58,Italy,5322
 58,China,54
 58,South Korea,152
 58,Brazil,249
-58,Other,15963
+58,India,38
+58,Peru,89
+58,Other,15836
 59,USA,5526
 59,Russia,54
 59,Italy,5986
 59,China,94
 59,South Korea,87
 59,Brazil,172
-59,Other,17713
+59,India,50
+59,Peru,0
+59,Other,17663
 60,USA,6327
 60,Russia,53
 60,Italy,6557
 60,China,55
 60,South Korea,147
 60,Brazil,228
-60,Other,18950
+60,India,86
+60,Peru,84
+60,Other,18780
 61,USA,7676
 61,Russia,61
 61,Italy,5560
 61,China,130
 61,South Korea,162
 61,Brazil,525
-61,Other,18324
+61,India,66
+61,Peru,45
+61,Other,18213
 62,USA,10567
 62,Russia,71
 62,Italy,4789
 62,China,63
 62,South Korea,0
 62,Brazil,378
-62,Other,25396
+62,India,103
+62,Peru,32
+62,Other,25261
 63,USA,9893
 63,Russia,57
 63,Italy,5249
 63,China,93
 63,South Korea,76
 63,Brazil,323
-63,Other,24133
+63,India,37
+63,Peru,21
+63,Other,24075
 64,USA,12042
 64,Russia,163
 64,Italy,5210
 64,China,70
 64,South Korea,100
 64,Brazil,307
-64,Other,31753
+64,India,121
+64,Peru,64
+64,Other,31568
 65,USA,18058
 65,Russia,182
 65,Italy,6203
 65,China,121
 65,South Korea,104
 65,Brazil,431
-65,Other,36872
+65,India,70
+65,Peru,100
+65,Other,36702
 66,USA,17821
 66,Russia,196
 66,Italy,5909
 66,China,115
 66,South Korea,91
 66,Brazil,432
-66,Other,39173
+66,India,160
+66,Peru,55
+66,Other,38958
 67,USA,19808
 67,Russia,228
 67,Italy,5974
 67,China,102
 67,South Korea,146
 67,Brazil,487
-67,Other,40649
+67,India,100
+67,Peru,36
+67,Other,40513
 68,USA,19444
 68,Russia,270
 68,Italy,5217
 68,China,123
 68,South Korea,105
 68,Brazil,352
-68,Other,33926
+68,India,37
+68,Peru,181
+68,Other,33708
 69,USA,20922
 69,Russia,302
 69,Italy,4050
 69,China,76
 69,South Korea,78
 69,Brazil,323
-69,Other,36459
+69,India,227
+69,Peru,98
+69,Other,36134
 70,USA,26341
 70,Russia,501
 70,Italy,4053
 70,China,81
 70,South Korea,125
 70,Brazil,1138
-70,Other,42869
+70,India,146
+70,Peru,115
+70,Other,42608
 71,USA,25070
 71,Russia,440
 71,Italy,4782
 71,China,82
 71,South Korea,101
 71,Brazil,1119
-71,Other,43448
+71,India,601
+71,Peru,258
+71,Other,42589
 72,USA,30380
 72,Russia,771
 72,Italy,4668
 72,China,71
 72,South Korea,89
 72,Brazil,1208
-72,Other,43640
+72,India,545
+72,Peru,91
+72,Other,43004
 73,USA,31745
 73,Russia,601
 73,Italy,4585
 73,China,79
 73,South Korea,86
 73,Brazil,1012
-73,Other,44308
+73,India,24
+73,Peru,181
+73,Other,44103
 74,USA,33283
 74,Russia,582
 74,Italy,4805
 74,China,32
 74,South Korea,94
 74,Brazil,1304
-74,Other,40066
+74,India,515
+74,Peru,151
+74,Other,39400
 75,USA,28152
 75,Russia,658
 75,Italy,4316
 75,China,59
 75,South Korea,81
 75,Brazil,770
-75,Other,39648
+75,India,506
+75,Peru,535
+75,Other,38607
 76,USA,29515
 76,Russia,954
 76,Italy,3599
 76,China,63
 76,South Korea,47
 76,Brazil,1031
-76,Other,36484
+76,India,1190
+76,Peru,280
+76,Other,35014
 77,USA,30804
 77,Russia,1154
 77,Italy,3039
 77,China,53
 77,South Korea,47
 77,Brazil,1873
-77,Other,38032
+77,India,533
+77,Peru,393
+77,Other,37106
 78,USA,31533
 78,Russia,1175
 78,Italy,3836
 78,China,91
 78,South Korea,53
 78,Brazil,2136
-78,Other,44970
+78,India,605
+78,Peru,1388
+78,Other,42977
 79,USA,34126
 79,Russia,1459
 79,Italy,4204
 79,China,74
 79,South Korea,39
 79,Brazil,1922
-79,Other,43499
+79,India,809
+79,Peru,914
+79,Other,41776
 80,USA,33755
 80,Russia,1786
 80,Italy,3951
 80,China,58
 80,South Korea,27
 80,Brazil,1546
-80,Other,51272
+80,India,873
+80,Peru,641
+80,Other,49758
 81,USA,29861
 81,Russia,1667
 81,Italy,4694
 81,China,73
 81,South Korea,30
 81,Brazil,1089
-81,Other,40668
+81,India,848
+81,Peru,951
+81,Other,38869
 82,USA,28917
 82,Russia,2186
 82,Italy,4092
 82,China,120
 82,South Korea,32
 82,Brazil,1465
-82,Other,62301
+82,India,759
+82,Peru,671
+82,Other,60871
 83,USA,25306
 83,Russia,2558
 83,Italy,3153
 83,China,79
 83,South Korea,25
 83,Brazil,1238
-83,Other,37656
+83,India,1248
+83,Peru,2265
+83,Other,34143
 84,USA,27051
 84,Russia,2774
 84,Italy,2972
 84,China,93
 84,South Korea,27
 84,Brazil,1832
-84,Other,35657
+84,India,1034
+84,Peru,519
+84,Other,34104
 85,USA,28680
 85,Russia,3388
 85,Italy,2667
 85,China,50
 85,South Korea,27
 85,Brazil,3058
-85,Other,41988
+85,India,835
+85,Peru,1172
+85,Other,39981
 86,USA,31242
 86,Russia,3448
 86,Italy,3786
 86,China,47
 86,South Korea,22
 86,Brazil,2105
-86,Other,55718
+86,India,1108
+86,Peru,1016
+86,Other,53594
 87,USA,32114
 87,Russia,4070
 87,Italy,3493
 87,China,357
 87,South Korea,22
 87,Brazil,3257
-87,Other,44529
+87,India,922
+87,Peru,998
+87,Other,42609
 88,USA,32491
 88,Russia,4785
 88,Italy,3491
 88,China,27
 88,South Korea,18
 88,Brazil,2976
-88,Other,33821
+88,India,1370
+88,Peru,931
+88,Other,31520
 89,USA,26612
 89,Russia,6060
 89,Italy,3047
 89,China,18
 89,South Korea,8
 89,Brazil,1996
-89,Other,45803
+89,India,1893
+89,Peru,1208
+89,Other,42702
 90,USA,25517
 90,Russia,4268
 90,Italy,2256
 90,China,12
 90,South Korea,13
 90,Brazil,2089
-90,Other,36785
+90,India,924
+90,Peru,697
+90,Other,35164
 91,USA,27539
 91,Russia,5642
 91,Italy,2729
 91,China,36
 91,South Korea,9
 91,Brazil,2336
-91,Other,39028
+91,India,1541
+91,Peru,1512
+91,Other,35975
 92,USA,28486
 92,Russia,5236
 92,Italy,3370
 92,China,15
 92,South Korea,11
 92,Brazil,2678
-92,Other,35766
+92,India,1290
+92,Peru,1413
+92,Other,33063
 93,USA,28819
 93,Russia,4774
 93,Italy,2646
 93,China,16
 93,South Korea,14
 93,Brazil,4279
-93,Other,43247
+93,India,1707
+93,Peru,1664
+93,Other,39876
 94,USA,36188
 94,Russia,5849
 94,Italy,3021
 94,China,15
 94,South Korea,10
 94,Brazil,4007
-94,Other,38238
+94,India,1453
+94,Peru,734
+94,Other,36051
 95,USA,32796
 95,Russia,5966
 95,Italy,2357
 95,China,10
 95,South Korea,10
 95,Brazil,5281
-95,Other,38989
+95,India,1753
+95,Peru,3683
+95,Other,33553
 96,USA,27631
 96,Russia,6361
 96,Italy,2324
 96,China,3
 96,South Korea,10
 96,Brazil,3776
-96,Other,33788
+96,India,1607
+96,Peru,2186
+96,Other,29995
 97,USA,22412
 97,Russia,6198
 97,Italy,1739
 97,China,6
 97,South Korea,14
 97,Brazil,4346
-97,Other,33974
+97,India,1561
+97,Peru,1182
+97,Other,31231
 98,USA,24385
 98,Russia,6411
 98,Italy,2091
 98,China,22
 98,South Korea,9
 98,Brazil,5789
-98,Other,34800
+98,India,1873
+98,Peru,2491
+98,Other,30436
 99,USA,27327
 99,Russia,5841
 99,Italy,2086
 99,China,4
 99,South Korea,4
 99,Brazil,6450
-99,Other,33346
+99,India,1738
+99,Peru,2741
+99,Other,28867
 100,USA,29515
 100,Russia,7099
 100,Italy,1872
 100,China,12
 100,South Korea,9
 100,Brazil,7502
-100,Other,38614
+100,India,1801
+100,Peru,3045
+100,Other,33768
 101,USA,34037
 101,Russia,7933
 101,Italy,1965
 101,China,3
 101,South Korea,6
 101,Brazil,5015
-101,Other,39689
+101,India,2394
+101,Peru,3483
+101,Other,33812
 102,USA,29078
 102,Russia,9623
 102,Italy,1900
 102,China,0
 102,South Korea,13
 102,Brazil,4898
-102,Other,36514
+102,India,2442
+102,Peru,2075
+102,Other,31997
 103,USA,25501
 103,Russia,10633
 103,Italy,1389
 103,China,5
 103,South Korea,8
 103,Brazil,4726
-103,Other,36883
+103,India,2806
+103,Peru,3394
+103,Other,30683
 104,USA,22335
 104,Russia,10581
 104,Italy,1221
 104,China,2
 104,South Korea,3
 104,Brazil,6794
-104,Other,35390
+104,India,3932
+104,Peru,1444
+104,Other,30014
 105,USA,23976
 105,Russia,10102
 105,Italy,1075
 105,China,2
 105,South Korea,2
 105,Brazil,6835
-105,Other,37644
+105,India,2963
+105,Peru,3817
+105,Other,30864
 106,USA,24980
 106,Russia,10559
 106,Italy,1444
 106,China,2
 106,South Korea,4
 106,Brazil,11156
-106,Other,45233
+106,India,3587
+106,Peru,3628
+106,Other,38018
 107,USA,27692
 107,Russia,11231
 107,Italy,1401
 107,China,5
 107,South Korea,12
 107,Brazil,9162
-107,Other,40146
+107,India,3364
+107,Peru,3709
+107,Other,33073
 108,USA,26906
 108,Russia,10699
 108,Italy,1327
 108,China,1
 108,South Korea,18
 108,Brazil,11121
-108,Other,42274
+108,India,3344
+108,Peru,3321
+108,Other,35609
 109,USA,25621
 109,Russia,10817
 109,Italy,1083
 109,China,14
 109,South Korea,34
 109,Brazil,9167
-109,Other,39209
+109,India,3113
+109,Peru,3168
+109,Other,32928
 110,USA,19710
 110,Russia,11012
 110,Italy,802
 110,China,20
 110,South Korea,35
 110,Brazil,6638
-110,Other,39473
+110,India,4353
+110,Peru,2292
+110,Other,32828
 111,USA,18621
 111,Russia,11656
 111,Italy,744
 111,China,1
 111,South Korea,27
 111,Brazil,6895
-111,Other,37859
+111,India,3607
+111,Peru,1515
+111,Other,32737
 112,USA,21495
 112,Russia,10899
 112,Italy,1402
 112,China,7
 112,South Korea,26
 112,Brazil,8620
-112,Other,41796
+112,India,3524
+112,Peru,3237
+112,Other,35035
 113,USA,21030
 113,Russia,10028
 113,Italy,888
 113,China,6
 113,South Korea,29
 113,Brazil,11923
-113,Other,41367
+113,India,3763
+113,Peru,4247
+113,Other,33357
 114,USA,27368
 114,Russia,9974
 114,Italy,992
 114,China,5
 114,South Korea,27
 114,Brazil,13028
-114,Other,43751
+114,India,3942
+114,Peru,4298
+114,Other,35511
 115,USA,25050
 115,Russia,10598
 115,Italy,789
 115,China,9
 115,South Korea,19
 115,Brazil,17126
-115,Other,46593
+115,India,3787
+115,Peru,3891
+115,Other,38915
 116,USA,24996
 116,Russia,9200
 116,Italy,875
 116,China,6
 116,South Korea,13
 116,Brazil,13220
-116,Other,43411
+116,India,4864
+116,Peru,4046
+116,Other,34501
 117,USA,18937
 117,Russia,9709
 117,Italy,675
 117,China,10
 117,South Korea,15
 117,Brazil,7569
-117,Other,42637
+117,India,5050
+117,Peru,3732
+117,Other,33855
 118,USA,21551
 118,Russia,8926
 118,Italy,451
 118,China,9
 118,South Korea,13
 118,Brazil,14288
-118,Other,43085
+118,India,4630
+118,Peru,2660
+118,Other,35795
 119,USA,20260
 119,Russia,9263
 119,Italy,813
 119,China,0
 119,South Korea,32
 119,Brazil,16517
-119,Other,48664
+119,India,6147
+119,Peru,4550
+119,Other,37967

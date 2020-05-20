@@ -42,8 +42,14 @@ covid$location[covid$region == "Italy"] = "Italy"
 covid$location[covid$region == "Korea, South"] = "South Korea"
 covid$location[covid$region == "US"] = "USA"
 covid$location[covid$region == "Netherlands"] = "NL"
-covid$location[covid$region == "Brazil"] = "Brazil"
-covid$location[covid$region == "Russia"] = "Russia"
+covid$location[covid$region == "Russia"] = "Wave 3"
+covid$location[covid$region == "Brazil"] = "Wave 3"
+covid$location[covid$region == "Peru"] = "Wave 3"
+covid$location[covid$region == "Chile"] = "Wave 3"
+covid$location[covid$region == "Mexico"] = "Wave 3"
+covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
+covid$location[covid$region == "India"] = "Wave 3"
+covid$location[covid$region == "Bangladesh"] = "Wave 3"
 covid$location[is.na(covid$location)] = "Other"
 
 
@@ -57,15 +63,14 @@ covid_growth_us = tibble(widespread$time[widespread$time>1], diff(widespread[,"U
                                                              diff(widespread[,"Italy"]), 
                                                              diff(widespread[,"China"]), 
                                                              diff(widespread[,"South Korea"]),
-                                                             diff(widespread[,"Brazil"]),
-                                                             diff(widespread[,"Russia"]),
+                                                             diff(widespread[,"Wave 3"]),
                                                              diff(widespread[,"Other"])
                         )
 
 
 
 
-colnames(covid_growth_us) = c("time", "USA", "NL", "Italy", "China", "South Korea", "Brazil", "Russia", "Other")
+colnames(covid_growth_us) = c("time", "USA", "NL", "Italy", "China", "South Korea", "Wave 3", "Other")
 
 covid_growth <- melt(covid_growth_us, id=c("time")) %>% arrange(time, variable)
 colnames(covid_growth) = c("time", "location", "growth")

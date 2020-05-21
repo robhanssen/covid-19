@@ -37,9 +37,14 @@ covid$location[covid$region == "China"] = "China"
 covid$location[covid$region == "US"] = "USA"
 covid$location[covid$region == "Italy"] = "Italy"
 covid$location[covid$region == "Netherlands"] = "NL"
-covid$location[covid$region == "Russia"] = "Russia"
-covid$location[covid$region == "Brazil"] = "Brazil"
-#covid$location[covid$region == "France"] = "France"
+covid$location[covid$region == "Russia"] = "Wave 3"
+covid$location[covid$region == "Brazil"] = "Wave 3"
+covid$location[covid$region == "Peru"] = "Wave 3"
+covid$location[covid$region == "Chile"] = "Wave 3"
+covid$location[covid$region == "Mexico"] = "Wave 3"
+covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
+covid$location[covid$region == "India"] = "Wave 3"
+covid$location[covid$region == "Bangladesh"] = "Wave 3"
 covid$location[is.na(covid$location)] = "Other"
 
 covid$deaths[is.na(covid$deaths)] = 0
@@ -180,9 +185,9 @@ spreadpred_NL1 <- exponential_fit_prediction(spread,fit, location, time_start,ti
 Note_NL1 = exponential_fit_rate(fit)
 NL1_data = fitline(fit, time_start, time_stop)
 
-# curve fitting Brazil from extrapolate from t-5 days
+# curve fitting Wave 3 from extrapolate from t-5 days
 
-location = "Brazil"
+location = "Wave 3"
 time_start = maxtime -5 
 time_stop = infinite
 
@@ -221,7 +226,7 @@ spread %>% filter(location != "xhina") %>%
                     geom_line(data=spreadpred10, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 55, y = 1000, label = Note10)+
                     geom_line(data=spreadpred_IT1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 110, y = 40000, label = Note_IT1)+
                     geom_line(data=IT1_data, color="dark green") +
-                # Brazil data
+                # Wave 3 data
                     geom_line(data=BR1_data, color="orange") + annotate("text", color="orange", x = 120, y = 10000, label = Note_BR1) + 
                 # NL data
                     geom_line(data=spreadpred9, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 55, y = 5, label = paste("NL\n",Note9)) +

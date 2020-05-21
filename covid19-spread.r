@@ -40,7 +40,14 @@ covid$location[covid$region == "Italy"] = "Italy"
 covid$location[covid$region == "Brazil"] = "Brazil"
 covid$location[covid$region == "US"] = "USA"
 covid$location[covid$region == "Netherlands"] = "NL"
-covid$location[covid$region == "Russia"] = "Russia"
+covid$location[covid$region == "Russia"] = "Wave 3"
+covid$location[covid$region == "Brazil"] = "Wave 3"
+covid$location[covid$region == "Peru"] = "Wave 3"
+covid$location[covid$region == "Chile"] = "Wave 3"
+covid$location[covid$region == "Mexico"] = "Wave 3"
+covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
+covid$location[covid$region == "India"] = "Wave 3"
+covid$location[covid$region == "Bangladesh"] = "Wave 3"
 covid$location[is.na(covid$location)] = "Other"
 
 
@@ -217,13 +224,22 @@ nldata = fitline(fit, time_start, time_stop)
 
 
 location = "NL"
-time_start = 65
+time_start = maxtime -5
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred_NL3 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note_NL3 = exponential_fit_rate(fit)
-#nldata = fitline(fit, time_start, time_stop)
+nldata = fitline(fit, time_start, time_stop)
+
+# Wave 3 extrapolation
+location = "Wave 3"
+time_start = maxtime - 5
+time_stop = infinite
+
+fit = exponential_fit(spread,location,time_start,time_stop)
+Note_W3 = exponential_fit_rate(fit)
+W3_pred <- fitline(fit, time_start, time_stop)
 
 
 
@@ -249,7 +265,7 @@ spread %>% filter(location != "Sou_th Korea" & location !="Spain" & location != 
                                         # Italy data
                                         annotate("text",x=45,y=1500,label="Italy", color="dark green") + 
                                             geom_line(data=spreadpred5, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 45, y = 2200, label = Note5) +
-                                            geom_line(data=spreadpred_IT2, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 75, y = 100000, label = Note_IT2) +
+                                            geom_line(data=spreadpred_IT2, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 115, y = 150000, label = Note_IT2) +
                                             geom_line(data=it2data, color="dark green") +
                                         # USA data
                                         annotate("text",x=42,y=400,label="USA", color="purple") + 
@@ -257,11 +273,14 @@ spread %>% filter(location != "Sou_th Korea" & location !="Spain" & location != 
                                             geom_line(data=spreadpred_US2, color="purple", linetype="longdash") + annotate("text", color="purple", x = 60, y = 10000, label = Note_US2) +
                                             geom_line(data=usdop_pred) + annotate("text", color="purple", x = 75, y = 300000, label = Note_US3) +
                                             geom_point(data=usdop, color="purple", size=3) +
+                                        # Wave 3 data
+                                            geom_line(data=W3_pred, color="purple") + annotate("text", color="purple", x = 115, y = 500000, label = Note_W3) +
+
                                         # NL data
                                         annotate("text",x=40,y=5,label="NL", color="dark green") +
                                             geom_line(data=spreadpred8, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 42, y = 10, label = Note8) +
                                             geom_line(data=spreadpred9, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 50, y = 200, label = Note9) +
-                                            geom_line(data=spreadpred_NL3, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 65, y = 4000, label = Note_NL3) 
+                                            geom_line(data=nldata, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 115, y = 30000, label = Note_NL3) 
                                         # South Korea data
                                         #annotate("text",x=25,y=50,label="South Korea", color="blue") +
                                         #    geom_line(data=spreadpred6, color="blue", linetype="longdash") + annotate("text", color="blue", x = 32, y = 800, label = Note6) #+
@@ -289,8 +308,8 @@ shiftedspread$time[shiftedspread$location=="South Korea"] = shiftedspread$time[s
 shiftedspread$time[shiftedspread$location=="UK"] = shiftedspread$time[shiftedspread$location=="UK"] - 12
 shiftedspread$time[shiftedspread$location=="Other"] = shiftedspread$time[shiftedspread$location=="Other"] 
 shiftedspread$time[shiftedspread$location=="China"] = shiftedspread$time[shiftedspread$location=="China"] + 36
-shiftedspread$time[shiftedspread$location=="Russia"] = shiftedspread$time[shiftedspread$location=="Russia"] -25
-shiftedspread$time[shiftedspread$location=="Brazil"] = shiftedspread$time[shiftedspread$location=="Brazil"] -20
+shiftedspread$time[shiftedspread$location=="Wave 3"] = shiftedspread$time[shiftedspread$location=="Wave 3"] - 17
+
 
 # all shift -32 days
 shiftedspread$time = shiftedspread$time - 32

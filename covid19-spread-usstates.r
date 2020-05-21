@@ -56,7 +56,7 @@ capt = paste("Source: JHU\nlast updated:", lastupdated)
 
 
 spread %>% ggplot + aes(time, count, color=location) + geom_point() + geom_line() +
-                        scale_x_continuous(limit=c(40,max_x)) + scale_y_log10(limit=c(1e1,1e6)) + labs(caption=capt) + 
+                        scale_x_continuous(limit=c(40,max_x)) + scale_y_log10(limit=c(1e1,1e7)) + labs(caption=capt) + 
                         xlab("Days since Jan 22, 2020") + ylab("Number of cases per state") + ggtitle("Spread of COVID19 in the US by state") + 
                         annotate("text", x=60,y=20000, label="NY") +
                         annotate("text", x=62,y=10000, label="Other") +

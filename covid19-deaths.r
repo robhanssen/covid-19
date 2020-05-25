@@ -50,7 +50,7 @@ covid$location[is.na(covid$location)] = "Other"
 covid$deaths[is.na(covid$deaths)] = 0
 
 # total spread of infections between China and ex-China
-spread <- covid %>% group_by(date, time, location) %>% summarise(count=sum(deaths))
+spread <- covid %>% group_by(date, time, location) %>% summarise(count=sum(deaths)) %>% arrange(location, time)
 
 spread$count[spread$count==0] = 1e-5
 

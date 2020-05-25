@@ -63,7 +63,7 @@ usdop = tibble(time, count, location)
 covid$infections[is.na(covid$infections)] = 0
 
 # total spread of infections by countries
-spread <- covid %>% group_by(date, time, location) %>% summarise(count=sum(infections))
+spread <- covid %>% group_by(date, time, location) %>% summarise(count=sum(infections)) %>% arrange(location, time)
 
 spread$count[spread$count==0] = 1e-5 
 

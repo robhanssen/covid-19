@@ -724,19 +724,19 @@ time,location,growth
 122,China,18
 122,South Korea,23
 122,Wave 3,50766
-122,Other,33144
+122,Other,33483
 123,USA,21675
 123,Italy,669
 123,China,3
 123,South Korea,25
 123,Wave 3,47807
-123,Other,29366
+123,Other,29685
 124,USA,20634
 124,Italy,531
 124,China,11
 124,South Korea,16
 124,Wave 3,46134
-124,Other,29925
+124,Other,29267
 125,USA,19056
 125,Italy,300
 125,China,7
@@ -749,3 +749,9 @@ time,location,growth
 126,South Korea,40
 126,Wave 3,47370
 126,Other,28146
+127,USA,18263
+127,Italy,584
+127,China,3
+127,South Korea,79
+127,Wave 3,53531
+127,Other,29704

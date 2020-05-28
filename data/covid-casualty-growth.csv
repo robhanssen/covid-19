@@ -845,21 +845,21 @@ time,location,growth
 122,China,0
 122,South Korea,2
 122,Wave 3,1946
-122,Other,1868
+122,Other,1942
 123,USA,1108
 123,NL,23
 123,Italy,119
 123,China,0
 123,South Korea,0
 123,Wave 3,1643
-123,Other,1044
+123,Other,1087
 124,USA,633
 124,NL,11
 124,Italy,50
 124,China,0
 124,South Korea,1
 124,Wave 3,1344
-124,Other,923
+124,Other,806
 125,USA,500
 125,NL,8
 125,Italy,92
@@ -874,3 +874,10 @@ time,location,growth
 126,South Korea,0
 126,Wave 3,2123
 126,Other,1301
+127,USA,1505
+127,NL,15
+127,Italy,117
+127,China,0
+127,South Korea,0
+127,Wave 3,2166
+127,Other,1373

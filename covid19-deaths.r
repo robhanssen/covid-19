@@ -1,5 +1,5 @@
 #
-# R script to analyze spread of COVID-19, data from Johns Hopkids via github
+# R script to analyze deaths due to COVID-19, data from Johns Hopkids via github
 # Github: https://github.com/CSSEGISandData/COVID-19
 #
 
@@ -20,14 +20,13 @@ infinite = 10000
 # Data from Johns Hopkids via github
 # Github: https://github.com/CSSEGISandData/COVID-19
 #
-#covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv"
 covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
 covid <- read_csv(covidfile)
 
 # process the time series into proper dataframe
 covid <- melt(covid, id=c("Province/State","Country/Region", "Lat","Long"))
 
-# clean up column names and differentiate between China/ex-China location
+# clean up column names and differentiate between different regions
 colnames(covid) = c("province","region","lat","long","date","deaths")
 covid$date = as.Date(covid$date, format="%m/%d/%y")
 lastupdated = max(covid$date)
@@ -45,14 +44,15 @@ covid$location[covid$region == "Mexico"] = "Wave 3"
 covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
 covid$location[covid$region == "India"] = "Wave 3"
 covid$location[covid$region == "Bangladesh"] = "Wave 3"
+# group of all other regions not assigned
 covid$location[is.na(covid$location)] = "Other"
 
 covid$deaths[is.na(covid$deaths)] = 0
 
-# total spread of infections between China and ex-China
+# total spread of deaths
 spread <- covid %>% group_by(date, time, location) %>% summarise(count=sum(deaths)) %>% arrange(location, time)
 
-spread$count[spread$count==0] = 1e-5
+spread$count[spread$count==0] = 1e-1
 
 maxtime = max(spread$time)
 
@@ -114,7 +114,7 @@ fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred7 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note7 = exponential_fit_rate(fit)
 
-# curve fitting Italy from day 51
+# curve fitting Italy from day 51-60
 
 location = "Italy"
 time_start = 51
@@ -124,8 +124,7 @@ fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred10 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note10 = exponential_fit_rate(fit)
 
-# curve fitting Italy from day 60
-
+# curve fitting Italy last 5 days
 location = "Italy"
 time_start = maxtime - 5 
 time_stop = infinite
@@ -135,8 +134,7 @@ spreadpred_IT1 <- exponential_fit_prediction(spread,fit, location, time_start,ti
 Note_IT1 = exponential_fit_rate(fit)
 IT1_data = fitline(fit, time_start, time_stop)
 
-# curve fitting US from day 34
-
+# curve fitting US from day 42-58
 location = "USA"
 time_start = 42
 time_stop = 58
@@ -145,8 +143,7 @@ fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred8 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note8 = exponential_fit_rate(fit)
 
-# curve fitting US from day 34
-
+# curve fitting US from day 57-70
 location = "USA"
 time_start = 57
 time_stop = 70
@@ -155,17 +152,17 @@ fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note_US2 = exponential_fit_rate(fit)
 
+
+# curve fit USA last 5 days
 location = "USA"
 time_start = maxtime - 5
 time_stop = infinite
 
 fit = exponential_fit(spread,location,time_start,time_stop)
-#spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note_US3 = exponential_fit_rate(fit)
 US3_data = fitline(fit, time_start, time_stop)
 
-# curve fitting NL from day 50
-
+# curve fitting NL from day 50-60
 location = "NL"
 time_start = 50
 time_stop = 60
@@ -174,8 +171,7 @@ fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred9 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note9 = exponential_fit_rate(fit)
 
-# curve fitting NL from day 50
-
+# curve fitting NL last 5 days
 location = "NL"
 time_start = maxtime -5 
 time_stop = infinite
@@ -186,7 +182,6 @@ Note_NL1 = exponential_fit_rate(fit)
 NL1_data = fitline(fit, time_start, time_stop)
 
 # curve fitting Wave 3 from extrapolate from t-5 days
-
 location = "Wave 3"
 time_start = maxtime -5 
 time_stop = infinite
@@ -196,14 +191,11 @@ spreadpred_NL1 <- exponential_fit_prediction(spread,fit, location, time_start,ti
 Note_BR1 = exponential_fit_rate(fit)
 BR1_data = fitline(fit, time_start, time_stop)
 
-
 #
 # graph generation
 #
 
-
 capt = paste("Source: JHU\nlast updated:", lastupdated)
-
 
 spread %>% filter(location != "xhina") %>% 
                 ggplot + aes(time, count, color=location) + geom_point()  + 

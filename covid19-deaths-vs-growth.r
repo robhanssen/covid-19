@@ -5,7 +5,6 @@ spread <- read_csv("data/covid-deaths.csv")
 
 spreadgrowth <- spread %>% inner_join(growth)
 
-#spreadgrowth %>% ggplot + aes(count, growth, color=location) + geom_point() + geom_smooth(method="loess") + scale_x_log10(limit=c(1,1e4)) + scale_y_log10()
 lastupdated = as.Date("2020-01-21", format="%Y-%m-%d") + max(spreadgrowth$time) 
 
 capt = paste("Source: JHU\nlast updated:", lastupdated)

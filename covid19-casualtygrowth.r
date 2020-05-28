@@ -20,22 +20,17 @@ infinite = 10000
 #
 # import via web API
 #
-#covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
-#covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
 covid <- read_csv(covidfile)
 
 # process the time series into proper dataframe
 covid <- melt(covid, id=c("Province/State","Country/Region", "Lat","Long"))
 
-# clean up column names and differentiate between China/ex-China location
+# clean up column names and differentiate between different regions
 colnames(covid) = c("province","region","lat","long","date","infections")
 covid$date = as.Date(covid$date, format="%m/%d/%y")
 lastupdated = max(covid$date)
 covid$time = covid$date - min(covid$date) + 1
-
-# specifically added to deal with an issue in the data file on 20200308, delete when appropriate
-#covid$infections[is.na(covid$infections)] = 0
 
 covid$location[covid$region == "China"] = "China"
 covid$location[covid$region == "Italy"] = "Italy"

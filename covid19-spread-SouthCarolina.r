@@ -27,14 +27,11 @@ covid <- read_csv(covidfile) %>% select(-UID, -iso2, -iso3, -code3, -FIPS, -Comb
 covid <- melt(covid, id=c("Admin2", "Province_State","Country_Region"))
 
 
-# clean up column names and differentiate between China/ex-China location
+# clean up column names and differentiate between counties in SC Upstate
 colnames(covid) = c("county","state","country","date","infections")
 covid$date = as.Date(covid$date, format="%m/%d/%y")
 lastupdated = max(covid$date)
 covid$time = covid$date - min(covid$date) + 1
-
-#max_states = covid %>% filter(time==max(covid$time)) %>% group_by(state) %>% summarise(count = sum(infections)) %>% arrange(-count)
-#View(max_states)
 
 covid_SC <- covid %>% filter(state=="South Carolina") %>% filter(county == "Greenville" |
                                                                  county == "Spartanburg" | 
@@ -47,7 +44,7 @@ covid_SC <- covid %>% filter(state=="South Carolina") %>% filter(county == "Gree
                                                                  county =="Greenwood"|
                                                                  county =="Abbeville")
 
-# total spread of infections by countries
+# total spread of infections by counties
 spread <- covid_SC %>% group_by(date, county, time) %>% summarise(count=sum(infections))
 
 spread_total <- covid_SC %>% group_by(date, time) %>% summarise(count=sum(infections))

@@ -27,24 +27,16 @@ covid <- read_csv(covidfile)
 # process the time series into proper dataframe
 covid <- melt(covid, id=c("Province/State","Country/Region", "Lat","Long"))
 
-# clean up column names and differentiate between China/ex-China location
+# clean up column names and differentiate between different regions
 colnames(covid) = c("province","region","lat","long","date","infections")
 covid$date = as.Date(covid$date, format="%m/%d/%y")
 lastupdated = max(covid$date)
 covid$time = covid$date - min(covid$date) + 1
 
-# specifically added to deal with an issue in the data file on 20200308, delete when appropriate
-#covid$infections[is.na(covid$infections)] = 0
-
 covid$location[covid$region == "China"] = "China"
 covid$location[covid$region == "Italy"] = "Italy"
 covid$location[covid$region == "Korea, South"] = "South Korea"
 covid$location[covid$region == "US"] = "USA"
-#covid$location[covid$region == "Russia"] = "Russia"
-#covid$location[covid$region == "Brazil"] = "Brazil"
-#covid$location[covid$region == "India"] = "India"
-#ovid$location[covid$region == "Peru"] = "Peru"
-#ovid$location[covid$region == "Saudi Arabia"] = "Saudi Arabia"
 covid$location[covid$region == "Russia"] = "Wave 3"
 covid$location[covid$region == "Brazil"] = "Wave 3"
 covid$location[covid$region == "Peru"] = "Wave 3"
@@ -62,23 +54,14 @@ spread <- covid %>% group_by(time, location) %>% summarise(count=sum(infections)
 widespread <- dcast(spread, time ~ location )
 
 covid_growth_us = tibble(widespread$time[widespread$time>1], diff(widespread[,"USA"]), 
-#                                                             diff(widespread[, "Russia"]), 
                                                              diff(widespread[,"Italy"]), 
                                                              diff(widespread[,"China"]), 
                                                              diff(widespread[,"South Korea"]),
-#
                                                              diff(widespread[,"Wave 3"]),
-                                                             #diff(widespread[,"Wave 3 - LatAm"]),
-#
-                                                             #diff(widespread[,"Brazil"]),
-                                                             #diff(widespread[,"India"]),
-                                                             #diff(widespread[,"Peru"]),
-                                                             #diff(widespread[,"Saudi Arabia"]),
                                                              diff(widespread[,"Other"]))
 
 
 
-#colnames(covid_growth_us) = c("time", "USA", "Russia", "Italy", "China", "South Korea", "Brazil","India","Peru","Saudi Arabia","Other")
 colnames(covid_growth_us) = c("time", "USA",  "Italy", "China", "South Korea", "Wave 3","Other")
 
 covid_growth <- melt(covid_growth_us, id=c("time")) %>% arrange(time, variable)

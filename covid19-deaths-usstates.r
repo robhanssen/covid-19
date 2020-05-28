@@ -13,7 +13,7 @@ library(ggplot2)
 library(readr)
 library(reshape2)
 library(tidyverse)
-# constant infinite
+
 source("fitfunctions.r")
 
 infinite = 10000
@@ -27,14 +27,11 @@ covid <- read_csv(covidfile) %>% select(-UID, -iso2, -iso3, -code3, -FIPS, -Comb
 covid <- melt(covid, id=c("Admin2", "Province_State","Country_Region"))
 
 #View(covid)
-# clean up column names and differentiate between China/ex-China location
+# clean up column names and differentiate between different regions
 colnames(covid) = c("county","state","country","date","deaths")
 covid$date = as.Date(covid$date, format="%m/%d/%y")
 lastupdated = max(covid$date)
 covid$time = covid$date - min(covid$date) + 1
-
-#max_states = covid %>% filter(time==max(covid$time)) %>% group_by(state) %>% summarise(count = sum(infections)) %>% arrange(-count)
-#View(max_states)
 
 # selection of states to highlight out of the full data set
 covid$location = NA
@@ -46,7 +43,7 @@ covid$location[covid$state=="Texas"] = "TX"
 covid$location[covid$state=="Florida"] = "FL"
 covid$location[is.na(covid$location)] = "Other"
 
-# total spread of infections by countries
+# total spread of infections by states
 spread <- covid %>% group_by(date, time, location) %>% summarise(count=sum(deaths))
 
 max_x = ceiling(max(spread$time)/10)*10

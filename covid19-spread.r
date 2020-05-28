@@ -19,22 +19,19 @@ infinite = 10000
 #
 # import via web API
 #
-#covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
 covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 covid <- read_csv(covidfile)
 
 # process the time series into proper dataframe
 covid <- melt(covid, id=c("Province/State","Country/Region", "Lat","Long"))
 
-# clean up column names and differentiate between China/ex-China location
+# clean up column names 
 colnames(covid) = c("province","region","lat","long","date","infections")
 covid$date = as.Date(covid$date, format="%m/%d/%y")
 lastupdated = max(covid$date)
 covid$time = covid$date - min(covid$date) + 1
 
-# specifically added to deal with an issue in the data file on 20200308, delete when appropriate
-#covid$infections[is.na(covid$infections)] = 0
-
+# assign locations to differentiate between counntries/groups of countries
 covid$location[covid$region == "China"] = "China"
 covid$location[covid$region == "Italy"] = "Italy"
 covid$location[covid$region == "Brazil"] = "Brazil"
@@ -48,6 +45,8 @@ covid$location[covid$region == "Mexico"] = "Wave 3"
 covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
 covid$location[covid$region == "India"] = "Wave 3"
 covid$location[covid$region == "Bangladesh"] = "Wave 3"
+
+# group for all others combined
 covid$location[is.na(covid$location)] = "Other"
 
 
@@ -57,19 +56,14 @@ count = c(3499) # correct for 3/15 US count
 location = "US Reference Line"
 usdop = tibble(time, count, location)
 
-
-
-# 3/17 error in datafile correction - delete when appropriate
-covid$infections[is.na(covid$infections)] = 0
-
 # total spread of infections by countries
 spread <- covid %>% group_by(date, time, location) %>% summarise(count=sum(infections)) %>% arrange(location, time)
 
-spread$count[spread$count==0] = 1e-5 
+spread$count[spread$count==0] = 1e-1
 
 maxtime = max(spread$time)
 
-# curve fitting first 8-30 days
+# curve fitting Other first 8-30 days
 
 location = "Other"
 time_start = 8
@@ -78,9 +72,9 @@ time_stop = 30
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note = exponential_fit_rate(fit)
-#summary(fit)$r.squared
 
-# curve fitting pre 0-8 days
+
+# curve fitting Other pre 0-8 days
 
 location = "Other"
 time_start = 0
@@ -89,9 +83,8 @@ time_stop = 7
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred2 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note2 = exponential_fit_rate(fit)
-#summary(fit)$r.squared
 
-# curve fitting post 31-47 days
+# curve fitting Other post 40-56 days
 
 location = "Other"
 time_start = 40
@@ -101,9 +94,9 @@ fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred3 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note3 = exponential_fit_rate(fit)
 otherdata <- fitline(fit,time_start, time_stop)
-#summary(fit)$r.squared
 
-# effect of Otherreference line
+
+# effect of Other reference line
 location = "Other"
 time_start = maxtime - 5
 time_stop = infinite
@@ -113,10 +106,7 @@ Note_Other = exponential_fit_rate(fit)
 other_pred <- fitline(fit, time_start, time_stop)
 
 
-
-
 # curve fitting China first 9 days
-
 location = "China"
 time_start = 0
 time_stop = 10
@@ -124,10 +114,8 @@ time_stop = 10
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred4 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note4 = exponential_fit_rate(fit)
-#summary(fit)$r.squared
 
 # curve fitting Italy past 39-56 days
-
 location = "Italy"
 time_start = 39
 time_stop = 56
@@ -136,11 +124,8 @@ fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred5 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note5 = exponential_fit_rate(fit)
 itdata <- fitline(fit,time_start, time_stop)
-#itdata <- fitline(fit, time_start,time_stop)
-#summary(fit)$r.squared
 
-# curve fitting Italy past 39-56 days
-
+# curve fitting Italy last 5 days of data
 location = "Italy"
 time_start = maxtime - 5 
 time_stop = infinite
@@ -149,23 +134,9 @@ fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred_IT2 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note_IT2 = exponential_fit_rate(fit)
 it2data <- fitline(fit,time_start, time_stop)
-#itdata <- fitline(fit, time_start,time_stop)
-#summary(fit)$r.squared
 
 
-
-# curve fitting SKorea past 33 days
-
-location = "South Korea"
-time_start = 32
-time_stop = 39
-
-#fit = exponential_fit(spread,location,time_start,time_stop)
-#spreadpred6 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
-#ote6 = exponential_fit_rate(fit)
-#summary(fit)$r.squared
-
-# curve fitting USA past 38 days
+# curve fitting USA past 41-58 days
 
 location = "USA"
 time_start = 41
@@ -173,10 +144,9 @@ time_stop = 58
 
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred7 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
-#usdata <- fitline(fit, time_start, time_stop)
 Note7 = exponential_fit_rate(fit)
 
-# curve fitting USA past 58 days
+# curve fitting USA past 58-66 days
 
 location = "USA"
 time_start = 57
@@ -187,7 +157,7 @@ spreadpred_US2 <- exponential_fit_prediction(spread,fit, location, time_start,ti
 Note_US2 = exponential_fit_rate(fit)
 
 
-# effect of US reference line
+# fitting USA data last 5 days
 location = "USA"
 time_start = maxtime - 5
 time_stop = infinite
@@ -196,8 +166,6 @@ fit = exponential_fit(spread,location,time_start,time_stop)
 Note_US3 = exponential_fit_rate(fit)
 usdop_pred <- fitline(fit, time_start, time_stop)
 
-
-#summary(fit)$r.squared
 
 # curve fitting NL 38-47 days
 
@@ -208,9 +176,8 @@ time_stop = 47
 fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred8 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note8 = exponential_fit_rate(fit)
-#summary(fit)$r.squared
 
-# curve fitting NL post47 days
+# curve fitting NL 44-56 days
 
 location = "NL"
 time_start = 44
@@ -220,9 +187,9 @@ fit = exponential_fit(spread,location,time_start,time_stop)
 spreadpred9 <- exponential_fit_prediction(spread,fit, location, time_start,time_stop)
 Note9 = exponential_fit_rate(fit)
 nldata = fitline(fit, time_start, time_stop)
-#summary(fit)$r.squared
 
 
+# curve fit NL last 5 days
 location = "NL"
 time_start = maxtime -5
 time_stop = infinite
@@ -281,10 +248,6 @@ spread %>% filter(location != "Sou_th Korea" & location !="Spain" & location != 
                                             geom_line(data=spreadpred8, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 42, y = 10, label = Note8) +
                                             geom_line(data=spreadpred9, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 50, y = 200, label = Note9) +
                                             geom_line(data=nldata, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 115, y = 30000, label = Note_NL3) 
-                                        # South Korea data
-                                        #annotate("text",x=25,y=50,label="South Korea", color="blue") +
-                                        #    geom_line(data=spreadpred6, color="blue", linetype="longdash") + annotate("text", color="blue", x = 32, y = 800, label = Note6) #+
-                                        #geom_line(data=usdata, linetype="longdash", color="purple") #+ geom_line(data=itdata) + geom_line(data=nldata)
 
 
 filename_base = "covid-spread"

@@ -25,7 +25,7 @@ covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/cs
 covid <- read_csv(covidfile) %>% select(-UID, -iso2, -iso3, -code3, -FIPS, -Combined_Key, -Lat, -Long_)
 
 # process the time series into proper dataframe
-covid <- melt(covid, id=c("Admin2", "Province_State","Country_Region"))
+covid <- melt(covid, id=c("Admin2", "Province_State","Country_Region")) %>% filter(variable != "Population")
 
 
 # clean up column names and differentiate between counties in SC Upstate

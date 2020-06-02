@@ -893,14 +893,14 @@ time,location,growth
 129,Italy,87
 129,China,0
 129,South Korea,0
-129,Wave 3,2090
+129,Wave 3,2221
 129,Other,1161
 130,USA,967
 130,NL,20
 130,Italy,111
 130,China,0
 130,South Korea,1
-130,Wave 3,2081
+130,Wave 3,1950
 130,Other,1079
 131,USA,605
 131,NL,5
@@ -909,3 +909,10 @@ time,location,growth
 131,South Korea,1
 131,Wave 3,1247
 131,Other,976
+132,USA,784
+132,NL,6
+132,Italy,60
+132,China,0
+132,South Korea,1
+132,Wave 3,1447
+132,Other,1226

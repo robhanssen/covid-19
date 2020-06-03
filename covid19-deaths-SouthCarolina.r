@@ -55,7 +55,7 @@ max_x = ceiling(max(spread$time)/10)*10
 capt = paste("Source: JHU\nlast updated:", lastupdated)
 
 spread %>% ggplot + aes(time, count, color=county) + geom_point() + geom_line() +
-                        scale_x_continuous(limits=c(50,max_x)) + scale_y_log10() + 
+                        scale_x_continuous(limits=c(50,max_x)) + #scale_y_log10() + 
                         labs(caption=capt) + 
                         xlab("Days since Jan 22, 2020") + ylab("Number of deaths per county") + ggtitle("Deaths by COVID19 in SC by county") + 
                         annotate("text", x=90,y=100, label="SC Upstate total") +

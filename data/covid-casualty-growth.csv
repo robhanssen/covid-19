@@ -335,42 +335,42 @@ time,location,growth
 49,South Korea,1
 49,Wave 3,0
 49,Other,84
-50,USA,8
+50,USA,4
 50,NL,1
 50,Italy,196
 50,China,22
 50,South Korea,6
 50,Wave 3,1
 50,Other,117
-51,USA,6
+51,USA,11
 51,NL,0
 51,Italy,189
 51,China,11
 51,South Korea,6
 51,Wave 3,0
 51,Other,86
-52,USA,8
+52,USA,9
 52,NL,5
 52,Italy,250
 52,China,8
 52,South Korea,0
 52,Wave 3,1
 52,Other,225
-53,USA,10
+53,USA,7
 53,NL,2
 53,Italy,175
 53,China,13
 53,South Korea,6
 53,Wave 3,0
 53,Other,217
-54,USA,14
+54,USA,13
 54,NL,8
 54,Italy,368
 54,China,10
 54,South Korea,3
 54,Wave 3,0
 54,Other,238
-55,USA,26
+55,USA,28
 55,NL,4
 55,Italy,349
 55,China,14
@@ -384,147 +384,147 @@ time,location,growth
 56,South Korea,6
 56,Wave 3,2
 56,Other,387
-57,USA,31
+57,USA,57
 57,NL,15
 57,Italy,475
 57,China,11
 57,South Korea,3
 57,Wave 3,5
 57,Other,329
-58,USA,94
+58,USA,78
 58,NL,19
 58,Italy,427
 58,China,8
 58,South Korea,7
 58,Wave 3,7
 58,Other,560
-59,USA,91
+59,USA,97
 59,NL,30
 59,Italy,627
 59,China,4
 59,South Korea,3
 59,Wave 3,10
 59,Other,710
-60,USA,92
+60,USA,90
 60,NL,30
 60,Italy,793
 60,China,6
 60,South Korea,8
 60,Wave 3,8
 60,Other,767
-61,USA,145
+61,USA,144
 61,NL,43
 61,Italy,651
 61,China,15
 61,South Korea,9
 61,Wave 3,16
 61,Other,821
-62,USA,199
+62,USA,184
 62,NL,34
 62,Italy,601
 62,China,0
 62,South Korea,0
 62,Wave 3,16
 62,Other,1083
-63,USA,225
+63,USA,235
 63,NL,63
 63,Italy,743
 63,China,7
 63,South Korea,9
 63,Wave 3,18
 63,Other,1193
-64,USA,309
+64,USA,310
 64,NL,80
 64,Italy,683
 64,China,4
 64,South Korea,6
 64,Wave 3,24
 64,Other,1666
-65,USA,406
+65,USA,407
 65,NL,78
 65,Italy,712
 65,China,6
 65,South Korea,5
 65,Wave 3,32
 65,Other,1761
-66,USA,543
+66,USA,548
 66,NL,112
 66,Italy,919
 66,China,5
 66,South Korea,8
 66,Wave 3,24
 66,Other,1892
-67,USA,475
+67,USA,637
 67,NL,93
 67,Italy,889
 67,China,3
 67,South Korea,5
 67,Wave 3,36
 67,Other,2019
-68,USA,676
+68,USA,625
 68,NL,132
 68,Italy,756
 68,China,5
 68,South Korea,8
 68,Wave 3,50
 68,Other,1890
-69,USA,776
+69,USA,806
 69,NL,93
 69,Italy,812
 69,China,4
 69,South Korea,6
 69,Wave 3,49
 69,Other,2378
-70,USA,1171
+70,USA,1216
 70,NL,175
 70,Italy,837
 70,China,1
 70,South Korea,4
 70,Wave 3,67
 70,Other,2536
-71,USA,1144
+71,USA,1219
 71,NL,135
 71,Italy,727
 71,China,7
 71,South Korea,3
 71,Wave 3,103
 71,Other,3334
-72,USA,1427
+72,USA,1562
 72,NL,166
 72,Italy,760
 72,China,6
 72,South Korea,4
 72,Wave 3,147
 72,Other,3638
-73,USA,1322
+73,USA,1297
 73,NL,149
 73,Italy,766
 73,China,4
 73,South Korea,5
 73,Wave 3,64
 73,Other,3677
-74,USA,1610
+74,USA,1266
 74,NL,166
 74,Italy,681
 74,China,4
 74,South Korea,3
 74,Wave 3,157
 74,Other,3554
-75,USA,1505
+75,USA,1411
 75,NL,115
 75,Italy,525
 75,China,3
 75,South Korea,6
 75,Wave 3,100
 75,Other,2827
-76,USA,1519
+76,USA,1662
 76,NL,103
 76,Italy,636
 76,China,2
 76,South Korea,3
 76,Wave 3,171
 76,Other,3254
-77,USA,2297
+77,USA,2305
 77,NL,234
 77,Italy,604
 77,China,0
@@ -538,301 +538,301 @@ time,location,growth
 78,South Korea,8
 78,Wave 3,225
 78,Other,3689
-79,USA,2018
+79,USA,2046
 79,NL,148
 79,Italy,610
 79,China,2
 79,South Korea,4
 79,Wave 3,243
 79,Other,4533
-80,USA,2069
+80,USA,2071
 80,NL,117
 80,Italy,570
 80,China,1
 80,South Korea,4
 80,Wave 3,252
 80,Other,4228
-81,USA,2009
+81,USA,2012
 81,NL,133
 81,Italy,619
 81,China,3
 81,South Korea,3
 81,Wave 3,194
 81,Other,3057
-82,USA,1720
+82,USA,1740
 82,NL,94
 82,Italy,431
 82,China,0
 82,South Korea,3
 82,Wave 3,221
 82,Other,3211
-83,USA,1784
+83,USA,1798
 83,NL,86
 83,Italy,566
 83,China,2
 83,South Korea,3
 83,Wave 3,225
 83,Other,3043
-84,USA,2392
+84,USA,2393
 84,NL,122
 84,Italy,602
 84,China,0
 84,South Korea,5
 84,Wave 3,389
 84,Other,3380
-85,USA,2498
+85,USA,2515
 85,NL,190
 85,Italy,578
 85,China,1
 85,South Korea,3
 85,Wave 3,340
 85,Other,4638
-86,USA,2084
+86,USA,2087
 86,NL,182
 86,Italy,525
 86,China,0
 86,South Korea,4
 86,Wave 3,354
 86,Other,4119
-87,USA,2584
+87,USA,2590
 87,NL,144
 87,Italy,575
 87,China,1290
 87,South Korea,1
 87,Wave 3,420
 87,Other,3845
-88,USA,2347
+88,USA,2345
 88,NL,142
 88,Italy,482
 88,China,0
 88,South Korea,2
 88,Wave 3,489
 88,Other,2970
-89,USA,1170
+89,USA,1182
 89,NL,84
 89,Italy,433
 89,China,0
 89,South Korea,2
 89,Wave 3,309
 89,Other,2521
-90,USA,1741
+90,USA,1770
 90,NL,67
 90,Italy,454
 90,China,0
 90,South Korea,2
 90,Wave 3,320
 90,Other,2785
-91,USA,2400
+91,USA,2396
 91,NL,165
 91,Italy,534
 91,China,0
 91,South Korea,1
 91,Wave 3,476
 91,Other,3522
-92,USA,2326
+92,USA,2335
 92,NL,139
 92,Italy,437
 92,China,0
 92,South Korea,1
 92,Wave 3,470
 92,Other,3317
-93,USA,2312
+93,USA,2320
 93,NL,124
 93,Italy,464
 93,China,0
 93,South Korea,2
 93,Wave 3,686
 93,Other,3156
-94,USA,1769
+94,USA,1777
 94,NL,112
 94,Italy,420
 94,China,0
 94,South Korea,0
 94,Wave 3,738
 94,Other,3293
-95,USA,2262
+95,USA,2269
 95,NL,120
 95,Italy,415
 95,China,0
 95,South Korea,2
 95,Wave 3,651
 95,Other,2736
-96,USA,1126
+96,USA,1147
 96,NL,67
 96,Italy,260
 96,China,1
 96,South Korea,1
 96,Wave 3,452
 96,Other,1805
-97,USA,1338
+97,USA,1340
 97,NL,43
 97,Italy,333
 97,China,0
 97,South Korea,1
 97,Wave 3,600
 97,Other,2238
-98,USA,2136
+98,USA,2130
 98,NL,48
 98,Italy,382
 98,China,0
 98,South Korea,2
 98,Wave 3,880
 98,Other,2920
-99,USA,2612
+99,USA,2620
 99,NL,145
 99,Italy,323
 99,China,0
 99,South Korea,1
 99,Wave 3,922
 99,Other,2872
-100,USA,2029
+100,USA,2039
 100,NL,84
 100,Italy,285
 100,China,0
 100,South Korea,1
 100,Wave 3,957
 100,Other,2329
-101,USA,1947
+101,USA,1952
 101,NL,98
 101,Italy,269
 101,China,0
 101,South Korea,2
 101,Wave 3,796
 101,Other,2138
-102,USA,1426
+102,USA,1425
 102,NL,94
 102,Italy,474
 102,China,0
 102,South Korea,0
 102,Wave 3,709
 102,Other,2485
-103,USA,1313
+103,USA,1322
 103,NL,69
 103,Italy,174
 103,China,0
 103,South Korea,2
 103,Wave 3,637
 103,Other,1464
-104,USA,1240
+104,USA,1247
 104,NL,26
 104,Italy,195
 104,China,0
 104,South Korea,2
 104,Wave 3,802
 104,Other,1821
-105,USA,2142
+105,USA,2150
 105,NL,87
 105,Italy,236
 105,China,0
 105,South Korea,1
 105,Wave 3,1194
 105,Other,2054
-106,USA,2391
+106,USA,2388
 106,NL,36
 106,Italy,369
 106,China,0
 106,South Korea,1
 106,Wave 3,1153
 106,Other,2637
-107,USA,2207
+107,USA,2211
 107,NL,85
 107,Italy,274
 107,China,0
 107,South Korea,0
 107,Wave 3,1186
 107,Other,1953
-108,USA,1518
+108,USA,1509
 108,NL,71
 108,Italy,243
 108,China,0
 108,South Korea,0
 108,Wave 3,1370
 108,Other,2152
-109,USA,1615
+109,USA,1627
 109,NL,64
 109,Italy,194
 109,China,0
 109,South Korea,0
 109,Wave 3,1203
 109,Other,1323
-110,USA,731
+110,USA,734
 110,NL,18
 110,Italy,165
 110,China,0
 110,South Korea,0
 110,Wave 3,929
 110,Other,1579
-111,USA,1156
+111,USA,1162
 111,NL,16
 111,Italy,179
 111,China,0
 111,South Korea,2
 111,Wave 3,948
 111,Other,1304
-112,USA,1674
+112,USA,1691
 112,NL,54
 112,Italy,172
 112,China,0
 112,South Korea,1
 112,Wave 3,1541
 112,Other,2163
-113,USA,1763
+113,USA,1743
 113,NL,52
 113,Italy,195
 113,China,0
 113,South Korea,1
 113,Wave 3,1465
 113,Other,1764
-114,USA,1779
+114,USA,1777
 114,NL,28
 114,Italy,262
 114,China,0
 114,South Korea,0
 114,Wave 3,1415
 114,Other,1792
-115,USA,1632
+115,USA,1633
 115,NL,53
 115,Italy,242
 115,China,0
 115,South Korea,2
 115,Wave 3,1645
 115,Other,1610
-116,USA,1224
+116,USA,1222
 116,NL,27
 116,Italy,153
 116,China,1
 116,South Korea,0
 116,Wave 3,1438
 116,Other,1311
-117,USA,808
+117,USA,809
 117,NL,10
 117,Italy,145
 117,China,0
 117,South Korea,1
 117,Wave 3,1044
 117,Other,1387
-118,USA,785
+118,USA,790
 118,NL,14
 118,Italy,99
 118,China,0
 118,South Korea,0
 118,Wave 3,1346
 118,Other,1058
-119,USA,1574
+119,USA,1569
 119,NL,21
 119,Italy,162
 119,China,0
 119,South Korea,0
 119,Wave 3,1957
 119,Other,1100
-120,USA,1518
+120,USA,1523
 120,NL,33
 120,Italy,161
 120,China,0
 120,South Korea,1
 120,Wave 3,1770
 120,Other,1333
-121,USA,1263
+121,USA,1245
 121,NL,27
 121,Italy,156
 121,China,0
@@ -846,7 +846,7 @@ time,location,growth
 122,South Korea,2
 122,Wave 3,1980
 122,Other,1892
-123,USA,1108
+123,USA,1110
 123,NL,23
 123,Italy,119
 123,China,0
@@ -860,14 +860,14 @@ time,location,growth
 124,South Korea,1
 124,Wave 3,1378
 124,Other,774
-125,USA,500
+125,USA,502
 125,NL,8
 125,Italy,92
 125,China,0
 125,South Korea,2
 125,Wave 3,1562
 125,Other,-995
-126,USA,693
+126,USA,698
 126,NL,26
 126,Italy,78
 126,China,0
@@ -881,21 +881,21 @@ time,location,growth
 127,South Korea,0
 127,Wave 3,2201
 127,Other,1345
-128,USA,1199
+128,USA,1193
 128,NL,32
 128,Italy,70
 128,China,0
 128,South Korea,0
 128,Wave 3,2207
 128,Other,1194
-129,USA,1193
+129,USA,1176
 129,NL,28
 129,Italy,87
 129,China,0
 129,South Korea,0
 129,Wave 3,2299
 129,Other,1104
-130,USA,967
+130,USA,941
 130,NL,20
 130,Italy,111
 130,China,0
@@ -909,7 +909,7 @@ time,location,growth
 131,South Korea,1
 131,Wave 3,1307
 131,Other,888
-132,USA,768
+132,USA,771
 132,NL,6
 132,Italy,60
 132,China,0
@@ -923,66 +923,73 @@ time,location,growth
 133,South Korea,1
 133,Wave 3,2338
 133,Other,1267
-134,USA,981
+134,USA,983
 134,NL,10
 134,Italy,71
 134,China,0
 134,South Korea,0
 134,Wave 3,3373
 134,Other,1262
-135,USA,1036
+135,USA,1035
 135,NL,13
 135,Italy,88
 135,China,0
 135,South Korea,0
 135,Wave 3,3085
 135,Other,953
-136,USA,1162
+136,USA,970
 136,NL,15
 136,Italy,85
 136,China,0
 136,South Korea,0
 136,Wave 3,2441
 136,Other,1311
-137,USA,709
+137,USA,674
 137,NL,6
 137,Italy,72
 137,China,0
 137,South Korea,0
 137,Wave 3,2107
 137,Other,953
-138,USA,443
+138,USA,452
 138,NL,2
 138,Italy,53
 138,China,0
 138,South Korea,0
 138,Wave 3,1511
 138,Other,732
-139,USA,500
+139,USA,493
 139,NL,3
 139,Italy,65
 139,China,0
 139,South Korea,1
 139,Wave 3,2325
 139,Other,857
-140,USA,983
+140,USA,946
 140,NL,15
 140,Italy,79
 140,China,0
 140,South Korea,2
 140,Wave 3,2667
 140,Other,1152
-141,USA,930
+141,USA,921
 141,NL,11
 141,Italy,71
 141,China,0
 141,South Korea,0
-141,Wave 3,2623
+141,Wave 3,3477
 141,Other,1125
-142,USA,896
+142,USA,888
 142,NL,2
 142,Italy,53
 142,China,0
 142,South Korea,1
-142,Wave 3,3392
+142,Wave 3,2538
 142,Other,913
+143,USA,846
+143,NL,9
+143,Italy,56
+143,China,0
+143,South Korea,0
+143,Wave 3,1900
+143,Other,1122

@@ -41,6 +41,7 @@ covid$location[covid$state=="New Jersey"] = "NJ"
 covid$location[covid$state=="Michigan"] = "MI"
 covid$location[covid$state=="Texas"] = "TX"
 covid$location[covid$state=="Florida"] = "FL"
+covid$location[covid$state=="Arizona"] = "AZ"
 covid$location[is.na(covid$location)] = "Other"
 
 # total spread of infections by states

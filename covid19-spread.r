@@ -34,7 +34,7 @@ covid$time = covid$date - min(covid$date) + 1
 # assign locations to differentiate between counntries/groups of countries
 covid$location[covid$region == "China"] = "China"
 covid$location[covid$region == "Italy"] = "Italy"
-covid$location[covid$region == "Brazil"] = "Brazil"
+#covid$location[covid$region == "Brazil"] = "Brazil"
 covid$location[covid$region == "US"] = "USA"
 covid$location[covid$region == "Netherlands"] = "NL"
 covid$location[covid$region == "Russia"] = "Wave 3"
@@ -45,7 +45,7 @@ covid$location[covid$region == "Mexico"] = "Wave 3"
 covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
 covid$location[covid$region == "India"] = "Wave 3"
 covid$location[covid$region == "Bangladesh"] = "Wave 3"
-
+covid$location[covid$region == "Iran"] = "Iran"
 # group for all others combined
 covid$location[is.na(covid$location)] = "Other"
 
@@ -216,7 +216,7 @@ W3_pred <- fitline(fit, time_start, time_stop)
 
 capt = paste("Source: JHU\nlast updated:", lastupdated)
 
-spread %>% filter(location != "Sou_th Korea" & location !="Spain" & location != "Iran") %>% 
+spread %>% filter(location != "Sou_th Korea" & location !="Spain" & location != "Iqan") %>% 
                                     ggplot + aes(time, count, color=location) + geom_point()  + 
                                         scale_y_log10(limit=c(1,1e7)) + scale_x_continuous() + labs(caption=capt) + 
                                         xlab("Days since Jan 22, 2020") + ylab("Infections") + ggtitle("Spread of COVID-19 infections, with calculated days to double") +

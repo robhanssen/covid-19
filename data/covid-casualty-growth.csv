@@ -1041,18 +1041,25 @@ time,location,growth
 150,China,0
 150,South Korea,0
 150,Wave 3,2904
-150,Other,2392
+150,Other,2444
 151,USA,595
 151,NL,8
 151,Italy,49
 151,China,1
 151,South Korea,0
 151,Wave 3,2680
-151,Other,1115
-152,USA,250
+151,Other,1119
+152,USA,258
 152,NL,1
 152,Italy,24
 152,China,0
 152,South Korea,0
 152,Wave 3,2562
-152,Other,1029
+152,Other,1031
+153,USA,425
+153,NL,0
+153,Italy,23
+153,China,0
+153,South Korea,1
+153,Wave 3,2414
+153,Other,911

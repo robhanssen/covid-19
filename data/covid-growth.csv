@@ -922,21 +922,21 @@ time,location,growth
 133,South Korea,49
 133,Wave 3,62879
 133,Iran,3117
-133,Other,25342
+133,Other,25474
 134,USA,19881
 134,Italy,321
 134,China,-1
 134,South Korea,39
 134,Wave 3,74191
 134,Iran,3134
-134,Other,33750
+134,Other,30222
 135,USA,21295
 135,Italy,177
 135,China,11
 135,South Korea,39
 135,Wave 3,71410
 135,Iran,3574
-135,Other,27183
+135,Other,30711
 136,USA,25311
 136,Italy,518
 136,China,6
@@ -971,7 +971,7 @@ time,location,growth
 140,South Korea,50
 140,Wave 3,74892
 140,Iran,2095
-140,Other,27927
+140,Other,28121
 141,USA,20834
 141,Italy,202
 141,China,11
@@ -1020,7 +1020,7 @@ time,location,growth
 147,South Korea,43
 147,Wave 3,81877
 147,Iran,2563
-147,Other,31037
+147,Other,31339
 148,USA,25559
 148,Italy,328
 148,China,36
@@ -1069,7 +1069,7 @@ time,location,growth
 154,South Korea,51
 154,Wave 3,86715
 154,Iran,2445
-154,Other,40750
+154,Other,40844
 155,USA,34836
 155,Italy,577
 155,China,20
@@ -1098,3 +1098,10 @@ time,location,growth
 158,Wave 3,89386
 158,Iran,2456
 158,Other,43269
+159,USA,38845
+159,Italy,174
+159,China,14
+159,South Korea,42
+159,Wave 3,79770
+159,Iran,2489
+159,Other,44200

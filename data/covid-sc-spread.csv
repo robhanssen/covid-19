@@ -1322,7 +1322,7 @@ date,county,time,count
 2020-06-02,Abbeville,133,46
 2020-06-02,Anderson,133,244
 2020-06-02,Cherokee,133,43
-2020-06-02,Greenville,133,1751
+2020-06-02,Greenville,133,1755
 2020-06-02,Greenwood,133,148
 2020-06-02,Laurens,133,69
 2020-06-02,Oconee,133,55
@@ -1332,7 +1332,7 @@ date,county,time,count
 2020-06-03,Abbeville,134,46
 2020-06-03,Anderson,134,244
 2020-06-03,Cherokee,134,43
-2020-06-03,Greenville,134,1751
+2020-06-03,Greenville,134,1806
 2020-06-03,Greenwood,134,148
 2020-06-03,Laurens,134,69
 2020-06-03,Oconee,134,55
@@ -1342,7 +1342,7 @@ date,county,time,count
 2020-06-04,Abbeville,135,46
 2020-06-04,Anderson,135,244
 2020-06-04,Cherokee,135,43
-2020-06-04,Greenville,135,1751
+2020-06-04,Greenville,135,1862
 2020-06-04,Greenwood,135,148
 2020-06-04,Laurens,135,69
 2020-06-04,Oconee,135,55
@@ -1352,7 +1352,7 @@ date,county,time,count
 2020-06-05,Abbeville,136,47
 2020-06-05,Anderson,136,263
 2020-06-05,Cherokee,136,49
-2020-06-05,Greenville,136,1934
+2020-06-05,Greenville,136,1939
 2020-06-05,Greenwood,136,160
 2020-06-05,Laurens,136,77
 2020-06-05,Oconee,136,55
@@ -1362,7 +1362,7 @@ date,county,time,count
 2020-06-06,Abbeville,137,47
 2020-06-06,Anderson,137,263
 2020-06-06,Cherokee,137,49
-2020-06-06,Greenville,137,1934
+2020-06-06,Greenville,137,2019
 2020-06-06,Greenwood,137,160
 2020-06-06,Laurens,137,77
 2020-06-06,Oconee,137,55
@@ -1372,7 +1372,7 @@ date,county,time,count
 2020-06-07,Abbeville,138,51
 2020-06-07,Anderson,138,279
 2020-06-07,Cherokee,138,69
-2020-06-07,Greenville,138,2060
+2020-06-07,Greenville,138,2076
 2020-06-07,Greenwood,138,172
 2020-06-07,Laurens,138,88
 2020-06-07,Oconee,138,58
@@ -1599,3 +1599,23 @@ date,county,time,count
 2020-06-29,Pickens,160,809
 2020-06-29,Spartanburg,160,1544
 2020-06-29,Union,160,84
+2020-06-30,Abbeville,161,113
+2020-06-30,Anderson,161,608
+2020-06-30,Cherokee,161,154
+2020-06-30,Greenville,161,5009
+2020-06-30,Greenwood,161,493
+2020-06-30,Laurens,161,471
+2020-06-30,Oconee,161,260
+2020-06-30,Pickens,161,835
+2020-06-30,Spartanburg,161,1609
+2020-06-30,Union,161,90
+2020-07-01,Abbeville,162,113
+2020-07-01,Anderson,162,635
+2020-07-01,Cherokee,162,158
+2020-07-01,Greenville,162,5118
+2020-07-01,Greenwood,162,506
+2020-07-01,Laurens,162,489
+2020-07-01,Oconee,162,271
+2020-07-01,Pickens,162,855
+2020-07-01,Spartanburg,162,1663
+2020-07-01,Union,162,91

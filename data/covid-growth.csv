@@ -82,7 +82,7 @@ time,location,growth
 13,South Korea,0
 13,Wave 3,1
 13,Iran,0
-13,Other,4
+13,Other,10
 14,USA,0
 14,Italy,0
 14,China,3991
@@ -96,7 +96,7 @@ time,location,growth
 15,South Korea,3
 15,Wave 3,0
 15,Iran,0
-15,Other,7
+15,Other,8
 16,USA,0
 16,Italy,0
 16,China,3147
@@ -110,35 +110,35 @@ time,location,growth
 17,South Korea,1
 17,Wave 3,0
 17,Iran,0
-17,Other,72
+17,Other,71
 18,USA,0
 18,Italy,0
 18,China,2704
 18,South Korea,0
 18,Wave 3,0
 18,Iran,0
-18,Other,25
+18,Other,29
 19,USA,0
 19,Italy,0
 19,China,3015
 19,South Korea,1
 19,Wave 3,0
 19,Iran,0
-19,Other,14
+19,Other,15
 20,USA,0
 20,Italy,0
 20,China,2525
 20,South Korea,2
 20,Wave 3,0
 20,Iran,0
-20,Other,85
+20,Other,80
 21,USA,1
 21,Italy,0
 21,China,2032
 21,South Korea,1
 21,Wave 3,0
 21,Iran,0
-21,Other,6
+21,Other,7
 22,USA,0
 22,Italy,0
 22,China,373
@@ -152,14 +152,14 @@ time,location,growth
 23,South Korea,0
 23,Wave 3,0
 23,Iran,0
-23,Other,10
+23,Other,11
 24,USA,0
 24,Italy,0
 24,China,6463
 24,South Korea,0
 24,Wave 3,0
 24,Iran,0
-24,Other,54
+24,Other,55
 25,USA,0
 25,Italy,0
 25,China,2055
@@ -180,7 +180,7 @@ time,location,growth
 27,South Korea,1
 27,Wave 3,0
 27,Iran,0
-27,Other,112
+27,Other,113
 28,USA,0
 28,Italy,0
 28,China,1777
@@ -194,21 +194,21 @@ time,location,growth
 29,South Korea,0
 29,Wave 3,0
 29,Iran,2
-29,Other,93
+29,Other,94
 30,USA,0
 30,Italy,0
 30,China,458
 30,South Korea,73
 30,Wave 3,0
 30,Iran,3
-30,Other,24
+30,Other,26
 31,USA,2
 31,Italy,17
 31,China,473
 31,South Korea,100
 31,Wave 3,0
 31,Iran,13
-31,Other,17
+31,Other,18
 32,USA,0
 32,Italy,42
 32,China,1451
@@ -222,907 +222,921 @@ time,location,growth
 33,South Korea,169
 33,Wave 3,0
 33,Iran,15
-33,Other,88
+33,Other,93
 34,USA,0
 34,Italy,74
 34,China,219
 34,South Korea,231
 34,Wave 3,0
 34,Iran,18
-34,Other,25
+34,Other,23
 35,USA,0
 35,Italy,93
 35,China,513
 35,South Korea,144
 35,Wave 3,2
 35,Iran,34
-35,Other,61
+35,Other,65
 36,USA,0
 36,Italy,131
 36,China,412
 36,South Korea,284
 36,Wave 3,1
 36,Iran,44
-36,Other,102
+36,Other,105
 37,USA,1
 37,Italy,202
 37,China,434
 37,South Korea,505
 37,Wave 3,0
 37,Iran,106
-37,Other,110
+37,Other,115
 38,USA,0
 38,Italy,233
 38,China,328
 38,South Korea,571
 38,Wave 3,3
 38,Iran,143
-38,Other,88
+38,Other,95
 39,USA,8
 39,Italy,240
 39,China,428
 39,South Korea,813
 39,Wave 3,4
 39,Iran,205
-39,Other,199
+39,Other,201
 40,USA,6
 40,Italy,566
 40,China,576
 40,South Korea,586
 40,Wave 3,1
 40,Iran,385
-40,Other,238
+40,Other,258
 41,USA,23
 41,Italy,342
 41,China,204
 41,South Korea,599
 41,Wave 3,5
 41,Iran,523
-41,Other,241
+41,Other,277
 42,USA,20
 42,Italy,466
 42,China,125
 42,South Korea,851
 42,Wave 3,1
 42,Iran,835
-42,Other,235
+42,Other,279
 43,USA,31
 43,Italy,587
 43,China,125
 43,South Korea,435
 43,Wave 3,25
 43,Iran,586
-43,Other,491
+43,Other,513
 44,USA,70
 44,Italy,769
 44,China,151
 44,South Korea,467
 44,Wave 3,11
 44,Iran,591
-44,Other,710
+44,Other,729
 45,USA,48
 45,Italy,778
 45,China,153
 45,South Korea,505
 45,Wave 3,21
 45,Iran,1234
-45,Other,1178
+45,Other,1209
 46,USA,115
 46,Italy,1247
 46,China,80
 46,South Korea,448
 46,Wave 3,3
 46,Iran,1076
-46,Other,1052
+46,Other,1064
 47,USA,114
 47,Italy,1492
 47,China,53
 47,South Korea,273
 47,Wave 3,35
 47,Iran,743
-47,Other,1262
+47,Other,1249
 48,USA,68
 48,Italy,1797
 48,China,37
 48,South Korea,164
 48,Wave 3,24
 48,Iran,595
-48,Other,1097
+48,Other,1196
 49,USA,192
 49,Italy,977
 49,China,27
 49,South Korea,35
 49,Wave 3,39
 49,Iran,881
-49,Other,2688
+49,Other,2885
 50,USA,398
 50,Italy,2313
 50,China,34
 50,South Korea,242
 50,Wave 3,26
 50,Iran,958
-50,Other,3358
+50,Other,3695
 51,USA,452
 51,Italy,2651
 51,China,11
 51,South Korea,114
 51,Wave 3,73
 51,Iran,1075
-51,Other,829
+51,Other,1318
 52,USA,596
 52,Italy,2547
 52,China,13
 52,South Korea,110
 52,Wave 3,216
 52,Iran,1289
-52,Other,9524
+52,Other,9661
 53,USA,713
 53,Italy,3497
 53,China,32
 53,South Korea,107
 53,Wave 3,116
 53,Iran,1365
-53,Other,5249
+53,Other,5271
 54,USA,98
 54,Italy,3590
 54,China,26
 54,South Korea,76
 54,Wave 3,141
 54,Iran,1209
-54,Other,5599
+54,Other,6041
 55,USA,1392
 55,Italy,3233
 55,China,30
 55,South Korea,74
 55,Wave 3,342
 55,Iran,1053
-55,Other,8306
+55,Other,8515
 56,USA,1781
 56,Italy,3526
 56,China,25
 56,South Korea,84
 56,Wave 3,374
 56,Iran,1178
-56,Other,8497
+56,Other,8858
 57,USA,2776
 57,Italy,4207
 57,China,44
 57,South Korea,93
 57,Wave 3,347
 57,Iran,1192
-57,Other,10588
+57,Other,10911
 58,USA,5240
 58,Italy,5322
 58,China,54
 58,South Korea,152
 58,Wave 3,627
 58,Iran,1046
-58,Other,14483
+58,Other,15475
 59,USA,5322
 59,Italy,5986
 59,China,94
 59,South Korea,87
 59,Wave 3,813
 59,Iran,1237
-59,Other,16071
+59,Other,16031
 60,USA,6346
 60,Italy,6557
 60,China,55
 60,South Korea,147
 60,Wave 3,701
 60,Iran,966
-60,Other,17381
+60,Other,17543
 61,USA,7936
 61,Italy,5560
 61,China,130
 61,South Korea,162
 61,Wave 3,1077
 61,Iran,1028
-61,Other,16858
+61,Other,17569
 62,USA,10089
 62,Italy,4789
 62,China,63
 62,South Korea,0
 62,Wave 3,903
 62,Iran,1411
-62,Other,23529
+62,Other,24897
 63,USA,10262
 63,Italy,5249
 63,China,93
 63,South Korea,76
 63,Wave 3,954
 63,Iran,1762
-63,Other,21791
+63,Other,22735
 64,USA,11943
 64,Italy,5210
 64,China,70
 64,South Korea,100
 64,Wave 3,1216
 64,Iran,2206
-64,Other,28848
+64,Other,30089
 65,USA,18036
 65,Italy,6203
 65,China,121
 65,South Korea,104
 65,Wave 3,1346
 65,Iran,2389
-65,Other,33784
+65,Other,34739
 66,USA,18185
 66,Italy,5909
 66,China,115
 66,South Korea,91
 66,Wave 3,1497
 66,Iran,2926
-66,Other,35328
+66,Other,35644
 67,USA,19793
 67,Italy,5974
 67,China,102
 67,South Korea,146
 67,Wave 3,1482
 67,Iran,3076
-67,Other,36786
+67,Other,37062
 68,USA,19136
 68,Italy,5217
 68,China,123
 68,South Korea,105
 68,Wave 3,1431
 68,Iran,2901
-68,Other,30234
+68,Other,30658
 69,USA,21502
 69,Italy,4050
 69,China,76
 69,South Korea,78
 69,Wave 3,1737
 69,Iran,3186
-69,Other,32262
+69,Other,33916
 70,USA,26017
 70,Italy,4053
 70,China,81
 70,South Korea,125
 70,Wave 3,2602
 70,Iran,3110
-70,Other,38755
+70,Other,40261
 71,USA,25481
 71,Italy,4782
 71,China,82
 71,South Korea,101
 71,Wave 3,3337
 71,Iran,2988
-71,Other,38805
+71,Other,39395
 72,USA,30405
 72,Italy,4668
 72,China,71
 72,South Korea,89
 72,Wave 3,3552
 72,Iran,2875
-72,Other,39154
+72,Other,39775
 73,USA,31937
 73,Italy,4585
 73,China,79
 73,South Korea,86
 73,Wave 3,2620
 73,Iran,2715
-73,Other,40453
+73,Other,40918
 74,USA,33152
 74,Italy,4805
 74,China,32
 74,South Korea,94
 74,Wave 3,3666
 74,Iran,2560
-74,Other,35933
+74,Other,36218
 75,USA,27874
 75,Italy,4316
 75,China,59
 75,South Korea,81
 75,Wave 3,3882
 75,Iran,2483
-75,Other,34981
+75,Other,32672
 76,USA,29642
 76,Italy,3599
 76,China,63
 76,South Korea,47
 76,Wave 3,4602
 76,Iran,2274
-76,Other,31253
+76,Other,32726
 77,USA,30777
 77,Italy,3039
 77,China,53
 77,South Korea,47
 77,Wave 3,5059
 77,Iran,2089
-77,Other,33870
+77,Other,35686
 78,USA,31694
 78,Italy,3836
 78,China,91
 78,South Korea,53
 78,Wave 3,6547
 78,Iran,1997
-78,Other,39735
+78,Other,39373
 79,USA,34756
 79,Italy,4204
 79,China,74
 79,South Korea,39
 79,Wave 3,6463
 79,Iran,1634
-79,Other,38763
+79,Other,39271
 80,USA,33501
 80,Italy,3951
 80,China,58
 80,South Korea,27
 80,Wave 3,6552
 80,Iran,1972
-80,Other,46190
+80,Other,41824
 81,USA,30026
 81,Italy,4694
 81,China,73
 81,South Korea,30
 81,Wave 3,6015
 81,Iran,1837
-81,Other,35475
+81,Other,33819
 82,USA,28553
 82,Italy,4092
 82,China,120
 82,South Korea,32
 82,Wave 3,6643
 82,Iran,1657
-82,Other,57699
+82,Other,55906
 83,USA,25291
 83,Italy,3153
 83,China,79
 83,South Korea,25
 83,Wave 3,8969
 83,Iran,1617
-83,Other,30941
+83,Other,30782
 84,USA,27065
 84,Italy,2972
 84,China,93
 84,South Korea,27
 84,Wave 3,8126
 84,Iran,1574
-84,Other,30768
+84,Other,29841
 85,USA,29096
 85,Italy,2667
 85,China,50
 85,South Korea,27
 85,Wave 3,10505
 85,Iran,1512
-85,Other,36407
+85,Other,36869
 86,USA,31298
 86,Italy,3786
 86,China,47
 86,South Korea,22
 86,Wave 3,9626
 86,Iran,1606
-86,Other,49609
+86,Other,50290
 87,USA,32724
 87,Italy,3493
 87,China,357
 87,South Korea,22
 87,Wave 3,11911
 87,Iran,1499
-87,Other,38953
+87,Other,38319
 88,USA,28341
 88,Italy,3491
 88,China,27
 88,South Korea,18
 88,Wave 3,13310
 88,Iran,1374
-88,Other,27513
+88,Other,26704
 89,USA,26038
 89,Italy,3047
 89,China,18
 89,South Korea,8
 89,Wave 3,13749
 89,Iran,1343
-89,Other,38637
+89,Other,36639
 90,USA,27341
 90,Italy,2256
 90,China,12
 90,South Korea,13
 90,Wave 3,11669
 90,Iran,1294
-90,Other,30228
+90,Other,30410
 91,USA,25512
 91,Italy,2729
 91,China,36
 91,South Korea,9
 91,Wave 3,14177
 91,Iran,1297
-91,Other,30896
+91,Other,31355
 92,USA,28194
 92,Italy,3370
 92,China,15
 92,South Korea,11
 92,Wave 3,14734
 92,Iran,1194
-92,Other,28320
+92,Other,29359
 93,USA,34195
 93,Italy,2646
 93,China,16
 93,South Korea,14
 93,Wave 3,16386
 93,Iran,1030
-93,Other,34590
+93,Other,35150
 94,USA,36291
 94,Italy,3021
 94,China,15
 94,South Korea,10
 94,Wave 3,16234
 94,Iran,1168
-94,Other,30690
+94,Other,30277
 95,USA,32921
 95,Italy,2357
 95,China,10
 95,South Korea,10
 95,Wave 3,20316
 95,Iran,1134
-95,Other,28608
+95,Other,27443
 96,USA,27689
 96,Italy,2324
 96,China,3
 96,South Korea,10
 96,Wave 3,17466
 96,Iran,1153
-96,Other,25288
+96,Other,24293
 97,USA,22481
 97,Italy,1739
 97,China,6
 97,South Korea,14
 97,Wave 3,17104
 97,Iran,991
-97,Other,26533
+97,Other,26926
 98,USA,24519
 98,Italy,2091
 98,China,22
 98,South Korea,9
 98,Wave 3,21067
 98,Iran,1112
-98,Other,25037
+98,Other,25762
 99,USA,27408
 99,Italy,2086
 99,China,4
 99,South Korea,4
 99,Wave 3,21595
 99,Iran,1073
-99,Other,23348
+99,Other,24707
 100,USA,29741
 100,Italy,1872
 100,China,12
 100,South Korea,9
 100,Wave 3,25222
 100,Iran,983
-100,Other,27015
+100,Other,25939
 101,USA,34162
 101,Italy,1965
 101,China,3
 101,South Korea,6
 101,Wave 3,24229
 101,Iran,1006
-101,Other,27094
+101,Other,25620
 102,USA,29195
 102,Italy,1900
 102,China,0
 102,South Korea,13
 102,Wave 3,24709
 102,Iran,802
-102,Other,25516
+102,Other,23931
 103,USA,25587
 103,Italy,1389
 103,China,5
 103,South Korea,8
 103,Wave 3,27244
 103,Iran,976
-103,Other,23898
+103,Other,22533
 104,USA,22475
 104,Italy,1221
 104,China,2
 104,South Korea,3
 104,Wave 3,28606
 104,Iran,1223
-104,Other,23187
+104,Other,22580
 105,USA,24185
 105,Italy,1075
 105,China,2
 105,South Korea,2
 105,Wave 3,30615
 105,Iran,1323
-105,Other,23559
+105,Other,22837
 106,USA,25256
 106,Italy,1444
 106,China,2
 106,South Korea,4
 106,Wave 3,34619
 106,Iran,1680
-106,Other,29196
+106,Other,26916
 107,USA,27882
 107,Italy,1401
 107,China,5
 107,South Korea,12
 107,Wave 3,35271
 107,Iran,1485
-107,Other,25003
+107,Other,23156
 108,USA,27178
 108,Italy,1327
 108,China,1
 108,South Korea,18
 108,Wave 3,36493
 108,Iran,1556
-108,Other,26555
+108,Other,24955
 109,USA,25733
 109,Italy,1083
 109,China,14
 109,South Korea,34
 109,Wave 3,33388
 109,Iran,1529
-109,Other,23573
+109,Other,21827
 110,USA,19764
 110,Italy,802
 110,China,20
 110,South Korea,35
 110,Wave 3,32050
 110,Iran,1383
-110,Other,23839
+110,Other,22237
 111,USA,18878
 111,Italy,744
 111,China,1
 111,South Korea,27
 111,Wave 3,31430
 111,Iran,1683
-111,Other,23805
+111,Other,23511
 112,USA,21954
 112,Italy,1402
 112,China,7
 112,South Korea,26
 112,Wave 3,33777
 112,Iran,1481
-112,Other,24764
+112,Other,24750
 113,USA,21193
 113,Italy,888
 113,China,6
 113,South Korea,29
 113,Wave 3,38040
 113,Iran,1958
-113,Other,22848
+113,Other,22904
 114,USA,27617
 114,Italy,992
 114,China,5
 114,South Korea,27
 114,Wave 3,42401
 114,Iran,1808
-114,Other,25065
+114,Other,24228
 115,USA,25300
 115,Italy,789
 115,China,9
 115,South Korea,19
 115,Wave 3,43850
 115,Iran,2102
-115,Other,25354
+115,Other,24311
 116,USA,25101
 116,Italy,875
 116,China,6
 116,South Korea,13
 116,Wave 3,40450
 116,Iran,1757
-116,Other,24976
+116,Other,23591
 117,USA,19004
 117,Italy,675
 117,China,10
 117,South Korea,15
 117,Wave 3,36471
 117,Iran,1806
-117,Other,22260
+117,Other,20552
 118,USA,21769
 118,Italy,451
 118,China,9
 118,South Korea,13
 118,Wave 3,41232
 118,Iran,2294
-118,Other,22640
+118,Other,22503
 119,USA,20449
 119,Italy,813
 119,China,0
 119,South Korea,32
 119,Wave 3,48402
 119,Iran,2111
-119,Other,24022
+119,Other,24651
 120,USA,23621
 120,Italy,665
 120,China,0
 120,South Korea,12
 120,Wave 3,51335
 120,Iran,2346
-120,Other,21598
+120,Other,24829
 121,USA,25541
 121,Italy,642
 121,China,0
 121,South Korea,20
 121,Wave 3,52149
 121,Iran,2392
-121,Other,25865
+121,Other,25792
 122,USA,24141
 122,Italy,652
 122,China,18
 122,South Korea,23
 122,Wave 3,52509
 122,Iran,2311
-122,Other,28569
+122,Other,27312
 123,USA,21823
 123,Italy,669
 123,China,3
 123,South Korea,25
 123,Wave 3,49971
 123,Iran,1869
-123,Other,26073
+123,Other,24621
 124,USA,20813
 124,Italy,531
 124,China,11
 124,South Korea,16
 124,Wave 3,47882
 124,Iran,2180
-124,Other,24923
+124,Other,23866
 125,USA,18991
 125,Italy,300
 125,China,7
 125,South Korea,19
 125,Wave 3,44013
 125,Iran,2023
-125,Other,21638
+125,Other,21620
 126,USA,18883
 126,Italy,397
 126,China,1
 126,South Korea,40
 126,Wave 3,48816
 126,Iran,1787
-126,Other,25003
+126,Other,22610
 127,USA,18282
 127,Italy,584
 127,China,3
 127,South Korea,79
 127,Wave 3,55607
 127,Iran,2080
-127,Other,26178
+127,Other,25967
 128,USA,22815
 128,Italy,593
 128,China,0
 128,South Korea,58
 128,Wave 3,62467
 128,Iran,2258
-128,Other,29928
+128,Other,29775
 129,USA,24504
 129,Italy,516
 129,China,17
 129,South Korea,39
 129,Wave 3,63566
 129,Iran,2819
-129,Other,30240
+129,Other,29649
 130,USA,24230
 130,Italy,416
 130,China,5
 130,South Korea,27
 130,Wave 3,71474
 130,Iran,2282
-130,Other,30496
+130,Other,29991
 131,USA,20129
 131,Italy,333
 131,China,18
 131,South Korea,35
 131,Wave 3,58632
 131,Iran,2516
-131,Other,26313
+131,Other,25446
 132,USA,17354
 132,Italy,200
 132,China,8
 132,South Korea,38
 132,Wave 3,49848
 132,Iran,2979
-132,Other,25959
+132,Other,25823
 133,USA,20895
 133,Italy,318
 133,China,7
 133,South Korea,49
 133,Wave 3,62879
 133,Iran,3117
-133,Other,25474
+133,Other,25288
 134,USA,19958
 134,Italy,321
 134,China,-1
 134,South Korea,39
 134,Wave 3,74191
 134,Iran,3134
-134,Other,30222
+134,Other,29693
 135,USA,21351
 135,Italy,177
 135,China,11
 135,South Korea,39
 135,Wave 3,71410
 135,Iran,3574
-135,Other,30711
+135,Other,30140
 136,USA,25224
 136,Italy,518
 136,China,6
 136,South Korea,51
 136,Wave 3,71927
 136,Iran,2886
-136,Other,32574
+136,Other,32029
 137,USA,22732
 137,Italy,270
 137,China,9
 137,South Korea,57
 137,Wave 3,70272
 137,Iran,2269
-137,Other,30963
+137,Other,30197
 138,USA,17731
 138,Italy,197
 138,China,5
 138,South Korea,38
 138,Wave 3,63909
 138,Iran,2364
-138,Other,28805
+138,Other,28196
 139,USA,17414
 139,Italy,280
 139,China,4
 139,South Korea,38
 139,Wave 3,54692
 139,Iran,2043
-139,Other,29087
+139,Other,28968
 140,USA,18127
 140,Italy,283
 140,China,3
 140,South Korea,50
 140,Wave 3,74892
 140,Iran,2095
-140,Other,28121
+140,Other,27533
 141,USA,20794
 141,Italy,202
 141,China,11
 141,South Korea,45
 141,Wave 3,80173
 141,Iran,2011
-141,Other,30365
+141,Other,30544
 142,USA,22950
 142,Italy,379
 142,China,7
 142,South Korea,56
 142,Wave 3,79827
 142,Iran,2218
-142,Other,33016
+142,Other,32751
 143,USA,25334
 143,Italy,163
 143,China,12
 143,South Korea,48
 143,Wave 3,65769
 143,Iran,2369
-143,Other,35779
+143,Other,35291
 144,USA,25556
 144,Italy,346
 144,China,58
 144,South Korea,34
 144,Wave 3,70988
 144,Iran,2430
-144,Other,35225
+144,Other,34687
 145,USA,19824
 145,Italy,338
 145,China,49
 145,South Korea,36
 145,Wave 3,76940
 145,Iran,2472
-145,Other,34178
+145,Other,33471
 146,USA,19660
 146,Italy,301
 146,China,43
 146,South Korea,34
 146,Wave 3,63406
 146,Iran,2449
-146,Other,35834
+146,Other,35892
 147,USA,23705
 147,Italy,210
 147,China,44
 147,South Korea,43
 147,Wave 3,81877
 147,Iran,2563
-147,Other,31339
+147,Other,31137
 148,USA,25559
 148,Italy,328
 148,China,36
 148,South Korea,59
 148,Wave 3,112039
 148,Iran,2612
-148,Other,35377
+148,Other,35259
 149,USA,27809
 149,Italy,331
 149,China,36
 149,South Korea,49
 149,Wave 3,71244
 149,Iran,2596
-149,Other,37008
+149,Other,36810
 150,USA,31480
 150,Italy,-148
 150,China,0
 150,South Korea,67
 150,Wave 3,106263
 150,Iran,2615
-150,Other,41023
+150,Other,40657
 151,USA,32748
 151,Italy,264
 151,China,59
 151,South Korea,48
 151,Wave 3,83556
 151,Iran,2322
-151,Other,39896
+151,Other,39267
 152,USA,26439
 152,Italy,224
 152,China,19
 152,South Korea,17
 152,Wave 3,64239
 152,Iran,2368
-152,Other,38196
+152,Other,37597
 153,USA,30536
 153,Italy,221
 153,China,52
 153,South Korea,46
 153,Wave 3,68163
 153,Iran,2573
-153,Other,36334
+153,Other,36268
 154,USA,35189
 154,Italy,113
 154,China,29
 154,South Korea,51
 154,Wave 3,86715
 154,Iran,2445
-154,Other,40844
+154,Other,40805
 155,USA,34935
 155,Italy,577
 155,China,20
 155,South Korea,28
 155,Wave 3,90406
 155,Iran,2531
-155,Other,39017
+155,Other,39139
 156,USA,39873
 156,Italy,296
 156,China,28
 156,South Korea,39
 156,Wave 3,88642
 156,Iran,2595
-156,Other,46907
+156,Other,46486
 157,USA,45255
 157,Italy,255
 157,China,24
 157,South Korea,51
 157,Wave 3,96643
 157,Iran,2628
-157,Other,46887
+157,Other,46145
 158,USA,42705
 158,Italy,175
 158,China,18
 158,South Korea,62
 158,Wave 3,89386
 158,Iran,2456
-158,Other,43269
-159,USA,38928
+158,Other,43012
+159,USA,39035
 159,Italy,174
 159,China,14
 159,South Korea,42
 159,Wave 3,79770
 159,Iran,2489
-159,Other,44200
-160,USA,40991
+159,Other,43694
+160,USA,41374
 160,Italy,126
 160,China,23
 160,South Korea,43
 160,Wave 3,70807
 160,Iran,2536
-160,Other,41170
-161,USA,45425
+160,Other,40960
+161,USA,45746
 161,Italy,142
 161,China,5
 161,South Korea,50
 161,Wave 3,83046
 161,Iran,2457
-161,Other,43209
-162,USA,50655
+161,Other,42923
+162,USA,51174
 162,Italy,182
 162,China,31
 162,South Korea,54
 162,Wave 3,95533
 162,Iran,2549
-162,Other,69044
+162,Other,66766
+163,USA,54461
+163,Italy,201
+163,China,14
+163,South Korea,63
+163,Wave 3,100015
+163,Iran,2652
+163,Other,50352
+164,USA,52104
+164,Italy,223
+164,China,8
+164,South Korea,63
+164,Wave 3,92894
+164,Iran,2566
+164,Other,55094

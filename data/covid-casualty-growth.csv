@@ -1133,14 +1133,14 @@ time,location,growth
 163,South Korea,0
 163,Wave 3,2979
 163,Other,1401
-164,USA,631
+164,USA,639
 164,NL,0
 164,Italy,15
 164,China,0
 164,South Korea,1
 164,Wave 3,2966
 164,Other,1437
-165,USA,242
+165,USA,247
 165,NL,0
 165,Italy,21
 165,China,0
@@ -1154,3 +1154,10 @@ time,location,growth
 166,South Korea,1
 166,Wave 3,1983
 166,Other,1237
+167,USA,325
+167,NL,1
+167,Italy,8
+167,China,0
+167,South Korea,1
+167,Wave 3,2133
+167,Other,1310

@@ -920,14 +920,14 @@ time,location,growth
 133,Italy,318
 133,China,7
 133,South Korea,49
-133,Wave 3,62879
+133,Wave 3,71005
 133,Iran,3117
 133,Other,25288
 134,USA,19958
 134,Italy,321
 134,China,-1
 134,South Korea,39
-134,Wave 3,74191
+134,Wave 3,66065
 134,Iran,3134
 134,Other,29693
 135,USA,21351
@@ -1203,10 +1203,17 @@ time,location,growth
 173,Wave 3,79458
 173,Iran,2186
 173,Other,51446
-174,USA,58114
+174,USA,59215
 174,Italy,169
 174,China,0
 174,South Korea,33
 174,Wave 3,74323
 174,Iran,2349
 174,Other,57945
+175,USA,67417
+175,Italy,114
+175,China,109
+175,South Korea,39
+175,Wave 3,98177
+175,Iran,2521
+175,Other,50762

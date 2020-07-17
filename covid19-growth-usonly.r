@@ -25,11 +25,11 @@ capt = paste("Source: JHU\nlast updated:", lastupdated)
 correction = 14.5
 avdays = 7
 
-casesdeaths %>% ggplot + aes(time, cases) + geom_point(color="blue") + geom_line(aes(y=rollmean(cases,avdays, na.pad=TRUE)), color="blue") + 
+casesdeaths %>% ggplot + aes(time, cases) + geom_line(color="blue", linetype="dotted") + geom_line(aes(y=rollmean(cases,avdays, na.pad=TRUE)), color="blue") + 
                         scale_y_continuous(sec.axis = sec_axis(~ ./correction)) + #scale_y_log10(limit=c(10,100000))+ 
                         labs(caption=capt) + xlab("Days since Jan 22, 2020") + ylab("Daily incremental number of confirmed cases or deaths") +
                         ggtitle(paste("US daily cases and deaths with", avdays,"days average line")) + 
-                        geom_point(aes(time, correction*deaths), color="red") + geom_line(aes(y=rollmean(correction*deaths,avdays,na.pad=TRUE)), color="red") +
+                        geom_line(aes(time, correction*deaths), color="red", linetype="dotted") + geom_line(aes(y=rollmean(correction*deaths,avdays,na.pad=TRUE)), color="red") +
                         annotate("text",x=55,y=20000,label="cases\n<-----", color="blue") + 
                         annotate("text",x=80,y=10000,label="deaths\n------>", color="red") 
 

@@ -607,14 +607,14 @@ time,location,growth
 88,China,0
 88,South Korea,2
 88,Wave 3,489
-88,Other,2957
+88,Other,2970
 89,USA,1229
 89,NL,84
 89,Italy,433
 89,China,0
 89,South Korea,2
 89,Wave 3,309
-89,Other,2526
+89,Other,2513
 90,USA,1795
 90,NL,67
 90,Italy,454
@@ -887,49 +887,49 @@ time,location,growth
 128,China,0
 128,South Korea,0
 128,Wave 3,2207
-128,Other,1221
+128,Other,1210
 129,USA,1166
 129,NL,28
 129,Italy,87
 129,China,0
 129,South Korea,0
 129,Wave 3,2299
-129,Other,1153
+129,Other,1162
 130,USA,969
 130,NL,20
 130,Italy,111
 130,China,0
 130,South Korea,1
 130,Wave 3,2038
-130,Other,1016
+130,Other,1017
 131,USA,586
 131,NL,5
 131,Italy,75
 131,China,0
 131,South Korea,1
 131,Wave 3,1307
-131,Other,890
+131,Other,914
 132,USA,772
 132,NL,6
 132,Italy,60
 132,China,0
 132,South Korea,1
 132,Wave 3,1525
-132,Other,721
+132,Other,704
 133,USA,1033
 133,NL,5
 133,Italy,55
 133,China,0
 133,South Korea,1
 133,Wave 3,2471
-133,Other,1269
+133,Other,1258
 134,USA,990
 134,NL,10
 134,Italy,71
 134,China,0
 134,South Korea,0
 134,Wave 3,3240
-134,Other,1268
+134,Other,1261
 135,USA,1009
 135,NL,13
 135,Italy,88
@@ -943,49 +943,49 @@ time,location,growth
 136,China,0
 136,South Korea,0
 136,Wave 3,2441
-136,Other,1312
+136,Other,1265
 137,USA,680
 137,NL,6
 137,Italy,72
 137,China,0
 137,South Korea,0
 137,Wave 3,2107
-137,Other,956
+137,Other,1016
 138,USA,451
 138,NL,2
 138,Italy,53
 138,China,0
 138,South Korea,0
 138,Wave 3,1511
-138,Other,732
+138,Other,725
 139,USA,505
 139,NL,3
 139,Italy,65
 139,China,0
 139,South Korea,1
 139,Wave 3,2325
-139,Other,857
+139,Other,798
 140,USA,940
 140,NL,15
 140,Italy,79
 140,China,0
 140,South Korea,2
 140,Wave 3,2667
-140,Other,1155
+140,Other,1219
 141,USA,917
 141,NL,11
 141,Italy,71
 141,China,0
 141,South Korea,0
 141,Wave 3,3081
-141,Other,1130
+141,Other,1125
 142,USA,881
 142,NL,2
 142,Italy,53
 142,China,0
 142,South Korea,1
 142,Wave 3,2934
-142,Other,914
+142,Other,903
 143,USA,822
 143,NL,9
 143,Italy,56
@@ -999,63 +999,63 @@ time,location,growth
 144,China,0
 144,South Korea,0
 144,Wave 3,2363
-144,Other,1057
+144,Other,1043
 145,USA,298
 145,NL,2
 145,Italy,44
 145,China,0
 145,South Korea,0
 145,Wave 3,2177
-145,Other,825
+145,Other,853
 146,USA,391
 146,NL,6
 146,Italy,26
 146,China,0
 146,South Korea,1
 146,Wave 3,1987
-146,Other,1093
+146,Other,1014
 147,USA,839
 147,NL,5
 147,Italy,34
 147,China,0
 147,South Korea,1
 147,Wave 3,4655
-147,Other,1258
+147,Other,1333
 148,USA,751
 148,NL,4
 148,Italy,43
 148,China,0
 148,South Korea,1
 148,Wave 3,3200
-148,Other,1272
+148,Other,1256
 149,USA,704
 149,NL,4
 149,Italy,66
 149,China,0
 149,South Korea,0
 149,Wave 3,3075
-149,Other,1162
+149,Other,1180
 150,USA,672
 150,NL,3
 150,Italy,47
 150,China,0
 150,South Korea,0
 150,Wave 3,3103
-150,Other,2444
+150,Other,2448
 151,USA,610
 151,NL,8
 151,Italy,49
 151,China,1
 151,South Korea,0
 151,Wave 3,2481
-151,Other,1121
+151,Other,1100
 152,USA,255
 152,NL,1
 152,Italy,24
 152,China,0
 152,South Korea,0
 152,Wave 3,2746
-152,Other,1031
+152,Other,937
 153,USA,406
 153,NL,0
 153,Italy,23
@@ -1069,165 +1069,179 @@ time,location,growth
 154,China,1
 154,South Korea,0
 154,Wave 3,3111
-154,Other,1343
+154,Other,1339
 155,USA,757
 155,NL,2
 155,Italy,-31
 155,China,0
 155,South Korea,1
 155,Wave 3,3338
-155,Other,1107
+155,Other,1194
 156,USA,2422
 156,NL,3
 156,Italy,34
 156,China,1
 156,South Korea,0
 156,Wave 3,2861
-156,Other,1230
+156,Other,1306
 157,USA,605
 157,NL,3
 157,Italy,30
 157,China,0
 157,South Korea,0
 157,Wave 3,2771
-157,Other,1436
+157,Other,1418
 158,USA,489
 158,NL,2
 158,Italy,8
 158,China,0
 158,South Korea,0
 158,Wave 3,2938
-158,Other,1081
+158,Other,1049
 159,USA,241
 159,NL,0
 159,Italy,22
 159,China,0
 159,South Korea,0
 159,Wave 3,1777
-159,Other,1120
+159,Other,1049
 160,USA,350
 160,NL,2
 160,Italy,6
 160,China,0
 160,South Korea,0
 160,Wave 3,2158
-160,Other,1109
+160,Other,1205
 161,USA,721
 161,NL,6
 161,Italy,23
 161,China,0
 161,South Korea,0
 161,Wave 3,3080
-161,Other,1362
+161,Other,1302
 162,USA,673
 162,NL,2
 162,Italy,21
 162,China,0
 162,South Korea,0
 162,Wave 3,2844
-162,Other,1447
+162,Other,1471
 163,USA,698
 163,NL,3
 163,Italy,30
 163,China,0
 163,South Korea,0
 163,Wave 3,2979
-163,Other,1401
+163,Other,1410
 164,USA,639
 164,NL,2
 164,Italy,15
 164,China,0
 164,South Korea,1
 164,Wave 3,2966
-164,Other,1437
+164,Other,1372
 165,USA,247
 165,NL,6
 165,Italy,21
 165,China,0
 165,South Korea,0
 165,Wave 3,2874
-165,Other,1206
+165,Other,1221
 166,USA,271
 166,NL,1
 166,Italy,7
 166,China,0
 166,South Korea,1
 166,Wave 3,1983
-166,Other,1237
+166,Other,1182
 167,USA,325
 167,NL,1
 167,Italy,8
 167,China,0
 167,South Korea,1
 167,Wave 3,2133
-167,Other,1310
+167,Other,1329
 168,USA,1195
 168,NL,4
 168,Italy,30
 168,China,0
 168,South Korea,0
 168,Wave 3,3247
-168,Other,1629
+168,Other,1631
 169,USA,820
 169,NL,3
 169,Italy,15
 169,China,0
 169,South Korea,2
 169,Wave 3,3133
-169,Other,1332
+169,Other,1346
 170,USA,990
 170,NL,2
 170,Italy,12
 170,China,0
 170,South Korea,1
 170,Wave 3,3048
-170,Other,1403
+170,Other,1405
 171,USA,811
 171,NL,-1
 171,Italy,12
 171,China,0
 171,South Korea,0
 171,Wave 3,3010
-171,Other,1462
+171,Other,1479
 172,USA,676
 172,NL,1
 172,Italy,7
 172,China,0
 172,South Korea,1
 172,Wave 3,2764
-172,Other,1471
+172,Other,1448
 173,USA,428
 173,NL,0
 173,Italy,9
 173,China,0
 173,South Korea,0
 173,Wave 3,1982
-173,Other,1571
+173,Other,1535
 174,USA,361
 174,NL,0
 174,Italy,13
 174,China,0
 174,South Korea,0
 174,Wave 3,2217
-174,Other,1284
+174,Other,1224
 175,USA,900
 175,NL,-2
 175,Italy,17
 175,China,1
 175,South Korea,0
 175,Wave 3,3252
-175,Other,1475
+175,Other,1492
 176,USA,949
 176,NL,1
 176,Italy,13
 176,China,2
 176,South Korea,2
 176,Wave 3,2993
-176,Other,1526
+176,Other,1533
 177,USA,943
 177,NL,1
 177,Italy,20
 177,China,0
 177,South Korea,2
 177,Wave 3,3231
-177,Other,1582
+177,Other,1602
+178,USA,908
+178,NL,1
+178,Italy,11
+178,China,0
+178,South Korea,1
+178,Wave 3,4181
+178,Other,1640
+179,USA,853
+179,NL,-2
+179,Italy,14
+179,China,0
+179,South Korea,1
+179,Wave 3,2581
+179,Other,2173

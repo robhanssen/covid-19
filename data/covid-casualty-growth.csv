@@ -1252,14 +1252,14 @@ time,location,growth
 180,South Korea,1
 180,Wave 3,2142
 180,Other,1468
-181,USA,379
+181,USA,491
 181,NL,0
 181,Italy,13
 181,China,0
 181,South Korea,0
 181,Wave 3,2057
 181,Other,1599
-182,USA,1082
+182,USA,1096
 182,NL,0
 182,Italy,15
 182,China,2
@@ -1280,3 +1280,17 @@ time,location,growth
 184,South Korea,1
 184,Wave 3,7057
 184,Other,1783
+185,USA,1130
+185,NL,0
+185,Italy,5
+185,China,1
+185,South Korea,0
+185,Wave 3,3164
+185,Other,1844
+186,USA,903
+186,NL,1
+186,Italy,5
+186,China,2
+186,South Korea,0
+186,Wave 3,2269
+186,Other,1685

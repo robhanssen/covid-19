@@ -1406,10 +1406,17 @@ time,location,growth
 202,South Korea,0
 202,Wave 3,2701
 202,Other,1632
-203,USA,1074
+203,USA,1064
 203,NL,-16
 203,Italy,6
 203,China,4
 203,South Korea,0
-203,Wave 3,2011
-203,Other,1838
+203,Wave 3,3510
+203,Other,1941
+204,USA,1499
+204,NL,20
+204,Italy,10
+204,China,4
+204,South Korea,0
+204,Wave 3,3104
+204,Other,2021

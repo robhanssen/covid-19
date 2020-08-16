@@ -210,20 +210,20 @@ spread %>% filter(location != "xhina") %>%
                     geom_line(data=spreadpred8, color="purple", linetype="longdash") + annotate("text", color="purple", x = 45, y = 8, label = paste("USA\n",Note8)) +
                     geom_line(data=spreadpred_US2, color="purple", linetype="longdash") + annotate("text", color="purple", x = 58, y = 400, label = Note_US2) +
                     #geom_line(data=US2_data, color="purple") +
-                    geom_line(data=US3_data, color="purple") + annotate("text", color="purple", x = 110, y = 100000, label = Note_US3) +
+                    geom_line(data=US3_data, color="purple") + annotate("text", color="purple", x = 200, y = 100000, label = Note_US3) +
                 # Other data
                     annotate("text",x=25,y=10,label="Other", color="blue")+
                     #geom_line(data=spreadpred, color="blue", linetype="longdash") + annotate("text", color="blue", x = 30, y = 50, label = Note) +
                 # Italy data
                     geom_line(data=spreadpred7, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 45, y = 80, label = paste("Italy\n", Note7)) +
                     geom_line(data=spreadpred10, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 55, y = 1000, label = Note10)+
-                    geom_line(data=spreadpred_IT1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 110, y = 40000, label = Note_IT1)+
+                    geom_line(data=spreadpred_IT1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 180, y = 50000, label = Note_IT1)+
                     geom_line(data=IT1_data, color="dark green") +
                 # Wave 3 data
-                    geom_line(data=BR1_data, color="orange") + annotate("text", color="orange", x = 120, y = 10000, label = Note_BR1) + 
+                    geom_line(data=BR1_data, color="pink") + annotate("text", color="pink", x = 120, y = 60000, label = Note_BR1) + 
                 # NL data
                     geom_line(data=spreadpred9, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 55, y = 5, label = paste("NL\n",Note9)) +
-                    geom_line(data=spreadpred_NL1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 70, y = 1500, label = paste("",Note_NL1)) +
+                    geom_line(data=spreadpred_NL1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 170, y = 8000, label = paste("",Note_NL1)) +
                     geom_line(data=NL1_data, color="dark green") 
 
 ggsave("graphs/covid-deaths.pdf", device="pdf")                                                 

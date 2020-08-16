@@ -58,9 +58,9 @@ spread %>% ggplot + aes(time, count, color=county) + geom_point() + geom_line() 
                         scale_x_continuous(limits=c(50,max_x)) + #scale_y_log10() + 
                         labs(caption=capt) + 
                         xlab("Days since Jan 22, 2020") + ylab("Number of deaths per county") + ggtitle("Deaths by COVID19 in SC by county") + 
-                        annotate("text", x=90,y=100, label="SC Upstate total") +
-                        annotate("text", x=90,y=100, label="Greenville") +
-                        annotate("text", x=85,y=140, label="Spartanburg") +
+                        annotate("text", x=160,y=400, label="SC Upstate total") +
+                        annotate("text", x=160,y=100, label="Greenville") +
+                        annotate("text", x=150,y=50, label="Spartanburg") +
                         geom_line(data=spread_total)
 
 

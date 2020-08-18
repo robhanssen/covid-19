@@ -1431,14 +1431,14 @@ time,location,growth
 206,Italy,574
 206,China,70
 206,South Korea,166
-206,Wave 3,101526
+206,Wave 3,150603
 206,Iran,2501
 206,Other,86241
 207,USA,47913
 207,Italy,629
 207,China,65
 207,South Korea,279
-207,Wave 3,172653
+207,Wave 3,123576
 207,Iran,2245
 207,Other,73419
 208,USA,42048
@@ -1448,3 +1448,10 @@ time,location,growth
 208,Wave 3,106141
 208,Iran,2133
 208,Other,61395
+209,USA,35112
+209,Italy,320
+209,China,66
+209,South Korea,246
+209,Wave 3,98467
+209,Iran,2247
+209,Other,73214

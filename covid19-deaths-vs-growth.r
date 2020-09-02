@@ -14,5 +14,5 @@ spreadgrowth %>% ggplot + aes(count, growth, color=location) + geom_point() + ge
                         labs(caption=capt) + xlab("Cumulative casualties") + ylab("Daily incremental number of casualties") +
                         ggtitle("Growth of casualties by of existing casualties")
 
-ggsave("graphs/covid19-deaths-vs-growth.pdf", device="pdf")
-write_csv(spreadgrowth, "data/covid19-deathsvsgrowth.csv")
+ggsave("graphs/covid19-global-deaths-vs-growth.pdf", device="pdf")
+write_csv(spreadgrowth, "data/covid19-global-deathsvsgrowth.csv")

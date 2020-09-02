@@ -10,8 +10,8 @@
 library(tidyverse)
 library(zoo)
 
-deaths <- read_csv("data/covid-casualty-growth.csv") %>% filter(location == "Wave 3")
-cases <- read_csv("data/covid-growth.csv") %>% filter(location == "Wave 3")
+deaths <- read_csv("data/covid-global-casualty-growth.csv") %>% filter(location == "Wave 3")
+cases <- read_csv("data/covid-global-growth.csv") %>% filter(location == "Wave 3")
 
 colnames(deaths) = c("time", "location", "deaths")
 colnames(cases) = c("time", "location", "cases")
@@ -35,4 +35,4 @@ casesdeaths %>% ggplot + aes(time, cases) + geom_line(color="blue", linetype="do
 
 
 
-#ggsave("graphs/covid19-us-daily-cases-and-deaths.pdf", device="pdf")
+ggsave("graphs/covid-wave3-daily-cases-and-deaths.pdf", device="pdf")

@@ -226,5 +226,5 @@ spread %>% filter(location != "xhina") %>%
                     geom_line(data=spreadpred_NL1, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 170, y = 8000, label = paste("",Note_NL1)) +
                     geom_line(data=NL1_data, color="dark green") 
 
-ggsave("graphs/covid-deaths.pdf", device="pdf")                                                 
-write_csv(spread, "data/covid-deaths.csv")
+ggsave("graphs/covid-global-deaths.pdf", device="pdf")                                                 
+write_csv(spread, "data/covid-global-deaths.csv")

@@ -1,7 +1,7 @@
 library(tidyverse)
 
-growth <- read_csv("data/covid-casualty-growth.csv")
-spread <- read_csv("data/covid-deaths.csv")
+growth <- read_csv("data/covid-global-casualty-growth.csv")
+spread <- read_csv("data/covid-global-deaths.csv")
 
 spreadgrowth <- spread %>% inner_join(growth)
 

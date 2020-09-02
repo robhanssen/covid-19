@@ -250,7 +250,7 @@ spread %>% filter(location != "Sou_th Korea" & location !="Spain" & location != 
                                             geom_line(data=nldata, color="dark green", linetype="longdash") + annotate("text", color="dark green", x = 115, y = 30000, label = Note_NL3) 
 
 
-filename_base = "covid-spread"
+filename_base = "covid-global-spread"
 
 datafilename = paste("data/", filename_base, ".csv", sep="")
 graphfilename = paste("graphs/", filename_base, ".pdf", sep="")

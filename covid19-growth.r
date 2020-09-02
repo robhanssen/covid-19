@@ -78,5 +78,5 @@ covid_growth %>% ggplot + aes(time, growth, color=location) + geom_line(linetype
                         scale_x_continuous() + labs(caption=capt) + 
                         xlab("Days since Jan 22, 2020") + ylab("Growth of Infections") + ggtitle("Per diem growth of COVID-19 infections")
 
-ggsave("graphs/covid-growth.pdf", device="pdf")
-write_csv(covid_growth, "data/covid-growth.csv")
+ggsave("graphs/covid-global-growth.pdf", device="pdf")
+write_csv(covid_growth, "data/covid-global-growth.csv")

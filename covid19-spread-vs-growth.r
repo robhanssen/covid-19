@@ -1,7 +1,7 @@
 library(tidyverse)
 
-spread <- read_csv("data/covid-spread.csv")
-growth <- read_csv("data/covid-growth.csv")
+spread <- read_csv("data/covid-global-spread.csv")
+growth <- read_csv("data/covid-global-growth.csv")
 
 spreadgrowth <- spread %>% inner_join(growth)
 
@@ -15,5 +15,5 @@ spreadgrowth %>% ggplot + aes(count, growth, color=location) + geom_point() + ge
                         ggtitle("Growth of confirmed cases by of existing confirmed cases")
 
 
-ggsave("graphs/covid19-spread-vs-growth.pdf", device="pdf")
-write_csv(spreadgrowth, "data/covid19-spreadvsgrowth.csv")
+ggsave("graphs/covid-global-spread-vs-growth.pdf", device="pdf")
+write_csv(spreadgrowth, "data/covid-global-spreadvsgrowth.csv")

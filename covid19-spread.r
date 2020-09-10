@@ -43,7 +43,7 @@ covid$location[covid$region == "Peru"] = "Wave 3"
 covid$location[covid$region == "Chile"] = "Wave 3"
 covid$location[covid$region == "Mexico"] = "Wave 3"
 covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
-covid$location[covid$region == "India"] = "Wave 3"
+covid$location[covid$region == "India"] = "India"
 covid$location[covid$region == "Bangladesh"] = "Wave 3"
 covid$location[covid$region == "Iran"] = "Iran"
 # group for all others combined
@@ -272,6 +272,7 @@ shiftedspread$time[shiftedspread$location=="UK"] = shiftedspread$time[shiftedspr
 shiftedspread$time[shiftedspread$location=="Other"] = shiftedspread$time[shiftedspread$location=="Other"] 
 shiftedspread$time[shiftedspread$location=="China"] = shiftedspread$time[shiftedspread$location=="China"] + 36
 shiftedspread$time[shiftedspread$location=="Wave 3"] = shiftedspread$time[shiftedspread$location=="Wave 3"] - 17
+shiftedspread$time[shiftedspread$location=="India"] = shiftedspread$time[shiftedspread$location=="India"] - 23
 
 
 # all shift -32 days
@@ -281,7 +282,7 @@ shiftedspread %>% filter(location !="Other") %>%
                                     ggplot + aes(time, count, color=location) + geom_line()  + 
                                         scale_y_log10(limit=c(1e2,1e7)) + 
                                         scale_x_continuous() + labs(caption=capt) + 
-                                        xlab("Days since 100 cases") + ylab("Infections") + ggtitle("comparison to Italy, time-shifted to match 100 cases") #+
+                                        xlab("Days since 100 cases") + ylab("Infections") + ggtitle("Global cases, time-shifted to match 100 cases") #+
 
 filename_base = "covid-spread-vs-at-100cases"
 

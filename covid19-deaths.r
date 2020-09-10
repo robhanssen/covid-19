@@ -42,7 +42,7 @@ covid$location[covid$region == "Peru"] = "Wave 3"
 covid$location[covid$region == "Chile"] = "Wave 3"
 covid$location[covid$region == "Mexico"] = "Wave 3"
 covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
-covid$location[covid$region == "India"] = "Wave 3"
+covid$location[covid$region == "India"] = "India"
 covid$location[covid$region == "Bangladesh"] = "Wave 3"
 covid$location[covid$region == "Iran"] = "Iran"
 # group of all other regions not assigned

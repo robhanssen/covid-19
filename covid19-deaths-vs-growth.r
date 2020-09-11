@@ -10,9 +10,9 @@ lastupdated = as.Date("2020-01-21", format="%Y-%m-%d") + max(spreadgrowth$time)
 capt = paste("Source: JHU\nlast updated:", lastupdated)
 
 spreadgrowth %>% ggplot + aes(count, growth, color=location) + geom_point() + geom_smooth(method="loess") + 
-                        scale_x_log10(limits=c(1e0,1e5)) + scale_y_log10() + 
+                        scale_x_log10(limits=c(1e0,1e6)) + scale_y_log10() + 
                         labs(caption=capt) + xlab("Cumulative casualties") + ylab("Daily incremental number of casualties") +
                         ggtitle("Growth of casualties by of existing casualties")
 
-ggsave("graphs/covid19-global-deaths-vs-growth.pdf", device="pdf")
-write_csv(spreadgrowth, "data/covid19-global-deathsvsgrowth.csv")
+ggsave("graphs/covid-global-deaths-vs-growth.pdf", device="pdf")
+write_csv(spreadgrowth, "data/covid-global-deathsvsgrowth.csv")

@@ -25,6 +25,9 @@ capt = paste("Source: JHU\nlast updated:", lastupdated)
 correction = 14.5
 avdays = 7
 
+totalcases = sum(casesdeaths$cases)
+totaldeaths  = sum(casesdeaths$deaths)
+
 casesdeaths %>% ggplot + aes(date, cases) + geom_line(color="blue", linetype="dotted") + geom_line(aes(y=rollmean(cases,avdays, na.pad=TRUE)), color="blue") + 
                         scale_y_continuous(sec.axis = sec_axis(~ ./correction)) + #scale_y_log10(limit=c(10,100000))+ 
                         scale_x_date(date_breaks="1 month", date_labels = "%b %d") + 
@@ -32,7 +35,9 @@ casesdeaths %>% ggplot + aes(date, cases) + geom_line(color="blue", linetype="do
                         ggtitle(paste("US daily cases and deaths with", avdays,"days average line")) + 
                         geom_line(aes(date, correction*deaths), color="red", linetype="dotted") + geom_line(aes(y=rollmean(correction*deaths,avdays,na.pad=TRUE)), color="red") +
                         annotate("text",x=as.Date("2020-03-15", format="%Y-%m-%d"),y=20000,label="cases\n<-----", color="blue") + 
-                        annotate("text",x=as.Date("2020-04-10", format="%Y-%m-%d"),y=10000,label="deaths\n------>", color="red") 
+                        annotate("text",x=as.Date("2020-04-10", format="%Y-%m-%d"),y=10000,label="deaths\n------>", color="red") +
+                        annotate("text",x=as.Date("2020-02-28", format="%Y-%m-%d"),y=75000,label=paste("Total cases:", totalcases), color="blue") + 
+                        annotate("text",x=as.Date("2020-02-28", format="%Y-%m-%d"),y=70000,label=paste("Total deaths:", totaldeaths), color="red") 
 
 ggsave("graphs/covid-us-daily-cases-and-deaths.pdf", device="pdf")
 write_csv(casesdeaths, "data/covid-us-daily-cases-and-deaths.csv")

@@ -45,6 +45,7 @@ covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
 covid$location[covid$region == "India"] = "India"
 covid$location[covid$region == "Bangladesh"] = "Wave 3"
 covid$location[covid$region == "Iran"] = "Iran"
+covid$location[covid$region == "Sweden"] = "Sweden"
 # group of all other regions not assigned
 covid$location[is.na(covid$location)] = "Other"
 

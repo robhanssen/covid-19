@@ -46,6 +46,7 @@ covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
 covid$location[covid$region == "India"] = "India"
 covid$location[covid$region == "Bangladesh"] = "Wave 3"
 covid$location[covid$region == "Iran"] = "Iran"
+covid$location[covid$region == "Sweden"] = "Sweden"
 # group for all others combined
 covid$location[is.na(covid$location)] = "Other"
 
@@ -273,6 +274,7 @@ shiftedspread$time[shiftedspread$location=="Other"] = shiftedspread$time[shifted
 shiftedspread$time[shiftedspread$location=="China"] = shiftedspread$time[shiftedspread$location=="China"] + 36
 shiftedspread$time[shiftedspread$location=="Wave 3"] = shiftedspread$time[shiftedspread$location=="Wave 3"] - 17
 shiftedspread$time[shiftedspread$location=="India"] = shiftedspread$time[shiftedspread$location=="India"] - 23
+shiftedspread$time[shiftedspread$location=="Sweden"] = shiftedspread$time[shiftedspread$location=="Sweden"] - 10
 
 
 # all shift -32 days

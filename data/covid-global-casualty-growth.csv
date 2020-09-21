@@ -1919,7 +1919,7 @@ time,location,growth
 241,Wave 3,1826
 241,India,1247
 241,Other,1676
-242,USA,689
+242,USA,712
 242,NL,2
 242,Italy,24
 242,China,0
@@ -1927,3 +1927,11 @@ time,location,growth
 242,Wave 3,1589
 242,India,1133
 242,Other,1767
+243,USA,227
+243,NL,4
+243,Italy,15
+243,China,0
+243,South Korea,2
+243,Wave 3,852
+243,India,1130
+243,Other,1466

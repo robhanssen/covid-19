@@ -6,11 +6,12 @@
 #
 # load the required libraries
 #
+library(tidyverse)
 library(lubridate)
-library(dplyr)
-library(ggplot2)
-library(readr)
-library(reshape2)
+# library(dplyr)
+# library(ggplot2)
+# library(readr)
+# library(reshape2)
 
 source("fitfunctions.r")
 
@@ -24,29 +25,20 @@ covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/cs
 covid <- read_csv(covidfile)
 
 # process the time series into proper dataframe
-covid <- melt(covid, id=c("Province/State","Country/Region", "Lat","Long"))
+covid <- covid %>% pivot_longer(!c("Province/State","Country/Region", "Lat","Long"), 
+   names_to = "date",
+   values_to = "deaths")
 
 # clean up column names and differentiate between different regions
 colnames(covid) = c("province","region","lat","long","date","deaths")
 covid$date = as.Date(covid$date, format="%m/%d/%y")
 lastupdated = max(covid$date)
 covid$time = covid$date - min(covid$date) + 1
-totalcovid = covid
-covid$location[covid$region == "China"] = "China"
-covid$location[covid$region == "US"] = "USA"
-covid$location[covid$region == "Italy"] = "Italy"
-covid$location[covid$region == "Netherlands"] = "NL"
-covid$location[covid$region == "Russia"] = "Wave 3"
-covid$location[covid$region == "Brazil"] = "Wave 3"
-covid$location[covid$region == "Peru"] = "Wave 3"
-covid$location[covid$region == "Chile"] = "Wave 3"
-covid$location[covid$region == "Mexico"] = "Wave 3"
-covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
-covid$location[covid$region == "India"] = "India"
-covid$location[covid$region == "Bangladesh"] = "Wave 3"
-covid$location[covid$region == "Iran"] = "Iran"
-covid$location[covid$region == "Sweden"] = "Sweden"
-# group of all other regions not assigned
+
+
+# location assigments
+locations = read_csv("sources/countrylist.csv")
+covid <- covid %>% left_join(locations) 
 covid$location[is.na(covid$location)] = "Other"
 
 covid$deaths[is.na(covid$deaths)] = 0
@@ -199,8 +191,7 @@ BR1_data = fitline(fit, time_start, time_stop)
 
 capt = paste("Source: JHU\nlast updated:", lastupdated)
 
-spread %>% filter(location != "xhina") %>% 
-                ggplot + aes(time, count, color=location) + geom_point()  + 
+spread %>%   ggplot + aes(time, count, color=location) + geom_point()  + 
                 scale_x_continuous() + scale_y_log10(limits=c(1,1e6)) + 
                 labs(caption=capt) + xlab("Days since Jan 22, 2020") + ylab("Mortality") + ggtitle("Spread of COVID19 deaths, with calculated days to double") +
                 # China data and fits                                

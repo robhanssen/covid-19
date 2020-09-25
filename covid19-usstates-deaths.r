@@ -7,12 +7,8 @@
 # load the required libraries
 #
 
-library(lubridate)
-library(dplyr)
-library(ggplot2)
-library(readr)
-library(reshape2)
 library(tidyverse)
+library(lubridate)
 
 source("fitfunctions.r")
 
@@ -24,9 +20,12 @@ covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/cs
 covid <- read_csv(covidfile) %>% select(-UID, -iso2, -iso3, -code3, -FIPS, -Combined_Key, -Lat, -Long_, -Population)
 
 # process the time series into proper dataframe
-covid <- melt(covid, id=c("Admin2", "Province_State","Country_Region"))
+# covid <- melt(covid, id=c("Admin2", "Province_State","Country_Region"))
+covid <- covid %>% pivot_longer(!c("Admin2", "Province_State","Country_Region"), 
+   names_to = "date",
+   values_to = "deaths")
 
-#View(covid)
+
 # clean up column names and differentiate between different regions
 colnames(covid) = c("county","state","country","date","deaths")
 covid$date = as.Date(covid$date, format="%m/%d/%y")
@@ -34,14 +33,8 @@ lastupdated = max(covid$date)
 covid$time = covid$date - min(covid$date) + 1
 
 # selection of states to highlight out of the full data set
-covid$location = NA
-covid$location[covid$state=="New York"] = "NY"
-covid$location[covid$state=="California"] = "CA"
-covid$location[covid$state=="New Jersey"] = "NJ"
-covid$location[covid$state=="Michigan"] = "MI"
-covid$location[covid$state=="Texas"] = "TX"
-covid$location[covid$state=="Florida"] = "FL"
-covid$location[covid$state=="Arizona"] = "AZ"
+locations = read_csv("sources/USstateslist.csv")
+covid <- covid %>% left_join(locations) 
 covid$location[is.na(covid$location)] = "Other"
 
 # total spread of infections by states

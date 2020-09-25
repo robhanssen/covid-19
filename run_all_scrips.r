@@ -5,16 +5,16 @@
 #
 #
 
-source("covid19-spread.r")
-source("covid19-spread-global-continent.r")
-source("covid19-deaths.r")
-source("covid19-growth.r")
-source("covid19-casualtygrowth.r")
-source("covid19-spread-vs-growth.r")
-source("covid19-deaths-vs-growth.r")
-source("covid19-deaths-usstates.r")
-source("covid19-spread-usstates.r")
-source("covid19-spread-SouthCarolina.r")
-source("covid19-deaths-SouthCarolina.r")
-source("covid19-growth-usonly.r")
+source("covid19-global-spread.r")
+source("covid19-global-spread-continent.r")
+source("covid19-global-deaths.r")
+source("covid19-global-growth.r")
+source("covid19-global-casualtygrowth.r")
+source("covid19-growth-vs-spread.r")
+source("covid19-growth-vs-deaths.r")
+source("covid19-usstates-deaths.r")
+source("covid19-usstates-spread.r")
+source("covid19-southcarolina-spread.r")
+source("covid19-southcarolina-deaths.r")
+source("covid19-usstates-growth.r")
 

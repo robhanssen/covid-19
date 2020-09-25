@@ -8,6 +8,7 @@
 source("covid19-global-spread.r")
 source("covid19-global-spread-continent.r")
 source("covid19-global-deaths.r")
+source("covid19-global-deaths-continent.r")
 source("covid19-global-growth.r")
 source("covid19-global-casualtygrowth.r")
 source("covid19-growth-vs-spread.r")

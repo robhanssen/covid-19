@@ -6,6 +6,7 @@
 #
 
 source("covid19-spread.r")
+source("covid19-spread-global-continent.r")
 source("covid19-deaths.r")
 source("covid19-growth.r")
 source("covid19-casualtygrowth.r")

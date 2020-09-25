@@ -31,7 +31,7 @@ covid$date = as.Date(covid$date, format="%m/%d/%y")
 lastupdated = max(covid$date)
 covid$time = covid$date - min(covid$date) + 1
 
-# assign locations to differentiate between counntries/groups of countries
+# assign locations to differentiate between countries/groups of countries
 covid$location[covid$region == "China"] = "China"
 covid$location[covid$region == "Italy"] = "Italy"
 #covid$location[covid$region == "Brazil"] = "Brazil"

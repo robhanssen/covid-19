@@ -36,8 +36,8 @@ casesdeaths %>% ggplot + aes(date, cases) + geom_line(color="blue", linetype="do
                         geom_line(aes(date, correction*deaths), color="red", linetype="dotted") + geom_line(aes(y=rollmean(correction*deaths,avdays,na.pad=TRUE)), color="red") +
                         annotate("text",x=as.Date("2020-03-15", format="%Y-%m-%d"),y=20000,label="cases\n<-----", color="blue") + 
                         annotate("text",x=as.Date("2020-04-10", format="%Y-%m-%d"),y=10000,label="deaths\n------>", color="red") +
-                        annotate("text",x=as.Date("2020-02-28", format="%Y-%m-%d"),y=75000,label=paste("Total cases:", totalcases), color="blue") + 
-                        annotate("text",x=as.Date("2020-02-28", format="%Y-%m-%d"),y=70000,label=paste("Total deaths:", totaldeaths), color="red") 
+                        annotate("text",x=as.Date("2020-02-28", format="%Y-%m-%d"),y=75000,label=paste("Total cases:", format(totalcases, big.mark=" ")), color="blue") + 
+                        annotate("text",x=as.Date("2020-02-28", format="%Y-%m-%d"),y=70000,label=paste("Total deaths:", format(totaldeaths, big.mark=" ")), color="red") 
 
 ggsave("graphs/covid-us-daily-cases-and-deaths.pdf", device="pdf")
 write_csv(casesdeaths, "data/covid-us-daily-cases-and-deaths.csv")

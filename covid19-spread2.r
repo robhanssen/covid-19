@@ -6,11 +6,9 @@
 #
 # load the required libraries
 #
+library(tidyverse)
 library(lubridate)
-library(dplyr)
-library(ggplot2)
-library(readr)
-library(reshape2)
+
 
 # constant infinite
 source("fitfunctions.r")
@@ -22,8 +20,12 @@ infinite = 10000
 covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 covid <- read_csv(covidfile)
 
+
 # process the time series into proper dataframe
-covid <- melt(covid, id=c("Province/State","Country/Region", "Lat","Long"))
+covid <- covid %>% pivot_longer(!c("Province/State","Country/Region", "Lat","Long"), 
+   names_to = "date",
+   values_to = "infections")
+
 
 # clean up column names 
 colnames(covid) = c("province","region","lat","long","date","infections")
@@ -31,23 +33,9 @@ covid$date = as.Date(covid$date, format="%m/%d/%y")
 lastupdated = max(covid$date)
 covid$time = covid$date - min(covid$date) + 1
 
-# assign locations to differentiate between countries/groups of countries
-covid$location[covid$region == "China"] = "China"
-covid$location[covid$region == "Italy"] = "Italy"
-#covid$location[covid$region == "Brazil"] = "Brazil"
-covid$location[covid$region == "US"] = "USA"
-covid$location[covid$region == "Netherlands"] = "NL"
-covid$location[covid$region == "Russia"] = "Wave 3"
-covid$location[covid$region == "Brazil"] = "Wave 3"
-covid$location[covid$region == "Peru"] = "Wave 3"
-covid$location[covid$region == "Chile"] = "Wave 3"
-covid$location[covid$region == "Mexico"] = "Wave 3"
-covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
-covid$location[covid$region == "India"] = "India"
-covid$location[covid$region == "Bangladesh"] = "Wave 3"
-covid$location[covid$region == "Iran"] = "Iran"
-covid$location[covid$region == "Sweden"] = "Sweden"
-# group for all others combined
+# location assigments
+locations = read_csv("sources/countrylist.csv")
+covid <- covid %>% left_join(locations) 
 covid$location[is.na(covid$location)] = "Other"
 
 
@@ -210,15 +198,13 @@ Note_W3 = exponential_fit_rate(fit)
 W3_pred <- fitline(fit, time_start, time_stop)
 
 
-
 #
 # clean up graphs and plot
 #
 
 capt = paste("Source: JHU\nlast updated:", lastupdated)
 
-spread %>% filter(location != "Sou_th Korea" & location !="Spain" & location != "Iqan") %>% 
-                                    ggplot + aes(time, count, color=location) + geom_point()  + 
+spread %>% ggplot + aes(time, count, color=location) + geom_point()  + 
                                         scale_y_log10(limit=c(1,1e7)) + scale_x_continuous() + labs(caption=capt) + 
                                         xlab("Days since Jan 22, 2020") + ylab("Infections") + ggtitle("Spread of COVID-19 infections, with calculated days to double") +
                                         # China data
@@ -258,38 +244,3 @@ graphfilename = paste("graphs/", filename_base, ".pdf", sep="")
 
 ggsave(graphfilename, device="pdf")
 write_csv(spread, datafilename)
-
-
-# comparison to Italy (day-shifted to 100 cases)
-
-shiftedspread = spread
-
-shiftedspread$time[shiftedspread$location=="USA"] = shiftedspread$time[shiftedspread$location=="USA"] - 10
-shiftedspread$time[shiftedspread$location=="Germany"] = shiftedspread$time[shiftedspread$location=="Germany"] - 9
-shiftedspread$time[shiftedspread$location=="NL"] = shiftedspread$time[shiftedspread$location=="NL"] - 12
-shiftedspread$time[shiftedspread$location=="Iran"] = shiftedspread$time[shiftedspread$location=="Iran"] - 3
-shiftedspread$time[shiftedspread$location=="South Korea"] = shiftedspread$time[shiftedspread$location=="South Korea"] + 3
-shiftedspread$time[shiftedspread$location=="UK"] = shiftedspread$time[shiftedspread$location=="UK"] - 12
-shiftedspread$time[shiftedspread$location=="Other"] = shiftedspread$time[shiftedspread$location=="Other"] 
-shiftedspread$time[shiftedspread$location=="China"] = shiftedspread$time[shiftedspread$location=="China"] + 36
-shiftedspread$time[shiftedspread$location=="Wave 3"] = shiftedspread$time[shiftedspread$location=="Wave 3"] - 17
-shiftedspread$time[shiftedspread$location=="India"] = shiftedspread$time[shiftedspread$location=="India"] - 23
-shiftedspread$time[shiftedspread$location=="Sweden"] = shiftedspread$time[shiftedspread$location=="Sweden"] - 10
-
-
-# all shift -32 days
-shiftedspread$time = shiftedspread$time - 32
-
-shiftedspread %>% filter(location !="Other") %>% 
-                                    ggplot + aes(time, count, color=location) + geom_line()  + 
-                                        scale_y_log10(limit=c(1e2,1e7)) + 
-                                        scale_x_continuous() + labs(caption=capt) + 
-                                        xlab("Days since 100 cases") + ylab("Infections") + ggtitle("Global cases, time-shifted to match 100 cases") #+
-
-filename_base = "covid-spread-vs-at-100cases"
-
-datafilename = paste("data/", filename_base, ".csv", sep="")
-graphfilename = paste("graphs/", filename_base, ".pdf", sep="")
-
-ggsave(graphfilename, device="pdf")
-write_csv(shiftedspread, datafilename)

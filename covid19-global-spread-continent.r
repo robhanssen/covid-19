@@ -8,10 +8,6 @@
 #
 library(tidyverse)
 library(lubridate)
-#library(dplyr)
-#library(ggplot2)
-#ibrary(readr)
-#library(reshape2)
 
 # constant infinite
 source("fitfunctions.r")

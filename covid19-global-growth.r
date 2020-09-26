@@ -6,12 +6,8 @@
 #
 # load the required libraries
 #
-
+library(tidyverse)
 library(lubridate)
-library(dplyr)
-library(ggplot2)
-library(readr)
-library(reshape2)
 
 # constant infinite
 source("fitfunctions.r")
@@ -20,12 +16,13 @@ infinite = 10000
 #
 # import via web API
 #
-#covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
 covidfile = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 covid <- read_csv(covidfile)
 
 # process the time series into proper dataframe
-covid <- melt(covid, id=c("Province/State","Country/Region", "Lat","Long"))
+covid <- covid %>% pivot_longer(!c("Province/State","Country/Region", "Lat","Long"), 
+   names_to = "date",
+   values_to = "infections")
 
 # clean up column names and differentiate between different regions
 colnames(covid) = c("province","region","lat","long","date","infections")
@@ -33,48 +30,26 @@ covid$date = as.Date(covid$date, format="%m/%d/%y")
 lastupdated = max(covid$date)
 covid$time = covid$date - min(covid$date) + 1
 
-covid$location[covid$region == "China"] = "China"
-covid$location[covid$region == "Italy"] = "Italy"
-covid$location[covid$region == "Korea, South"] = "South Korea"
-covid$location[covid$region == "US"] = "USA"
-covid$location[covid$region == "Russia"] = "Wave 3"
-covid$location[covid$region == "Brazil"] = "Wave 3"
-covid$location[covid$region == "Peru"] = "Wave 3"
-covid$location[covid$region == "Chile"] = "Wave 3"
-covid$location[covid$region == "Mexico"] = "Wave 3"
-covid$location[covid$region == "Saudi Arabia"] = "Wave 3"
-covid$location[covid$region == "India"] = "India"
-covid$location[covid$region == "Bangladesh"] = "Wave 3"
-covid$location[covid$region == "Pakistan"] = "Wave 3"
-#covid$location[covid$region == "Iran"] = "Iran"
+# location assigments
+locations = read_csv("sources/countrylist.csv")
+covid <- covid %>% left_join(locations) 
 covid$location[is.na(covid$location)] = "Other"
 
-
 # total spread of infections by countries
-spread <- covid %>% group_by(time, location) %>% summarise(count=sum(infections))
+spread <- covid %>% group_by(time, location) %>% summarise(count=sum(infections)) %>% arrange(location)
 
-widespread <- dcast(spread, time ~ location )
-
-covid_growth_us = tibble(widespread$time[widespread$time>1], diff(widespread[,"USA"]), 
-                                                             diff(widespread[,"Italy"]), 
-                                                             diff(widespread[,"China"]), 
-                                                             diff(widespread[,"South Korea"]),
-                                                             diff(widespread[,"Wave 3"]),
-                                                             diff(widespread[,"India"]),
-                                                             diff(widespread[,"Other"]))
+widespread <- spread %>% pivot_wider(names_from=location, values_from=count)
+covid_growth <- as_tibble(lapply(widespread[,1:ncol(widespread)],diff,lag=1))
+covid_growth$time = covid_growth$time + 1:NROW(covid_growth$time)
 
 
-
-colnames(covid_growth_us) = c("time", "USA",  "Italy", "China", "South Korea", "Wave 3","India","Other")
-
-covid_growth <- melt(covid_growth_us, id=c("time")) %>% arrange(time, variable)
-colnames(covid_growth) = c("time", "location", "growth")
-
+covid_growth <- covid_growth %>% pivot_longer(!c("time"),
+   names_to = "location",
+   values_to = "growth") %>% filter(location!="Other")
 
 capt = paste("Source: JHU\nlast updated:", lastupdated)
 
 covid_growth %>% ggplot + aes(time, growth, color=location) + geom_line(linetype="longdash") + #geom_smooth(method="loess") +
-
                         scale_x_continuous() + labs(caption=capt) + 
                         xlab("Days since Jan 22, 2020") + ylab("Growth of Infections") + ggtitle("Per diem growth of COVID-19 infections") +
                         facet_wrap(.~location)

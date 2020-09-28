@@ -1701,30 +1701,44 @@ time,location,growth
 244,Wave 3,719
 244,Western Europe,270
 245,China,0
-245,India,0
+245,India,1085
 245,Italy,14
 245,NL,11
 245,USA,921
 245,Wave 3,1697
 245,Western Europe,378
 246,China,1
-246,India,1085
+246,India,1129
 246,Italy,20
 246,NL,6
 246,USA,1098
 246,Wave 3,1009
 246,Western Europe,210
 247,China,0
-247,India,1129
+247,India,1141
 247,Italy,23
 247,NL,17
 247,USA,914
 247,Wave 3,2700
 247,Western Europe,220
 248,China,1
-248,India,1141
+248,India,1089
 248,Italy,20
 248,NL,16
 248,USA,952
 248,Wave 3,1454
 248,Western Europe,318
+249,China,0
+249,India,1124
+249,Italy,17
+249,NL,38
+249,USA,740
+249,Wave 3,1501
+249,Western Europe,48
+250,China,0
+250,India,0
+250,Italy,17
+250,NL,0
+250,USA,266
+250,Wave 3,786
+250,Western Europe,28

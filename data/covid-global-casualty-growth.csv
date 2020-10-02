@@ -1613,14 +1613,14 @@ time,location,growth
 232,India,1172
 232,Italy,14
 232,NL,2
-232,USA,1206
+232,USA,1193
 232,Wave 3,1997
 232,Western Europe,88
 233,China,0
 233,India,1209
 233,Italy,10
 233,NL,4
-233,USA,907
+233,USA,920
 233,Wave 3,1888
 233,Western Europe,102
 234,China,0
@@ -1763,3 +1763,10 @@ time,location,growth
 253,USA,946
 253,Wave 3,1821
 253,Western Europe,556
+254,China,0
+254,India,1095
+254,Italy,24
+254,NL,13
+254,USA,857
+254,Wave 3,1440
+254,Western Europe,310

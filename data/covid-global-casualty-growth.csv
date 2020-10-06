@@ -1738,21 +1738,21 @@ time,location,growth
 250,China,0
 250,India,1039
 250,Italy,17
-250,NL,0
+250,NL,8
 250,USA,266
 250,Wave 3,786
 250,Western Europe,28
 251,China,0
 251,India,776
 251,Italy,16
-251,NL,0
+251,NL,6
 251,USA,316
 251,Wave 3,731
 251,Western Europe,272
 252,China,0
 252,India,1179
 252,Italy,24
-252,NL,28
+252,NL,14
 252,USA,914
 252,Wave 3,1695
 252,Western Europe,265
@@ -1785,9 +1785,16 @@ time,location,growth
 256,Wave 3,1988
 256,Western Europe,69
 257,China,0
-257,India,0
+257,India,903
 257,Italy,18
 257,NL,5
 257,USA,337
 257,Wave 3,728
 257,Western Europe,55
+258,China,0
+258,India,884
+258,Italy,16
+258,NL,1
+258,USA,460
+258,Wave 3,3410
+258,Western Europe,339

@@ -18,5 +18,6 @@ source("covid19-usstates-spread.r")
 source("covid19-southcarolina-spread.r")
 source("covid19-southcarolina-deaths.r")
 source("covid19-usstates-growth.r")
+source("covid19-usstates-total-growth.r")
 source("covid19-nl-growth.r")
 

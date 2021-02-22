@@ -299,42 +299,42 @@ time,location,growth
 44,NL,0
 44,USA,1
 44,Wave 3,0
-44,Western Europe,3
+44,Western Europe,4
 45,China,29
 45,India,0
 45,Italy,49
 45,NL,1
 45,USA,2
 45,Wave 3,0
-45,Western Europe,6
+45,Western Europe,5
 46,China,28
 46,India,0
 46,Italy,36
 46,NL,0
 46,USA,3
 46,Wave 3,0
-46,Western Europe,8
+46,Western Europe,13
 47,China,28
 47,India,0
 47,Italy,133
 47,NL,2
 47,USA,4
 47,Wave 3,0
-47,Western Europe,15
+47,Western Europe,10
 48,China,23
 48,India,0
 48,Italy,97
 48,NL,0
 48,USA,1
 48,Wave 3,0
-48,Western Europe,14
+48,Western Europe,20
 49,China,16
 49,India,0
 49,Italy,168
 49,NL,1
 49,USA,6
 49,Wave 3,0
-49,Western Europe,25
+49,Western Europe,19
 50,China,22
 50,India,1
 50,Italy,196
@@ -381,140 +381,140 @@ time,location,growth
 56,India,1
 56,Italy,345
 56,NL,19
-56,USA,35
+56,USA,37
 56,Wave 3,1
 56,Western Europe,220
 57,China,11
 57,India,0
 57,Italy,475
 57,NL,15
-57,USA,59
+57,USA,60
 57,Wave 3,3
 57,Western Europe,132
 58,China,8
 58,India,1
 58,Italy,427
 58,NL,19
-58,USA,74
+58,USA,72
 58,Wave 3,5
 58,Western Europe,371
 59,China,4
 59,India,1
 59,Italy,627
 59,NL,30
-59,USA,99
+59,USA,106
 59,Wave 3,9
 59,Western Europe,491
 60,China,6
 60,India,-1
 60,Italy,793
 60,NL,30
-60,USA,100
+60,USA,103
 60,Wave 3,7
 60,Western Europe,549
 61,China,15
 61,India,3
 61,Italy,651
 61,NL,43
-61,USA,110
+61,USA,113
 61,Wave 3,11
 61,Western Europe,564
 62,China,0
 62,India,3
 62,Italy,601
 62,NL,34
-62,USA,189
+62,USA,191
 62,Wave 3,11
 62,Western Europe,843
 63,China,7
 63,India,0
 63,Italy,743
 63,NL,63
-63,USA,239
+63,USA,241
 63,Wave 3,17
 63,Western Europe,953
 64,China,4
 64,India,2
 64,Italy,683
 64,NL,80
-64,USA,324
+64,USA,330
 64,Wave 3,20
 64,Western Europe,1366
 65,China,6
 65,India,8
 65,Italy,712
 65,NL,78
-65,USA,408
+65,USA,417
 65,Wave 3,21
-65,Western Europe,1368
+65,Western Europe,1367
 66,China,5
 66,India,0
 66,Italy,919
 66,NL,112
-66,USA,520
+66,USA,516
 66,Wave 3,22
 66,Western Europe,1504
 67,China,3
 67,India,4
 67,Italy,889
 67,NL,93
-67,USA,632
+67,USA,637
 67,Wave 3,29
-67,Western Europe,1611
+67,Western Europe,1609
 68,China,5
 68,India,3
 68,Italy,756
 68,NL,132
-68,USA,586
+68,USA,608
 68,Wave 3,39
 68,Western Europe,1506
 69,China,4
 69,India,5
 69,Italy,812
 69,NL,93
-69,USA,692
+69,USA,709
 69,Wave 3,38
-69,Western Europe,1900
+69,Western Europe,1899
 70,China,1
 70,India,3
 70,Italy,837
 70,NL,175
-70,USA,1088
+70,USA,1097
 70,Wave 3,59
-70,Western Europe,1976
+70,Western Europe,1974
 71,China,7
 71,India,23
 71,Italy,727
 71,NL,135
-71,USA,1170
+71,USA,1327
 71,Wave 3,69
-71,Western Europe,2746
+71,Western Europe,3116
 72,China,6
 72,India,14
 72,Italy,760
 72,NL,166
-72,USA,1502
+72,USA,1509
 72,Wave 3,125
-72,Western Europe,2972
+72,Western Europe,2597
 73,China,4
 73,India,0
 73,Italy,766
 73,NL,149
-73,USA,1389
+73,USA,1427
 73,Wave 3,59
 73,Western Europe,3009
 74,China,4
 74,India,14
 74,Italy,681
 74,NL,166
-74,USA,1530
+74,USA,1566
 74,Wave 3,132
-74,Western Europe,2869
+74,Western Europe,2868
 75,China,3
 75,India,13
 75,Italy,525
 75,NL,115
-75,USA,1583
+75,USA,1614
 75,Wave 3,74
 75,Western Europe,2118
 76,China,2
@@ -528,385 +528,385 @@ time,location,growth
 77,India,14
 77,Italy,604
 77,NL,234
-77,USA,2571
+77,USA,2580
 77,Wave 3,172
-77,Western Europe,3835
+77,Western Europe,3834
 78,China,2
 78,India,28
 78,Italy,542
 78,NL,147
-78,USA,2146
+78,USA,2151
 78,Wave 3,188
 78,Western Europe,2861
 79,China,2
 79,India,48
 79,Italy,610
 79,NL,148
-79,USA,2228
+79,USA,2202
 79,Wave 3,185
-79,Western Europe,3654
+79,Western Europe,3653
 80,China,1
 80,India,20
 80,Italy,570
 80,NL,117
-80,USA,2218
+80,USA,2207
 80,Wave 3,204
-80,Western Europe,3400
+80,Western Europe,3398
 81,China,3
 81,India,42
 81,Italy,619
 81,NL,133
-81,USA,2129
+81,USA,2122
 81,Wave 3,139
 81,Western Europe,2301
 82,China,0
 82,India,43
 82,Italy,431
 82,NL,94
-82,USA,1806
+82,USA,1868
 82,Wave 3,169
 82,Western Europe,2361
 83,China,2
 83,India,27
 83,Italy,566
 83,NL,86
-83,USA,1946
+83,USA,2008
 83,Wave 3,193
-83,Western Europe,2321
+83,Western Europe,2320
 84,China,0
 84,India,35
 84,Italy,602
 84,NL,122
-84,USA,2452
+84,USA,2446
 84,Wave 3,329
-84,Western Europe,2479
+84,Western Europe,2477
 85,China,1
 85,India,12
 85,Italy,578
 85,NL,190
-85,USA,2609
+85,USA,2594
 85,Wave 3,309
 85,Western Europe,3767
 86,China,0
 86,India,43
 86,Italy,525
 86,NL,182
-86,USA,2176
+86,USA,2153
 86,Wave 3,293
 86,Western Europe,3065
 87,China,1290
 87,India,38
 87,Italy,575
 87,NL,144
-87,USA,2093
+87,USA,2110
 87,Wave 3,363
 87,Western Europe,2968
 88,China,0
 88,India,35
 88,Italy,482
 88,NL,142
-88,USA,1960
+88,USA,1990
 88,Wave 3,419
-88,Western Europe,2188
+88,Western Europe,2187
 89,China,0
 89,India,38
 89,Italy,433
 89,NL,84
-89,USA,1931
+89,USA,1979
 89,Wave 3,256
-89,Western Europe,1595
+89,Western Europe,1589
 90,China,0
 90,India,33
 90,Italy,454
 90,NL,67
-90,USA,2186
+90,USA,2232
 90,Wave 3,256
 90,Western Europe,1943
 91,China,0
 91,India,53
 91,Italy,534
 91,NL,165
-91,USA,2548
+91,USA,2519
 91,Wave 3,404
-91,Western Europe,2526
+91,Western Europe,2523
 92,China,0
 92,India,36
 92,Italy,437
 92,NL,139
-92,USA,2434
+92,USA,2447
 92,Wave 3,396
 92,Western Europe,2346
 93,China,0
 93,India,40
 93,Italy,464
 93,NL,124
-93,USA,2472
+93,USA,2465
 93,Wave 3,622
 93,Western Europe,2164
 94,China,0
 94,India,59
 94,Italy,420
 94,NL,112
-94,USA,2154
+94,USA,2193
 94,Wave 3,657
 94,Western Europe,2149
 95,China,0
 95,India,45
 95,Italy,415
 95,NL,120
-95,USA,1698
+95,USA,1713
 95,Wave 3,587
 95,Western Europe,1918
 96,China,1
 96,India,56
 96,Italy,260
 96,NL,67
-96,USA,1329
+96,USA,1394
 96,Wave 3,377
 96,Western Europe,1170
 97,China,0
 97,India,58
 97,Italy,333
 97,NL,43
-97,USA,1466
+97,USA,1516
 97,Wave 3,513
 97,Western Europe,1354
 98,China,0
 98,India,69
 98,Italy,382
 98,NL,48
-98,USA,2241
+98,USA,2219
 98,Wave 3,771
 98,Western Europe,1951
 99,China,0
 99,India,71
 99,Italy,323
 99,NL,145
-99,USA,2521
+99,USA,2407
 99,Wave 3,800
-99,Western Europe,1974
+99,Western Europe,1973
 100,China,0
 100,India,75
 100,Italy,285
 100,NL,84
-100,USA,2420
+100,USA,2288
 100,Wave 3,839
 100,Western Europe,1442
 101,China,0
 101,India,69
 101,Italy,269
 101,NL,98
-101,USA,1878
+101,USA,1899
 101,Wave 3,697
-101,Western Europe,1140
+101,Western Europe,1139
 102,China,0
 102,India,100
 102,Italy,474
 102,NL,94
-102,USA,1687
+102,USA,1723
 102,Wave 3,579
-102,Western Europe,1446
+102,Western Europe,1477
 103,China,0
 103,India,68
 103,Italy,174
 103,NL,69
-103,USA,1096
+103,USA,1178
 103,Wave 3,537
-103,Western Europe,687
+103,Western Europe,685
 104,China,0
 104,India,175
 104,Italy,195
 104,NL,26
-104,USA,1312
+104,USA,1364
 104,Wave 3,579
-104,Western Europe,948
+104,Western Europe,950
 105,China,0
 105,India,127
 105,Italy,236
 105,NL,87
-105,USA,2304
+105,USA,2233
 105,Wave 3,1012
 105,Western Europe,1335
 106,China,0
 106,India,92
 106,Italy,369
 106,NL,36
-106,USA,2349
+106,USA,2292
 106,Wave 3,1034
 106,Western Europe,1771
 107,China,0
 107,India,104
 107,Italy,274
 107,NL,85
-107,USA,1928
+107,USA,1922
 107,Wave 3,1064
-107,Western Europe,1042
+107,Western Europe,1043
 108,China,0
 108,India,96
 108,Italy,243
 108,NL,71
-108,USA,1747
+108,USA,1748
 108,Wave 3,1228
-108,Western Europe,1276
+108,Western Europe,1275
 109,China,0
 109,India,116
 109,Italy,194
 109,NL,64
-109,USA,1550
+109,USA,1541
 109,Wave 3,1054
 109,Western Europe,633
 110,China,0
 110,India,111
 110,Italy,165
 110,NL,18
-110,USA,889
+110,USA,973
 110,Wave 3,763
 110,Western Europe,525
 111,China,0
 111,India,82
 111,Italy,179
 111,NL,16
-111,USA,1006
+111,USA,1032
 111,Wave 3,824
 111,Western Europe,717
 112,China,0
 112,India,121
 112,Italy,172
 112,NL,54
-112,USA,1613
+112,USA,1584
 112,Wave 3,1384
 112,Western Europe,1270
 113,China,0
 113,India,136
 113,Italy,195
 113,NL,52
-113,USA,1746
+113,USA,1729
 113,Wave 3,1309
-113,Western Europe,920
+113,Western Europe,922
 114,China,0
 114,India,98
 114,Italy,262
 114,NL,28
-114,USA,1777
+114,USA,1776
 114,Wave 3,1231
 114,Western Europe,1004
 115,China,0
 115,India,104
 115,Italy,242
 115,NL,53
-115,USA,1670
+115,USA,1661
 115,Wave 3,1515
-115,Western Europe,662
+115,Western Europe,660
 116,China,1
 116,India,118
 116,Italy,153
 116,NL,27
-116,USA,1274
+116,USA,1262
 116,Wave 3,1254
-116,Western Europe,602
+116,Western Europe,700
 117,China,0
 117,India,154
 117,Italy,145
 117,NL,10
-117,USA,748
+117,USA,818
 117,Wave 3,831
-117,Western Europe,717
+117,Western Europe,621
 118,China,0
 118,India,131
 118,Italy,99
 118,NL,14
-118,USA,1165
+118,USA,1213
 118,Wave 3,1151
-118,Western Europe,492
+118,Western Europe,490
 119,China,0
 119,India,146
 119,Italy,162
 119,NL,21
-119,USA,1526
+119,USA,1451
 119,Wave 3,1734
 119,Western Europe,459
 120,China,0
 120,India,132
 120,Italy,161
 120,NL,33
-120,USA,1520
+120,USA,1481
 120,Wave 3,1571
-120,Western Europe,654
+120,Western Europe,655
 121,China,0
 121,India,150
 121,Italy,156
 121,NL,27
-121,USA,1207
+121,USA,1182
 121,Wave 3,1893
-121,Western Europe,503
+121,Western Europe,502
 122,China,0
 122,India,142
 122,Italy,130
 122,NL,13
-122,USA,1244
+122,USA,1242
 122,Wave 3,1763
-122,Western Europe,1104
+122,Western Europe,1178
 123,China,0
 123,India,142
 123,Italy,119
 123,NL,23
-123,USA,1131
+123,USA,1113
 123,Wave 3,1458
-123,Western Europe,371
+123,Western Europe,414
 124,China,0
 124,India,156
 124,Italy,50
 124,NL,11
-124,USA,611
+124,USA,632
 124,Wave 3,1143
-124,Western Europe,553
+124,Western Europe,438
 125,China,0
 125,India,148
 125,Italy,92
 125,NL,8
-125,USA,548
+125,USA,583
 125,Wave 3,1341
-125,Western Europe,-1666
+125,Western Europe,-1667
 126,China,0
 126,India,172
 126,Italy,78
 126,NL,26
-126,USA,651
+126,USA,679
 126,Wave 3,1906
-126,Western Europe,572
+126,Western Europe,636
 127,China,0
 127,India,190
 127,Italy,117
 127,NL,15
-127,USA,1518
+127,USA,1471
 127,Wave 3,1941
-127,Western Europe,574
+127,Western Europe,509
 128,China,0
 128,India,177
 128,Italy,70
 128,NL,32
-128,USA,1178
+128,USA,1125
 128,Wave 3,1924
-128,Western Europe,477
+128,Western Europe,478
 129,China,0
 129,India,269
 129,Italy,87
 129,NL,28
-129,USA,1160
+129,USA,1142
 129,Wave 3,1898
-129,Western Europe,404
+129,Western Europe,403
 130,China,0
 130,India,205
 130,Italy,111
 130,NL,20
-130,USA,963
+130,USA,961
 130,Wave 3,1692
 130,Western Europe,264
 131,China,0
 131,India,223
 131,Italy,75
 131,NL,5
-131,USA,688
+131,USA,725
 131,Wave 3,967
 131,Western Europe,117
 132,China,0
@@ -915,1145 +915,1859 @@ time,location,growth
 132,NL,6
 132,USA,774
 132,Wave 3,1188
-132,Western Europe,151
+132,Western Europe,152
 133,China,0
 133,India,221
 133,Italy,55
 133,NL,5
-133,USA,1056
+133,USA,974
 133,Wave 3,2108
-133,Western Europe,384
+133,Western Europe,383
 134,China,0
 134,India,259
 134,Italy,71
 134,NL,10
-134,USA,997
+134,USA,1006
 134,Wave 3,2812
 134,Western Europe,392
 135,China,0
 135,India,275
 135,Italy,88
 135,NL,13
-135,USA,1009
+135,USA,1000
 135,Wave 3,2661
-135,Western Europe,238
+135,Western Europe,239
 136,China,0
 136,India,286
 136,Italy,85
 136,NL,15
-136,USA,898
+136,USA,883
 136,Wave 3,1966
-136,Western Europe,346
+136,Western Europe,345
 137,China,0
 137,India,297
 137,Italy,72
 137,NL,6
-137,USA,706
+137,USA,688
 137,Wave 3,1650
 137,Western Europe,204
 138,China,0
 138,India,261
 138,Italy,53
 138,NL,2
-138,USA,438
+138,USA,455
 138,Wave 3,1089
 138,Western Europe,95
 139,China,0
 139,India,266
 139,Italy,65
 139,NL,3
-139,USA,492
+139,USA,506
 139,Wave 3,1327
-139,Western Europe,122
+139,Western Europe,123
 140,China,0
 140,India,277
 140,Italy,79
 140,NL,15
-140,USA,941
+140,USA,917
 140,Wave 3,2288
-140,Western Europe,338
+140,Western Europe,339
 141,China,0
 141,India,352
 141,Italy,71
 141,NL,11
-141,USA,897
+141,USA,870
 141,Wave 3,2436
-141,Western Europe,213
+141,Western Europe,211
 142,China,0
 142,India,396
 142,Italy,53
 142,NL,2
-142,USA,860
+142,USA,830
 142,Wave 3,2258
 142,Western Europe,130
 143,China,0
 143,India,386
 143,Italy,56
 143,NL,9
-143,USA,818
+143,USA,830
 143,Wave 3,1678
 143,Western Europe,180
 144,China,0
 144,India,311
 144,Italy,78
 144,NL,4
-144,USA,770
+144,USA,743
 144,Wave 3,1733
 144,Western Europe,145
 145,China,0
 145,India,325
 145,Italy,44
 145,NL,2
-145,USA,308
+145,USA,341
 145,Wave 3,1452
-145,Western Europe,49
+145,Western Europe,50
 146,China,0
 146,India,380
 146,Italy,26
 146,NL,6
-146,USA,376
+146,USA,395
 146,Wave 3,1458
-146,Western Europe,70
+146,Western Europe,69
 147,China,0
 147,India,2003
 147,Italy,34
 147,NL,5
-147,USA,824
+147,USA,809
 147,Wave 3,2495
-147,Western Europe,246
+147,Western Europe,249
 148,China,0
 148,India,334
 148,Italy,43
 148,NL,4
-148,USA,733
+148,USA,734
 148,Wave 3,2516
-148,Western Europe,181
+148,Western Europe,178
 149,China,0
 149,India,336
 149,Italy,66
 149,NL,4
-149,USA,711
+149,USA,691
 149,Wave 3,2377
 149,Western Europe,127
 150,China,0
 150,India,375
 150,Italy,47
 150,NL,3
-150,USA,670
+150,USA,638
 150,Wave 3,2323
 150,Western Europe,1301
 151,China,1
 151,India,306
 151,Italy,49
 151,NL,8
-151,USA,618
+151,USA,574
 151,Wave 3,1854
-151,Western Europe,103
+151,Western Europe,105
 152,China,0
 152,India,445
 152,Italy,24
 152,NL,1
-152,USA,285
+152,USA,314
 152,Wave 3,2028
-152,Western Europe,39
+152,Western Europe,38
 153,China,0
 153,India,312
 153,Italy,23
 153,NL,0
-153,USA,380
+153,USA,411
 153,Wave 3,1790
-153,Western Europe,41
+153,Western Europe,42
 154,China,1
 154,India,465
 154,Italy,18
 154,NL,5
-154,USA,844
+154,USA,746
 154,Wave 3,2583
-154,Western Europe,184
+154,Western Europe,181
 155,China,0
 155,India,418
 155,Italy,-31
 155,NL,2
-155,USA,757
+155,USA,751
 155,Wave 3,2546
-155,Western Europe,123
+155,Western Europe,125
 156,China,1
 156,India,407
 156,Italy,34
 156,NL,3
-156,USA,551
+156,USA,542
 156,Wave 3,2223
-156,Western Europe,139
+156,Western Europe,137
 157,China,0
 157,India,384
 157,Italy,30
 157,NL,3
-157,USA,617
+157,USA,635
 157,Wave 3,2149
 157,Western Europe,141
 158,China,0
 158,India,410
 158,Italy,8
 158,NL,2
-158,USA,504
+158,USA,502
 158,Wave 3,2166
-158,Western Europe,47
+158,Western Europe,48
 159,China,0
 159,India,380
 159,Italy,22
 159,NL,0
-159,USA,273
+159,USA,315
 159,Wave 3,1186
 159,Western Europe,33
 160,China,0
 160,India,418
 160,Italy,6
 160,NL,2
-160,USA,377
+160,USA,403
 160,Wave 3,1537
 160,Western Europe,67
 161,China,0
 161,India,507
 161,Italy,23
 161,NL,6
-161,USA,655
+161,USA,590
 161,Wave 3,2369
 161,Western Europe,122
 162,China,0
 162,India,434
 162,Italy,21
 162,NL,2
-162,USA,688
+162,USA,708
 162,Wave 3,2267
-162,Western Europe,136
+162,Western Europe,137
 163,China,0
 163,India,379
 163,Italy,30
 163,NL,3
-163,USA,724
+163,USA,742
 163,Wave 3,2355
-163,Western Europe,77
+163,Western Europe,76
 164,China,0
 164,India,442
 164,Italy,15
 164,NL,2
-164,USA,659
+164,USA,639
 164,Wave 3,2393
 164,Western Europe,92
 165,China,0
 165,India,613
 165,Italy,21
 165,NL,6
-165,USA,265
+165,USA,308
 165,Wave 3,2052
 165,Western Europe,48
 166,China,0
 166,India,425
 166,Italy,7
 166,NL,1
-166,USA,288
+166,USA,325
 166,Wave 3,1299
-166,Western Europe,22
+166,Western Europe,21
 167,China,0
 167,India,466
 167,Italy,8
 167,NL,1
-167,USA,355
+167,USA,371
 167,Wave 3,1514
-167,Western Europe,43
+167,Western Europe,46
 168,China,0
 168,India,483
 168,Italy,30
 168,NL,4
-168,USA,1213
+168,USA,1163
 168,Wave 3,2631
-168,Western Europe,81
+168,Western Europe,79
 169,China,0
 169,India,487
 169,Italy,15
 169,NL,3
-169,USA,861
+169,USA,841
 169,Wave 3,2446
-169,Western Europe,77
+169,Western Europe,108
 170,China,0
 170,India,475
 170,Italy,12
 170,NL,2
-170,USA,1000
+170,USA,1018
 170,Wave 3,2389
-170,Western Europe,95
+170,Western Europe,65
 171,China,0
 171,India,519
 171,Italy,12
 171,NL,-1
-171,USA,822
+171,USA,810
 171,Wave 3,2327
-171,Western Europe,70
+171,Western Europe,71
 172,China,0
 172,India,550
 172,Italy,7
 172,NL,1
-172,USA,697
+172,USA,733
 172,Wave 3,2040
-172,Western Europe,25
+172,Western Europe,28
 173,China,0
 173,India,501
 173,Italy,9
 173,NL,0
-173,USA,459
+173,USA,470
 173,Wave 3,1314
 173,Western Europe,10
 174,China,0
 174,India,553
 174,Italy,13
 174,NL,0
-174,USA,359
+174,USA,445
 174,Wave 3,1565
-174,Western Europe,41
+174,Western Europe,39
 175,China,1
 175,India,582
 175,Italy,17
 175,NL,-2
-175,USA,925
+175,USA,927
 175,Wave 3,2559
-175,Western Europe,56
+175,Western Europe,58
 176,China,2
 176,India,605
 176,Italy,13
 176,NL,1
-176,USA,966
+176,USA,975
 176,Wave 3,2231
-176,Western Europe,124
+176,Western Europe,121
 177,China,0
 177,India,688
 177,Italy,20
 177,NL,1
-177,USA,943
+177,USA,956
 177,Wave 3,2439
-177,Western Europe,59
+177,Western Europe,58
 178,China,1
 178,India,671
 178,Italy,11
 178,NL,1
-178,USA,930
+178,USA,933
 178,Wave 3,2357
-178,Western Europe,50
+178,Western Europe,49
 179,China,1
 179,India,543
 179,Italy,14
 179,NL,-2
-179,USA,869
+179,USA,870
 179,Wave 3,1894
-179,Western Europe,12
+179,Western Europe,15
 180,China,0
 180,India,681
 180,Italy,3
 180,NL,0
-180,USA,447
+180,USA,466
 180,Wave 3,1372
 180,Western Europe,12
 181,China,0
 181,India,585
 181,Italy,13
 181,NL,0
-181,USA,513
+181,USA,565
 181,Wave 3,1302
-181,Western Europe,44
+181,Western Europe,43
 182,China,2
 182,India,650
 182,Italy,15
 182,NL,0
-182,USA,1107
+182,USA,1096
 182,Wave 3,2705
-182,Western Europe,20
+182,Western Europe,19
 183,China,0
 183,India,1129
 183,Italy,9
 183,NL,3
-183,USA,1216
+183,USA,1226
 183,Wave 3,2513
-183,Western Europe,32
+183,Western Europe,31
 184,China,1
 184,India,740
 184,Italy,10
 184,NL,0
-184,USA,1094
+184,USA,1093
 184,Wave 3,6147
-184,Western Europe,34
+184,Western Europe,35
 185,China,1
 185,India,757
 185,Italy,5
 185,NL,0
-185,USA,1132
+185,USA,1102
 185,Wave 3,2307
 185,Western Europe,60
 186,China,2
 186,India,702
 186,Italy,5
 186,NL,1
-186,USA,899
+186,USA,915
 186,Wave 3,2155
 186,Western Europe,23
 187,China,0
 187,India,711
 187,Italy,5
 187,NL,19
-187,USA,472
+187,USA,534
 187,Wave 3,1022
 187,Western Europe,8
 188,China,4
 188,India,637
 188,Italy,5
 188,NL,-18
-188,USA,1120
+188,USA,1125
 188,Wave 3,1680
-188,Western Europe,24
+188,Western Europe,25
 189,China,1
 189,India,785
 189,Italy,11
 189,NL,4
-189,USA,1374
+189,USA,1344
 189,Wave 3,2182
-189,Western Europe,54
+189,Western Europe,53
 190,China,1
 190,India,762
 190,Italy,6
 190,NL,2
-190,USA,1432
+190,USA,1433
 190,Wave 3,2513
-190,Western Europe,46
+190,Western Europe,60
 191,China,1
 191,India,763
 191,Italy,3
 191,NL,0
-191,USA,1209
+191,USA,1228
 191,Wave 3,1970
-191,Western Europe,30
+191,Western Europe,31
 192,China,2
 192,India,793
 192,Italy,9
 192,NL,0
-192,USA,1256
+192,USA,1232
 192,Wave 3,2318
-192,Western Europe,53
+192,Western Europe,37
 193,China,6
 193,India,853
 193,Italy,5
 193,NL,1
-193,USA,1115
+193,USA,1094
 193,Wave 3,2009
 193,Western Europe,24
 194,China,2
 194,India,771
 194,Italy,8
 194,NL,2
-194,USA,403
+194,USA,429
 194,Wave 3,1530
 194,Western Europe,5
 195,China,3
 195,India,803
 195,Italy,12
 195,NL,0
-195,USA,527
+195,USA,581
 195,Wave 3,1165
-195,Western Europe,33
+195,Western Europe,63
 196,China,4
 196,India,857
 196,Italy,5
 196,NL,1
-196,USA,1377
+196,USA,1340
 196,Wave 3,2436
-196,Western Europe,84
+196,Western Europe,57
 197,China,1
 197,India,904
 197,Italy,10
 197,NL,3
-197,USA,1375
+197,USA,1396
 197,Wave 3,2694
-197,Western Europe,38
+197,Western Europe,49
 198,China,3
 198,India,886
 198,Italy,6
 198,NL,0
-198,USA,1251
+198,USA,1239
 198,Wave 3,2440
-198,Western Europe,34
+198,Western Europe,27
 199,China,1
 199,India,933
 199,Italy,3
 199,NL,1
-199,USA,1242
+199,USA,1231
 199,Wave 3,2282
-199,Western Europe,53
+199,Western Europe,47
 200,China,0
 200,India,861
 200,Italy,13
 200,NL,4
-200,USA,1082
+200,USA,1080
 200,Wave 3,1798
-200,Western Europe,13
+200,Western Europe,14
 201,China,5
 201,India,1007
 201,Italy,2
 201,NL,0
-201,USA,511
+201,USA,563
 201,Wave 3,1434
 201,Western Europe,8
 202,China,3
 202,India,871
 202,Italy,4
 202,NL,0
-202,USA,526
+202,USA,592
 202,Wave 3,1753
-202,Western Europe,99
+202,Western Europe,114
 203,China,4
 203,India,834
 203,Italy,6
 203,NL,-16
-203,USA,1063
+203,USA,1020
 203,Wave 3,2622
-203,Western Europe,30
+203,Western Europe,43
 204,China,4
 204,India,942
 204,Italy,10
 204,NL,20
-204,USA,1503
+204,USA,1504
 204,Wave 3,2118
-204,Western Europe,85
+204,Western Europe,56
 205,China,3
 205,India,1007
 205,Italy,6
 205,NL,5
-205,USA,1069
+205,USA,1066
 205,Wave 3,2301
 205,Western Europe,81
 206,China,1
 206,India,996
 206,Italy,3
 206,NL,2
-206,USA,1336
+206,USA,1339
 206,Wave 3,6001
-206,Western Europe,62
+206,Western Europe,63
 207,China,2
 207,India,944
 207,Italy,158
 207,NL,2
-207,USA,1036
+207,USA,1008
 207,Wave 3,1527
-207,Western Europe,19
+207,Western Europe,20
 208,China,0
 208,India,941
 208,Italy,4
 208,NL,3
-208,USA,571
+208,USA,605
 208,Wave 3,1192
-208,Western Europe,9
+208,Western Europe,10
 209,China,0
 209,India,876
 209,Italy,4
 209,NL,0
-209,USA,444
+209,USA,490
 209,Wave 3,1275
-209,Western Europe,62
+209,Western Europe,58
 210,China,2
 210,India,1091
 210,Italy,5
 210,NL,3
-210,USA,1324
+210,USA,1273
 210,Wave 3,2512
-210,Western Europe,56
+210,Western Europe,78
 211,China,1
 211,India,978
 211,Italy,7
 211,NL,7
-211,USA,1350
+211,USA,1306
 211,Wave 3,2288
-211,Western Europe,162
+211,Western Europe,180
 212,China,3
 212,India,983
 212,Italy,6
 212,NL,11
-212,USA,1079
+212,USA,1093
 212,Wave 3,2195
-212,Western Europe,43
+212,Western Europe,54
 213,China,0
 213,India,945
 213,Italy,9
 213,NL,4
-213,USA,1105
+213,USA,1089
 213,Wave 3,1919
-213,Western Europe,113
+213,Western Europe,63
 214,China,2
 214,India,912
 214,Italy,3
 214,NL,6
-214,USA,990
+214,USA,987
 214,Wave 3,1952
 214,Western Europe,36
 215,China,0
 215,India,836
 215,Italy,7
 215,NL,0
-215,USA,450
+215,USA,497
 215,Wave 3,1065
-215,Western Europe,14
+215,Western Europe,13
 216,China,0
 216,India,848
 216,Italy,4
 216,NL,2
-216,USA,437
+216,USA,474
 216,Wave 3,1244
-216,Western Europe,58
+216,Western Europe,59
 217,China,1
 217,India,967
 217,Italy,4
 217,NL,6
-217,USA,1236
+217,USA,1228
 217,Wave 3,2265
-217,Western Europe,89
+217,Western Europe,92
 218,China,1
 218,India,1115
 218,Italy,13
 218,NL,8
-218,USA,1225
+218,USA,1189
 218,Wave 3,2100
 218,Western Europe,-49
 219,China,2
 219,India,1057
 219,Italy,5
 219,NL,3
-219,USA,1111
+219,USA,1101
 219,Wave 3,1820
-219,Western Europe,79
+219,Western Europe,82
 220,China,3
 220,India,1021
 220,Italy,9
 220,NL,3
-220,USA,971
+220,USA,963
 220,Wave 3,1743
-220,Western Europe,46
+220,Western Europe,44
 221,China,3
 221,India,948
 221,Italy,1
 221,NL,5
-221,USA,958
+221,USA,902
 221,Wave 3,1795
-221,Western Europe,26
+221,Western Europe,32
 222,China,1
 222,India,971
 222,Italy,4
 222,NL,0
-222,USA,310
+222,USA,466
 222,Wave 3,1181
-222,Western Europe,15
+222,Western Europe,8
 223,China,1
 223,India,819
 223,Italy,6
 223,NL,0
-223,USA,592
+223,USA,570
 223,Wave 3,1133
-223,Western Europe,119
+223,Western Europe,121
 224,China,1
 224,India,1045
 224,Italy,8
 224,NL,8
-224,USA,1065
+224,USA,1047
 224,Wave 3,2387
-224,Western Europe,93
+224,Western Europe,94
 225,China,3
 225,India,1043
 225,Italy,6
 225,NL,7
-225,USA,1055
+225,USA,1060
 225,Wave 3,2060
-225,Western Europe,94
+225,Western Europe,95
 226,China,1
 226,India,1096
 226,Italy,10
 226,NL,1
-226,USA,1066
+226,USA,1032
 226,Wave 3,1519
-226,Western Europe,75
+226,Western Europe,72
 227,China,0
 227,India,1089
 227,Italy,11
 227,NL,2
-227,USA,965
+227,USA,948
 227,Wave 3,1928
-227,Western Europe,219
+227,Western Europe,180
 228,China,0
 228,India,1065
 228,Italy,16
 228,NL,5
-228,USA,785
+228,USA,783
 228,Wave 3,1503
-228,Western Europe,19
+228,Western Europe,31
 229,China,2
 229,India,1016
 229,Italy,7
 229,NL,2
-229,USA,403
+229,USA,444
 229,Wave 3,937
-229,Western Europe,4
+229,Western Europe,8
 230,China,2
 230,India,1133
 230,Italy,12
 230,NL,1
-230,USA,267
+230,USA,298
 230,Wave 3,797
-230,Western Europe,106
+230,Western Europe,127
 231,China,1
 231,India,1115
 231,Italy,10
 231,NL,1
-231,USA,441
+231,USA,452
 231,Wave 3,1532
 231,Western Europe,156
 232,China,0
 232,India,1172
 232,Italy,14
 232,NL,2
-232,USA,1190
+232,USA,1152
 232,Wave 3,1997
-232,Western Europe,88
+232,Western Europe,85
 233,China,0
 233,India,1209
 233,Italy,10
 233,NL,4
-233,USA,915
+233,USA,905
 233,Wave 3,1888
-233,Western Europe,102
+233,Western Europe,107
 234,China,0
 234,India,1201
 234,Italy,10
 234,NL,5
-234,USA,1211
+234,USA,1174
 234,Wave 3,1676
 234,Western Europe,141
 235,China,1
 235,India,1114
 235,Italy,6
 235,NL,1
-235,USA,714
+235,USA,723
 235,Wave 3,1539
-235,Western Europe,18
+235,Western Europe,35
 236,China,0
 236,India,1136
 236,Italy,7
 236,NL,1
-236,USA,378
+236,USA,428
 236,Wave 3,838
-236,Western Europe,10
+236,Western Europe,14
 237,China,1
 237,India,1054
 237,Italy,14
 237,NL,4
-237,USA,422
+237,USA,439
 237,Wave 3,912
-237,Western Europe,169
+237,Western Europe,148
 238,China,1
 238,India,1290
 238,Italy,9
 238,NL,4
-238,USA,1290
+238,USA,1206
 238,Wave 3,2070
-238,Western Europe,246
+238,Western Europe,247
 239,China,0
 239,India,1132
 239,Italy,12
 239,NL,3
-239,USA,983
+239,USA,948
 239,Wave 3,1584
-239,Western Europe,319
+239,Western Europe,318
 240,China,0
 240,India,1174
 240,Italy,13
 240,NL,7
-240,USA,870
+240,USA,873
 240,Wave 3,1363
 240,Western Europe,234
 241,China,1
 241,India,1247
 241,Italy,10
 241,NL,8
-241,USA,936
+241,USA,908
 241,Wave 3,1762
 241,Western Europe,282
 242,China,0
 242,India,1133
 242,Italy,24
 242,NL,2
-242,USA,712
+242,USA,723
 242,Wave 3,1533
-242,Western Europe,36
+242,Western Europe,61
 243,China,0
 243,India,1130
 243,Italy,15
 243,NL,4
-243,USA,227
+243,USA,270
 243,Wave 3,816
-243,Western Europe,24
+243,Western Europe,35
 244,China,0
 244,India,1053
 244,Italy,17
 244,NL,3
-244,USA,423
+244,USA,437
 244,Wave 3,719
-244,Western Europe,270
+244,Western Europe,234
 245,China,0
 245,India,1085
 245,Italy,14
 245,NL,11
-245,USA,1027
+245,USA,1035
 245,Wave 3,1697
-245,Western Europe,378
+245,Western Europe,377
 246,China,1
 246,India,1129
 246,Italy,20
 246,NL,6
-246,USA,1100
+246,USA,1060
 246,Wave 3,1009
-246,Western Europe,210
+246,Western Europe,237
 247,China,0
 247,India,1141
 247,Italy,23
 247,NL,17
-247,USA,913
+247,USA,908
 247,Wave 3,2700
-247,Western Europe,220
+247,Western Europe,189
 248,China,1
 248,India,1089
 248,Italy,20
 248,NL,16
-248,USA,939
+248,USA,933
 248,Wave 3,1454
 248,Western Europe,318
 249,China,0
 249,India,1124
 249,Italy,17
 249,NL,38
-249,USA,740
+249,USA,781
 249,Wave 3,1501
-249,Western Europe,48
+249,Western Europe,87
 250,China,0
 250,India,1039
 250,Italy,17
 250,NL,8
-250,USA,267
+250,USA,319
 250,Wave 3,786
-250,Western Europe,28
+250,Western Europe,55
 251,China,0
 251,India,776
 251,Italy,16
 251,NL,6
-251,USA,316
+251,USA,359
 251,Wave 3,731
-251,Western Europe,272
+251,Western Europe,287
 252,China,0
 252,India,1179
 252,Italy,24
 252,NL,14
-252,USA,918
+252,USA,865
 252,Wave 3,1695
-252,Western Europe,265
+252,Western Europe,174
 253,China,0
 253,India,1181
 253,Italy,19
 253,NL,14
-253,USA,952
+253,USA,938
 253,Wave 3,1821
-253,Western Europe,556
+253,Western Europe,558
 254,China,0
 254,India,1095
 254,Italy,24
 254,NL,13
-254,USA,860
+254,USA,869
 254,Wave 3,1440
-254,Western Europe,310
+254,Western Europe,319
 255,China,0
 255,India,1069
 255,Italy,23
 255,NL,12
-255,USA,907
+255,USA,855
 255,Wave 3,733
-255,Western Europe,339
+255,Western Europe,338
 256,China,0
 256,India,940
 256,Italy,27
 256,NL,21
-256,USA,692
+256,USA,683
 256,Wave 3,1988
-256,Western Europe,69
+256,Western Europe,94
 257,China,0
 257,India,903
 257,Italy,18
 257,NL,5
-257,USA,343
+257,USA,385
 257,Wave 3,728
-257,Western Europe,55
+257,Western Europe,87
 258,China,0
 258,India,884
 258,Italy,16
 258,NL,1
-258,USA,464
+258,USA,484
 258,Wave 3,3410
-258,Western Europe,339
+258,Western Europe,264
 259,China,0
 259,India,986
 259,Italy,28
 259,NL,29
-259,USA,707
+259,USA,694
 259,Wave 3,1621
-259,Western Europe,429
+259,Western Europe,450
 260,China,0
 260,India,971
 260,Italy,31
 260,NL,36
-260,USA,920
+260,USA,923
 260,Wave 3,1447
 260,Western Europe,258
 261,China,0
 261,India,964
 261,Italy,22
 261,NL,13
-261,USA,968
+261,USA,988
 261,Wave 3,1423
-261,Western Europe,309
+261,Western Europe,306
 262,China,0
 262,India,926
 262,Italy,28
 262,NL,14
-262,USA,959
+262,USA,972
 262,Wave 3,1411
-262,Western Europe,420
+262,Western Europe,468
 263,China,0
 263,India,918
 263,Italy,29
 263,NL,23
-263,USA,620
+263,USA,654
 263,Wave 3,1068
-263,Western Europe,126
+263,Western Europe,161
 264,China,0
 264,India,816
 264,Italy,26
 264,NL,18
-264,USA,400
+264,USA,464
 264,Wave 3,700
-264,Western Europe,87
+264,Western Europe,133
 265,China,0
 265,India,706
 265,Italy,39
 265,NL,12
-265,USA,323
+265,USA,393
 265,Wave 3,596
-265,Western Europe,381
+265,Western Europe,376
 266,China,0
 266,India,730
 266,Italy,41
 266,NL,35
-266,USA,805
+266,USA,796
 266,Wave 3,1127
-266,Western Europe,577
+266,Western Europe,426
 267,China,0
 267,India,680
 267,Italy,43
 267,NL,31
-267,USA,985
+267,USA,993
 267,Wave 3,1499
-267,Western Europe,490
+267,Western Europe,520
 268,China,0
 268,India,895
 268,Italy,83
 268,NL,29
-268,USA,823
+268,USA,863
 268,Wave 3,1573
-268,Western Europe,438
+268,Western Europe,435
 269,China,0
 269,India,837
 269,Italy,55
 269,NL,16
-269,USA,892
+269,USA,935
 269,Wave 3,1435
 269,Western Europe,603
 270,China,0
 270,India,1033
 270,Italy,47
 270,NL,32
-270,USA,715
+270,USA,772
 270,Wave 3,1208
-270,Western Europe,195
+270,Western Europe,268
 271,China,0
 271,India,579
 271,Italy,69
 271,NL,14
-271,USA,390
+271,USA,491
 271,Wave 3,378
-271,Western Europe,101
+271,Western Europe,186
 272,China,0
 272,India,587
 272,Italy,73
 272,NL,17
-272,USA,452
+272,USA,487
 272,Wave 3,932
-272,Western Europe,693
+272,Western Europe,519
 273,China,0
 273,India,717
 273,Italy,89
 273,NL,46
-273,USA,940
+273,USA,936
 273,Wave 3,1579
 273,Western Europe,826
 274,China,0
 274,India,702
 274,Italy,127
 274,NL,60
-274,USA,1127
+274,USA,1154
 274,Wave 3,1498
-274,Western Europe,573
+274,Western Europe,594
 275,China,0
 275,India,690
 275,Italy,136
 275,NL,47
-275,USA,856
+275,USA,891
 275,Wave 3,931
-275,Western Europe,604
+275,Western Europe,596
 276,China,0
 276,India,650
 276,Italy,91
 276,NL,45
-276,USA,936
+276,USA,964
 276,Wave 3,1777
-276,Western Europe,842
+276,Western Europe,843
 277,China,0
 277,India,578
 277,Italy,151
 277,NL,55
-277,USA,923
+277,USA,953
 277,Wave 3,1242
-277,Western Europe,310
+277,Western Europe,446
 278,China,0
 278,India,480
 278,Italy,128
 278,NL,27
-278,USA,344
+278,USA,460
 278,Wave 3,794
-278,Western Europe,251
+278,Western Europe,230
 279,China,0
 279,India,488
 279,Italy,141
 279,NL,26
-279,USA,483
+279,USA,540
 279,Wave 3,759
-279,Western Europe,1015
+279,Western Europe,888
 280,China,0
 280,India,508
 280,Italy,221
 280,NL,70
-280,USA,993
+280,USA,974
 280,Wave 3,1593
-280,Western Europe,1333
+280,Western Europe,1332
 281,China,0
 281,India,517
 281,Italy,205
 281,NL,61
-281,USA,996
+281,USA,1039
 281,Wave 3,1450
-281,Western Europe,948
+281,Western Europe,966
 282,China,0
 282,India,563
 282,Italy,217
 282,NL,56
-282,USA,981
+282,USA,1003
 282,Wave 3,1434
-282,Western Europe,913
+282,Western Europe,910
 283,China,0
 283,India,551
 283,Italy,199
 283,NL,87
-283,USA,998
+283,USA,1072
 283,Wave 3,1461
 283,Western Europe,1290
 284,China,0
 284,India,470
 284,Italy,297
 284,NL,51
-284,USA,909
+284,USA,907
 284,Wave 3,1282
-284,Western Europe,812
+284,Western Europe,813
 285,China,0
 285,India,496
 285,Italy,208
 285,NL,39
-285,USA,399
+285,USA,496
 285,Wave 3,672
 285,Western Europe,535
 286,China,0
 286,India,490
 286,Italy,233
 286,NL,29
-286,USA,498
+286,USA,576
 286,Wave 3,664
 286,Western Europe,1220
 287,China,0
 287,India,514
 287,Italy,353
 287,NL,113
-287,USA,1136
+287,USA,1580
 287,Wave 3,1119
-287,Western Europe,1381
+287,Western Europe,2230
 288,China,1
 288,India,704
 288,Italy,352
 288,NL,108
-288,USA,1104
+288,USA,1125
 288,Wave 3,1861
-288,Western Europe,3365
+288,Western Europe,2521
 289,China,1
 289,India,670
 289,Italy,428
 289,NL,88
-289,USA,1173
+289,USA,1158
 289,Wave 3,927
-289,Western Europe,1456
+289,Western Europe,1450
 290,China,0
 290,India,577
 290,Italy,446
 290,NL,118
-290,USA,1154
+290,USA,1234
 290,Wave 3,1861
-290,Western Europe,1848
+290,Western Europe,1849
 291,China,0
 291,India,559
 291,Italy,425
 291,NL,74
-291,USA,1036
+291,USA,1078
 291,Wave 3,1180
-291,Western Europe,982
+291,Western Europe,981
 292,China,0
 292,India,490
 292,Italy,331
 292,NL,44
-292,USA,462
+292,USA,571
 292,Wave 3,700
 292,Western Europe,640
 293,China,0
 293,India,448
 293,Italy,356
 293,NL,40
-293,USA,690
-293,Wave 3,587
-293,Western Europe,1463
+293,USA,787
+293,Wave 3,785
+293,Western Europe,1464
 294,China,1
 294,India,512
 294,Italy,580
 294,NL,99
-294,USA,1436
-294,Wave 3,1439
-294,Western Europe,1263
+294,USA,1423
+294,Wave 3,1241
+294,Western Europe,2481
 295,China,0
 295,India,550
 295,Italy,623
 295,NL,75
-295,USA,2005
+295,USA,1440
 295,Wave 3,1663
-295,Western Europe,3303
+295,Western Europe,2094
+296,China,0
+296,India,547
+296,Italy,636
+296,NL,89
+296,USA,1211
+296,Wave 3,2035
+296,Western Europe,1689
+297,China,0
+297,India,520
+297,Italy,550
+297,NL,55
+297,USA,1205
+297,Wave 3,1500
+297,Western Europe,2020
+298,China,0
+298,India,447
+298,Italy,544
+298,NL,86
+298,USA,1341
+298,Wave 3,2005
+298,Western Europe,1119
+299,China,0
+299,India,435
+299,Italy,546
+299,NL,43
+299,USA,768
+299,Wave 3,880
+299,Western Europe,651
+300,China,0
+300,India,449
+300,Italy,504
+300,NL,44
+300,USA,845
+300,Wave 3,928
+300,Western Europe,1664
+301,China,0
+301,India,474
+301,Italy,731
+301,NL,86
+301,USA,1726
+301,Wave 3,1380
+301,Western Europe,2788
+302,China,0
+302,India,585
+302,Italy,753
+302,NL,83
+302,USA,1939
+302,Wave 3,1792
+302,Western Europe,1749
+303,China,0
+303,India,584
+303,Italy,653
+303,NL,74
+303,USA,2042
+303,Wave 3,1688
+303,Western Europe,1614
+304,China,0
+304,India,564
+304,Italy,699
+304,NL,52
+304,USA,1956
+304,Wave 3,1888
+304,Western Europe,2392
+305,China,0
+305,India,501
+305,Italy,692
+305,NL,48
+305,USA,1618
+305,Wave 3,1535
+305,Western Europe,905
+306,China,0
+306,India,511
+306,Italy,562
+306,NL,21
+306,USA,1027
+306,Wave 3,950
+306,Western Europe,807
+307,China,0
+307,India,480
+307,Italy,630
+307,NL,54
+307,USA,1110
+307,Wave 3,996
+307,Western Europe,1663
+308,China,0
+308,India,481
+308,Italy,853
+308,NL,90
+308,USA,2139
+308,Wave 3,2019
+308,Western Europe,2711
+309,China,0
+309,India,524
+309,Italy,722
+309,NL,74
+309,USA,2270
+309,Wave 3,2107
+309,Western Europe,1969
+310,China,0
+310,India,492
+310,Italy,822
+310,NL,75
+310,USA,1383
+310,Wave 3,1903
+310,Western Europe,1738
+311,China,0
+311,India,485
+311,Italy,827
+311,NL,83
+311,USA,1553
+311,Wave 3,1769
+311,Western Europe,2264
+312,China,1
+312,India,496
+312,Italy,686
+312,NL,60
+312,USA,1363
+312,Wave 3,1817
+312,Western Europe,983
+313,China,0
+313,India,443
+313,Italy,541
+313,NL,23
+313,USA,1035
+313,Wave 3,1006
+313,Western Europe,624
+314,China,0
+314,India,482
+314,Italy,672
+314,NL,27
+314,USA,1369
+314,Wave 3,983
+314,Western Europe,1499
+315,China,0
+315,India,501
+315,Italy,785
+315,NL,65
+315,USA,2557
+315,Wave 3,2166
+315,Western Europe,2446
+316,China,1
+316,India,526
+316,Italy,684
+316,NL,66
+316,USA,2820
+316,Wave 3,2128
+316,Western Europe,1839
+317,China,1
+317,India,540
+317,Italy,993
+317,NL,61
+317,USA,2961
+317,Wave 3,2062
+317,Western Europe,1552
+318,China,1
+318,India,512
+318,Italy,814
+318,NL,59
+318,USA,2677
+318,Wave 3,1975
+318,Western Europe,1937
+319,China,0
+319,India,482
+319,Italy,662
+319,NL,39
+319,USA,2343
+319,Wave 3,1923
+319,Western Europe,983
+320,China,0
+320,India,391
+320,Italy,564
+320,NL,25
+320,USA,1341
+320,Wave 3,1099
+320,Western Europe,621
+321,China,0
+321,India,385
+321,Italy,528
+321,NL,18
+321,USA,1626
+321,Wave 3,1271
+321,Western Europe,1460
+322,China,0
+322,India,402
+322,Italy,634
+322,NL,71
+322,USA,2634
+322,Wave 3,2238
+322,Western Europe,2126
+323,China,2
+323,India,412
+323,Italy,499
+323,NL,66
+323,USA,3178
+323,Wave 3,2327
+323,Western Europe,1757
+324,China,0
+324,India,413
+324,Italy,887
+324,NL,62
+324,USA,2984
+324,Wave 3,2135
+324,Western Europe,1830
+325,China,0
+325,India,443
+325,Italy,761
+325,NL,66
+325,USA,3414
+325,Wave 3,1996
+325,Western Europe,1835
+326,China,1
+326,India,391
+326,Italy,649
+326,NL,53
+326,USA,2451
+326,Wave 3,2016
+326,Western Europe,1146
+327,China,2
+327,India,336
+327,Italy,484
+327,NL,30
+327,USA,1606
+327,Wave 3,1053
+327,Western Europe,659
+328,China,3
+328,India,354
+328,Italy,491
+328,NL,34
+328,USA,1698
+328,Wave 3,1401
+328,Western Europe,1629
+329,China,3
+329,India,387
+329,Italy,846
+329,NL,86
+329,USA,3094
+329,Wave 3,2456
+329,Western Europe,2719
+330,China,0
+330,India,355
+330,Italy,680
+330,NL,79
+330,USA,3723
+330,Wave 3,2228
+330,Western Europe,1926
+331,China,2
+331,India,338
+331,Italy,683
+331,NL,75
+331,USA,3462
+331,Wave 3,2535
+331,Western Europe,1821
+332,China,4
+332,India,347
+332,Italy,674
+332,NL,84
+332,USA,2950
+332,Wave 3,2222
+332,Western Europe,2062
+333,China,0
+333,India,341
+333,Italy,553
+333,NL,54
+333,USA,2639
+333,Wave 3,1943
+333,Western Europe,1233
+334,China,1
+334,India,333
+334,Italy,352
+334,NL,32
+334,USA,1699
+334,Wave 3,1456
+334,Western Europe,767
+335,China,1
+335,India,301
+335,Italy,415
+335,NL,28
+335,USA,1977
+335,Wave 3,1514
+335,Western Europe,1684
+336,China,1
+336,India,333
+336,Italy,628
+336,NL,114
+336,USA,3388
+336,Wave 3,2511
+336,Western Europe,2863
+337,China,1
+337,India,312
+337,Italy,553
+337,NL,105
+337,USA,3442
+337,Wave 3,2397
+337,Western Europe,2134
+338,China,2
+338,India,336
+338,Italy,505
+338,NL,89
+338,USA,2888
+338,Wave 3,2277
+338,Western Europe,1512
+339,China,1
+339,India,251
+339,Italy,459
+339,NL,101
+339,USA,1386
+339,Wave 3,1850
+339,Western Europe,1030
+340,China,0
+340,India,279
+340,Italy,261
+340,NL,47
+340,USA,1865
+340,Wave 3,1139
+340,Western Europe,792
+341,China,1
+341,India,279
+341,Italy,305
+341,NL,28
+341,USA,1422
+341,Wave 3,1318
+341,Western Europe,913
+342,China,4
+342,India,252
+342,Italy,445
+342,NL,45
+342,USA,2029
+342,Wave 3,1483
+342,Western Europe,1905
+343,China,2
+343,India,286
+343,Italy,659
+343,NL,170
+343,USA,3637
+343,Wave 3,2738
+343,Western Europe,2996
+344,China,4
+344,India,299
+344,Italy,575
+344,NL,112
+344,USA,3744
+344,Wave 3,2912
+344,Western Europe,2576
+345,China,1
+345,India,0
+345,Italy,555
+345,NL,108
+345,USA,3424
+345,Wave 3,2706
+345,Western Europe,2012
+346,China,0
+346,India,256
+346,Italy,462
+346,NL,99
+346,USA,2125
+346,Wave 3,1713
+346,Western Europe,1155
+347,China,2
+347,India,441
+347,Italy,364
+347,NL,36
+347,USA,2479
+347,Wave 3,1127
+347,Western Europe,999
+348,China,0
+348,India,214
+348,Italy,347
+348,NL,47
+348,USA,1417
+348,Wave 3,1277
+348,Western Europe,939
+349,China,3
+349,India,201
+349,Italy,348
+349,NL,63
+349,USA,2121
+349,Wave 3,1651
+349,Western Europe,2042
+350,China,0
+350,India,264
+350,Italy,649
+350,NL,152
+350,USA,3659
+350,Wave 3,2768
+350,Western Europe,3187
+351,China,1
+351,India,222
+351,Italy,548
+351,NL,174
+351,USA,3867
+351,Wave 3,2957
+351,Western Europe,2458
+352,China,0
+352,India,234
+352,Italy,414
+352,NL,86
+352,USA,3910
+352,Wave 3,3096
+352,Western Europe,2888
+353,China,1
+353,India,0
+353,Italy,620
+353,NL,87
+353,USA,4008
+353,Wave 3,2583
+353,Western Europe,3214
+354,China,2
+354,India,429
+354,Italy,483
+354,NL,137
+354,USA,3248
+354,Wave 3,2788
+354,Western Europe,1824
+355,China,1
+355,India,161
+355,Italy,361
+355,NL,55
+355,USA,1905
+355,Wave 3,1441
+355,Western Europe,1097
+356,China,1
+356,India,167
+356,Italy,448
+356,NL,51
+356,USA,2030
+356,Wave 3,1825
+356,Western Europe,2149
+357,China,1
+357,India,202
+357,Italy,616
+357,NL,152
+357,USA,4407
+357,Wave 3,3019
+357,Western Europe,3558
+358,China,2
+358,India,198
+358,Italy,507
+358,NL,122
+358,USA,3965
+358,Wave 3,3146
+358,Western Europe,3255
+359,China,0
+359,India,191
+359,Italy,522
+359,NL,89
+359,USA,3907
+359,Wave 3,2705
+359,Western Europe,2893
+360,China,0
+360,India,175
+360,Italy,477
+360,NL,94
+360,USA,3809
+360,Wave 3,3070
+360,Western Europe,2712
+361,China,1
+361,India,181
+361,Italy,475
+361,NL,97
+361,USA,3350
+361,Wave 3,2871
+361,Western Europe,2295
+362,China,0
+362,India,145
+362,Italy,377
+362,NL,41
+362,USA,1791
+362,Wave 3,1625
+362,Western Europe,1299
+363,China,1
+363,India,137
+363,Italy,377
+363,NL,50
+363,USA,1424
+363,Wave 3,1476
+363,Western Europe,1860
+364,China,2
+364,India,162
+364,Italy,603
+364,NL,107
+364,USA,2701
+364,Wave 3,3375
+364,Western Europe,4488
+365,China,1
+365,India,151
+365,Italy,524
+365,NL,86
+365,USA,4336
+365,Wave 3,3746
+365,Western Europe,3631
+366,China,2
+366,India,163
+366,Italy,521
+366,NL,89
+366,USA,4137
+366,Wave 3,3735
+366,Western Europe,2961
+367,China,0
+367,India,152
+367,Italy,472
+367,NL,89
+367,USA,3760
+367,Wave 3,3351
+367,Western Europe,3342
+368,China,0
+368,India,155
+368,Italy,488
+368,NL,88
+368,USA,3284
+368,Wave 3,3241
+368,Western Europe,1793
+369,China,1
+369,India,131
+369,Italy,299
+369,NL,30
+369,USA,1826
+369,Wave 3,1956
+369,Western Europe,1259
+370,China,3
+370,India,117
+370,Italy,420
+370,NL,40
+370,USA,1936
+370,Wave 3,1751
+370,Western Europe,2673
+371,China,2
+371,India,137
+371,Italy,541
+371,NL,86
+371,USA,3995
+371,Wave 3,4024
+371,Western Europe,3393
+372,China,2
+372,India,123
+372,Italy,467
+372,NL,69
+372,USA,3916
+372,Wave 3,3507
+372,Western Europe,3506
+373,China,2
+373,India,163
+373,Italy,492
+373,NL,84
+373,USA,3975
+373,Wave 3,3637
+373,Western Europe,3532
+374,China,1
+374,India,137
+374,Italy,477
+374,NL,56
+374,USA,3577
+374,Wave 3,3295
+374,Western Europe,3021
+375,China,1
+375,India,127
+375,Italy,421
+375,NL,88
+375,USA,2714
+375,Wave 3,3670
+375,Western Europe,2313
+376,China,2
+376,India,118
+376,Italy,237
+376,NL,39
+376,USA,1792
+376,Wave 3,1682
+376,Western Europe,869
+377,China,1
+377,India,94
+377,Italy,329
+377,NL,27
+377,USA,2017
+377,Wave 3,1600
+377,Western Europe,2553
+378,China,2
+378,India,110
+378,Italy,499
+378,NL,83
+378,USA,3437
+378,Wave 3,2340
+378,Western Europe,3883
+379,China,1
+379,India,107
+379,Italy,476
+379,NL,63
+379,USA,3828
+379,Wave 3,3849
+379,Western Europe,3072
+380,China,1
+380,India,120
+380,Italy,421
+380,NL,65
+380,USA,3722
+380,Wave 3,1756
+380,Western Europe,2249
+381,China,0
+381,India,95
+381,Italy,377
+381,NL,61
+381,USA,3587
+381,Wave 3,5030
+381,Western Europe,3332
+382,China,0
+382,India,78
+382,Italy,385
+382,NL,61
+382,USA,2551
+382,Wave 3,2178
+382,Western Europe,1303
+383,China,0
+383,India,84
+383,Italy,270
+383,NL,48
+383,USA,1325
+383,Wave 3,2729
+383,Western Europe,741
+384,China,0
+384,India,78
+384,Italy,307
+384,NL,27
+384,USA,1592
+384,Wave 3,949
+384,Western Europe,2219
+385,China,2
+385,India,94
+385,Italy,422
+385,NL,86
+385,USA,3044
+385,Wave 3,4536
+385,Western Europe,3406
+386,China,1
+386,India,108
+386,Italy,336
+386,NL,81
+386,USA,3293
+386,Wave 3,3199
+386,Western Europe,2647
+387,China,2
+387,India,87
+387,Italy,391
+387,NL,72
+387,USA,3151
+387,Wave 3,3800
+387,Western Europe,2144
+388,China,1
+388,India,103
+388,Italy,316
+388,NL,65
+388,USA,2888
+388,Wave 3,3116
+388,Western Europe,2529
+389,China,1
+389,India,92
+389,Italy,311
+389,NL,66
+389,USA,2160
+389,Wave 3,2977
+389,Western Europe,1074
+390,China,0
+390,India,90
+390,Italy,221
+390,NL,23
+390,USA,1096
+390,Wave 3,2031
+390,Western Europe,571
+391,China,0
+391,India,81
+391,Italy,258
+391,NL,27
+391,USA,954
+391,Wave 3,1556
+391,Western Europe,1570
+392,China,2
+392,India,100
+392,Italy,336
+392,NL,87
+392,USA,1700
+392,Wave 3,2961
+392,Western Europe,2505
+393,China,2
+393,India,101
+393,Italy,369
+393,NL,88
+393,USA,2380
+393,Wave 3,2880
+393,Western Europe,2331
+394,China,0
+394,India,97
+394,Italy,347
+394,NL,73
+394,USA,2313
+394,Wave 3,3155
+394,Western Europe,1655
+395,China,0
+395,India,101
+395,Italy,348
+395,NL,50
+395,USA,2689
+395,Wave 3,2791
+395,Western Europe,2036
+396,China,0
+396,India,90
+396,Italy,251
+396,NL,62
+396,USA,1821
+396,Wave 3,2750
+396,Western Europe,773
+397,China,0
+397,India,83
+397,Italy,232
+397,NL,17
+397,USA,1249
+397,Wave 3,1664
+397,Western Europe,455
